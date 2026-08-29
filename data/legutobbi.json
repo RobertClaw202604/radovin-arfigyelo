@@ -1,31 +1,41 @@
 {
-  "futas_id": 1788009265598,
-  "ido": "2026-08-29T13:14:25.598Z",
+  "futas_id": 1788010026329,
+  "ido": "2026-08-29T13:27:06.329Z",
   "termekekszam": 11,
   "eredmenyek": [
     {
-      "futas_id": 1788009265598,
-      "ido": "2026-08-29T13:14:25.598Z",
+      "futas_id": 1788010026329,
+      "ido": "2026-08-29T13:27:06.329Z",
       "termek_id": "kreinbacher-brut",
       "termek_nev": "Kreinbacher Brut pezsgő",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 1,
-        "min": 24190,
-        "max": 24190,
-        "median": 24190,
-        "radovin_ar": 24190,
+        "darab": 2,
+        "min": 8290,
+        "max": 9990,
+        "median": 9140,
+        "radovin_ar": 8290,
         "rank": 1,
-        "rank_jelolo": "1/1"
+        "rank_jelolo": "1/2"
       },
       "arak": [
         {
           "shop": "radovin",
           "shop_nev": "Radovin Borkereskedés",
           "tipus": "radovin",
-          "ar": 24190,
-          "nev": "Kreinbacher Brut Classic Magnum 2019 1",
-          "url": "https://radovin.hu/termek/kreinbacher-brut-classic-magnum/",
+          "ar": 8290,
+          "nev": "Kreinbacher Brut Classic 12% 0",
+          "url": "https://radovin.hu/termek/kreinbacher-brut-classic/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": 9990,
+          "nev": "Kreinbacher Prestige Brut",
+          "url": "https://winehub.hu/termek/kreinbacher-prestige-brut-02xxhukrei0004/",
           "megjegyzes": null,
           "hiba": null
         }
@@ -60,17 +70,12 @@
           "shop": "borbaro",
           "nev": "Borbáró",
           "statusz": "pending"
-        },
-        {
-          "shop": "winehub",
-          "nev": "Winehub",
-          "statusz": "pending"
         }
       ]
     },
     {
-      "futas_id": 1788009265598,
-      "ido": "2026-08-29T13:14:25.598Z",
+      "futas_id": 1788010026329,
+      "ido": "2026-08-29T13:27:06.329Z",
       "termek_id": "szaszi-csokaszolo-2025",
       "termek_nev": "Szászi Csókaszőlő",
       "meret": "0,75 l",
@@ -93,6 +98,16 @@
           "url": "https://radovin.hu/termek/szaszi-csokaszolo-2025-13-075l-masolat-2/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -125,17 +140,12 @@
           "shop": "borbaro",
           "nev": "Borbáró",
           "statusz": "pending"
-        },
-        {
-          "shop": "winehub",
-          "nev": "Winehub",
-          "statusz": "pending"
         }
       ]
     },
     {
-      "futas_id": 1788009265598,
-      "ido": "2026-08-29T13:14:25.598Z",
+      "futas_id": 1788010026329,
+      "ido": "2026-08-29T13:27:06.329Z",
       "termek_id": "jakab-pinot-nyari",
       "termek_nev": "Jakab Pinot Noir 'Easy'",
       "meret": "0,75 l",
@@ -158,6 +168,16 @@
           "url": "https://radovin.hu/termek/jakab-pinot-noir-easy-2023-badacsonyi-13-075l/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -190,17 +210,12 @@
           "shop": "borbaro",
           "nev": "Borbáró",
           "statusz": "pending"
-        },
-        {
-          "shop": "winehub",
-          "nev": "Winehub",
-          "statusz": "pending"
         }
       ]
     },
     {
-      "futas_id": 1788009265598,
-      "ido": "2026-08-29T13:14:25.598Z",
+      "futas_id": 1788010026329,
+      "ido": "2026-08-29T13:27:06.329Z",
       "termek_id": "kislaki-sauvignon-blanc",
       "termek_nev": "Kislaki Jánoshegy Sauvignon Blanc",
       "meret": "0,75 l",
@@ -223,6 +238,16 @@
           "url": "https://radovin.hu/termek/kislaki-janoshegy-sauvignon-blanc-2025-125-075/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -255,39 +280,44 @@
           "shop": "borbaro",
           "nev": "Borbáró",
           "statusz": "pending"
-        },
-        {
-          "shop": "winehub",
-          "nev": "Winehub",
-          "statusz": "pending"
         }
       ]
     },
     {
-      "futas_id": 1788009265598,
-      "ido": "2026-08-29T13:14:25.598Z",
+      "futas_id": 1788010026329,
+      "ido": "2026-08-29T13:27:06.329Z",
       "termek_id": "tokaji-aszu-5puttonyos",
       "termek_nev": "Tokaji Aszú 5 puttonyos",
       "meret": "0,5 l",
       "pozicio": {
-        "darab": 1,
-        "min": 52490,
-        "max": 52490,
-        "median": 52490,
-        "radovin_ar": 52490,
-        "rank": 1,
-        "rank_jelolo": "1/1"
+        "darab": 0,
+        "min": null,
+        "max": null,
+        "median": null,
+        "radovin_ar": null,
+        "rank": null,
+        "rank_jelolo": "—"
       },
       "arak": [
         {
           "shop": "radovin",
           "shop_nev": "Radovin Borkereskedés",
           "tipus": "radovin",
-          "ar": 52490,
-          "nev": "Disznókő Tokaji Aszú 6 puttonyos Kapi 2017 11% 0",
-          "url": "https://radovin.hu/termek/disznoko-tokaji-aszu-6-puttonyos-kapi-2017-11-05l/",
+          "ar": null,
+          "nev": null,
+          "url": null,
           "megjegyzes": null,
-          "hiba": null
+          "hiba": "nincs_talalat"
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -320,17 +350,12 @@
           "shop": "borbaro",
           "nev": "Borbáró",
           "statusz": "pending"
-        },
-        {
-          "shop": "winehub",
-          "nev": "Winehub",
-          "statusz": "pending"
         }
       ]
     },
     {
-      "futas_id": 1788009265598,
-      "ido": "2026-08-29T13:14:25.598Z",
+      "futas_id": 1788010026329,
+      "ido": "2026-08-29T13:27:06.329Z",
       "termek_id": "palinka-fenegyerek-vadcseresznye",
       "termek_nev": "Fenegyerek Vadcseresznye pálinka",
       "meret": "0,35 l",
@@ -353,6 +378,16 @@
           "url": "https://radovin.hu/termek/fenegyerek-vadcseresznye-palinka-40-035-l/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -385,17 +420,12 @@
           "shop": "borbaro",
           "nev": "Borbáró",
           "statusz": "pending"
-        },
-        {
-          "shop": "winehub",
-          "nev": "Winehub",
-          "statusz": "pending"
         }
       ]
     },
     {
-      "futas_id": 1788009265598,
-      "ido": "2026-08-29T13:14:25.598Z",
+      "futas_id": 1788010026329,
+      "ido": "2026-08-29T13:27:06.329Z",
       "termek_id": "palinka-zimek-szilva",
       "termek_nev": "Zimek hordós szilva pálinka",
       "meret": "0,5 l",
@@ -418,6 +448,16 @@
           "url": "https://radovin.hu/termek/zimek-hordos-szilva-palinka-40-05l/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -450,17 +490,12 @@
           "shop": "borbaro",
           "nev": "Borbáró",
           "statusz": "pending"
-        },
-        {
-          "shop": "winehub",
-          "nev": "Winehub",
-          "statusz": "pending"
         }
       ]
     },
     {
-      "futas_id": 1788009265598,
-      "ido": "2026-08-29T13:14:25.598Z",
+      "futas_id": 1788010026329,
+      "ido": "2026-08-29T13:27:06.329Z",
       "termek_id": "palinka-zimek-meggy",
       "termek_nev": "Zimek meggy pálinka",
       "meret": "0,5 l",
@@ -483,6 +518,16 @@
           "url": "https://radovin.hu/termek/zimek-meggy-palinka-40-05l/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -515,17 +560,12 @@
           "shop": "borbaro",
           "nev": "Borbáró",
           "statusz": "pending"
-        },
-        {
-          "shop": "winehub",
-          "nev": "Winehub",
-          "statusz": "pending"
         }
       ]
     },
     {
-      "futas_id": 1788009265598,
-      "ido": "2026-08-29T13:14:25.598Z",
+      "futas_id": 1788010026329,
+      "ido": "2026-08-29T13:27:06.329Z",
       "termek_id": "palinka-zimek-birs",
       "termek_nev": "Zimek birs pálinka",
       "meret": "0,5 l",
@@ -548,6 +588,16 @@
           "url": "https://radovin.hu/termek/zimek-birs-palinka-40-05l/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -580,39 +630,44 @@
           "shop": "borbaro",
           "nev": "Borbáró",
           "statusz": "pending"
-        },
-        {
-          "shop": "winehub",
-          "nev": "Winehub",
-          "statusz": "pending"
         }
       ]
     },
     {
-      "futas_id": 1788009265598,
-      "ido": "2026-08-29T13:14:25.598Z",
+      "futas_id": 1788010026329,
+      "ido": "2026-08-29T13:27:06.329Z",
       "termek_id": "vilmos-kortepalinka",
       "termek_nev": "Zwack Vilmos körtepálinka",
       "meret": "0,5 l",
       "pozicio": {
-        "darab": 1,
-        "min": 14990,
-        "max": 14990,
-        "median": 14990,
-        "radovin_ar": 14990,
-        "rank": 1,
-        "rank_jelolo": "1/1"
+        "darab": 0,
+        "min": null,
+        "max": null,
+        "median": null,
+        "radovin_ar": null,
+        "rank": null,
+        "rank_jelolo": "—"
       },
       "arak": [
         {
           "shop": "radovin",
           "shop_nev": "Radovin Borkereskedés",
           "tipus": "radovin",
-          "ar": 14990,
-          "nev": "Zimek Piros Vilmos Körte pálinka 45% 0",
-          "url": "https://radovin.hu/termek/zimek-piros-vilmos-korte-palinka-45-05l/",
+          "ar": null,
+          "nev": null,
+          "url": null,
           "megjegyzes": null,
-          "hiba": null
+          "hiba": "nincs_talalat"
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -645,17 +700,12 @@
           "shop": "borbaro",
           "nev": "Borbáró",
           "statusz": "pending"
-        },
-        {
-          "shop": "winehub",
-          "nev": "Winehub",
-          "statusz": "pending"
         }
       ]
     },
     {
-      "futas_id": 1788009265598,
-      "ido": "2026-08-29T13:14:25.598Z",
+      "futas_id": 1788010026329,
+      "ido": "2026-08-29T13:27:06.329Z",
       "termek_id": "la-spinetta-sangiovese",
       "termek_nev": "La Spinetta Il Nero di Casanova Sangiovese",
       "meret": "0,75 l",
@@ -678,6 +728,16 @@
           "url": "https://radovin.hu/termek/la-spinetta-il-nero-di-casanova-sangiovese-2022-075l/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -709,11 +769,6 @@
         {
           "shop": "borbaro",
           "nev": "Borbáró",
-          "statusz": "pending"
-        },
-        {
-          "shop": "winehub",
-          "nev": "Winehub",
           "statusz": "pending"
         }
       ]

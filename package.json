@@ -12,5 +12,21 @@
     "node": ">=18"
   },
   "license": "UNLICENSED",
-  "private": true
+  "private": true,
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertClaw202604/radovin-arfigyelo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/RobertClaw202604/radovin-arfigyelo/issues"
+  },
+  "homepage": "https://github.com/RobertClaw202604/radovin-arfigyelo#readme",
+  "dependencies": {
+    "puppeteer-core": "^25.9.0"
+  }
 }

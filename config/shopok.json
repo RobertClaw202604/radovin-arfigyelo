@@ -24,10 +24,10 @@
       "tipus": "konkurencia",
       "statusz": "pending",
       "base_url": "https://www.borkereskedes.hu",
-      "kereso_url": "https://www.borkereskedes.hu/?s={q}",
-      "adapter": "html-simon",
-      "kesleltetes_ms": 900,
-      "megjegyzes": "ShopRenter-alapú; a valós árkinyerés még validálásra vár (task: veritas-adapter)."
+      "kereso_url": "https://www.borkereskedes.hu/kereses?kereses_text={q}",
+      "adapter": "headless",
+      "kesleltetes_ms": 1500,
+      "megjegyzes": "ShopRenter + JS-rendelt ár (price-act). A kereső headless-ben sem ad találatot; az árak JS-töltöttek. Külön fejlesztési task (böngésző-automatizálás)."
     },
     {
       "id": "borhalo",
@@ -46,10 +46,12 @@
       "tipus": "konkurencia",
       "statusz": "pending",
       "base_url": "https://www.italpark.hu",
-      "kereso_url": "https://www.italpark.hu/kereses?q={q}",
-      "adapter": "html-simon",
-      "kesleltetes_ms": 900,
-      "megjegyzes": "Validálásra vár."
+      "kereso_url": "https://www.italpark.hu/kereses?search={q}",
+      "adapter": "headless",
+      "kesleltetes_ms": 1500,
+      "termek_kartya_selector": ".product-card",
+      "ar_selector": ".product-price--special, .product-price--regular",
+      "megjegyzes": "ShopRenter + robotvédelem; a sima kereső nem hoz találatot headless-ben sem. A márka-kategóriaoldalról (pl. /bodri-bor) pontosan kinyerhető, de ehhez per-márka kategória-URL kell. Külön fejlesztési task."
     },
     {
       "id": "bortarsasag",
@@ -86,11 +88,12 @@
       "id": "winehub",
       "nev": "Winehub",
       "tipus": "konkurencia",
-      "statusz": "pending",
-      "base_url": "https://www.winehub.hu",
-      "kereso_url": "https://www.winehub.hu/?s={q}",
-      "adapter": "html-simon",
-      "kesleltetes_ms": 900
+      "statusz": "active",
+      "base_url": "https://winehub.hu",
+      "kereso_url": "https://www.winehub.hu/?s={q}&post_type=product",
+      "adapter": "woocommerce",
+      "kesleltetes_ms": 700,
+      "megjegyzes": "WooCommerce JSON-LD, pontos. A Radovinhoz hasonló adapterrel."
     }
   ]
 }

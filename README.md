@@ -23,9 +23,24 @@ node server.js   # webes megjelenítő: http://localhost:4300
 
 ## Konfiguráció
 - **Termékek**: `config/termekek.json` – az összehasonlítandó borok/tömény italok
+  (azonosság = név + márka + kiszerelés + pontos terméknév)
 - **Shopok**: `config/shopok.json` – az adapterek és a shop-státuszok
   - `active` = lekérve a futtatáskor, `pending` = adapter még fejlesztés alatt
   - A **Bortársaság** bot-védett, ehhez fejfeles böngésző + engedély kell, ezért `blocked`
+
+## Adapterek és jelenlegi lefedettség
+- **WooCommerce/JSON-LD** (`woocommerce` adapter): a Radovin és a Winehub pontosan,
+  headless nélkül. A keresőből termék-URL-t, a termékoldal JSON-LD `price` mezőjéből árat.
+- **Headless (böngészős)** (`headless` adapter, Puppeteer-core + a rendszer Chrome-ja):
+  a JS-renderelt/AJAX-os shopokhoz (Veritas, Italpark, Borháló, Bortársaság), amelyek
+  sima GET-re nem adnak megbízható árat. Jelenleg `pending` / validálás alatt; a
+  sima kereső-lista sok esetben robotvédett, ezért per-márka kategóriaoldalról érdemes
+  kinyerni.
+
+**A párosítás szigorú**: a versenytársi találat csak akkor számít, ha a márka, a
+kiszerelés (liter) és adott esetben a puttony-szám is egyezik. Ha nincs pontos találat,
+**nem** adunk hamis árat — a tétel „nincs adat” jelzést kap. Ez elkerüli, hogy a pozíciót
+összekevert (pl. 5 vs 6 puttonyos, más márka) árak torzítsák.
 
 ## Adatfájlok
 - `data/arak.jsonl` – nyers, idősoros áradat (minden futás)
