@@ -104,6 +104,30 @@
       "meret": "0,75 l",
       "evjarat": "2022",
       "radovin_kereso": "La Spinetta Il Nero di Casanova"
+    },
+    {
+      "id": "jw-black-1l",
+      "nev": "Johnnie Walker Black Label whisky",
+      "marka": "Johnnie Walker",
+      "tipus": "whisky",
+      "meret": "1 l",
+      "evjarat": null,
+      "radovin_kereso": "Johnnie Walker Black Triple Cask",
+      "radovin_slug": "johnnie-walker-black-triple-cask-40-1l",
+      "konkurencia_kereso": { "borvilag": "Johnnie Walker", "borpiac": "Johnnie Walker", "winehub": "Johnnie Walker" },
+      "megjegyzes": "Prémium, mindenhol kapható whisky a szigorú összehasonlításhoz."
+    },
+    {
+      "id": "monkey47-gin-05l",
+      "nev": "Monkey 47 Dry Gin",
+      "marka": "Monkey 47",
+      "tipus": "gin",
+      "meret": "0,5 l",
+      "evjarat": null,
+      "radovin_kereso": "Monkey 47 Dry Gin",
+      "radovin_slug": "monkey-47-dry-gin-47-05l",
+      "konkurencia_kereso": { "borvilag": "Monkey 47", "borpiac": "Monkey 47", "winehub": "Monkey 47" },
+      "megjegyzes": "Prémium, mindenhol kapható gin a szigorú összehasonlításhoz."
     }
   ]
 }

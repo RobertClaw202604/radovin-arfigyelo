@@ -1,22 +1,22 @@
 {
-  "futas_id": 1788010612263,
-  "ido": "2026-08-29T13:36:52.263Z",
-  "termekekszam": 11,
+  "futas_id": 1788011354220,
+  "ido": "2026-08-29T13:49:14.220Z",
+  "termekekszam": 13,
   "eredmenyek": [
     {
-      "futas_id": 1788010612263,
-      "ido": "2026-08-29T13:36:52.263Z",
+      "futas_id": 1788011354220,
+      "ido": "2026-08-29T13:49:14.220Z",
       "termek_id": "kreinbacher-brut",
       "termek_nev": "Kreinbacher Brut pezsgő",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 3,
+        "darab": 2,
         "min": 8290,
-        "max": 9990,
-        "median": 8490,
+        "max": 8490,
+        "median": 8390,
         "radovin_ar": 8290,
         "rank": 1,
-        "rank_jelolo": "1/3"
+        "rank_jelolo": "1/2"
       },
       "arak": [
         {
@@ -33,11 +33,11 @@
           "shop": "winehub",
           "shop_nev": "Winehub",
           "tipus": "konkurencia",
-          "ar": 9990,
-          "nev": "Kreinbacher Prestige Brut",
-          "url": "https://winehub.hu/termek/kreinbacher-prestige-brut-02xxhukrei0004/",
+          "ar": null,
+          "nev": null,
+          "url": null,
           "megjegyzes": null,
-          "hiba": null
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borvilag",
@@ -94,8 +94,8 @@
       ]
     },
     {
-      "futas_id": 1788010612263,
-      "ido": "2026-08-29T13:36:52.263Z",
+      "futas_id": 1788011354220,
+      "ido": "2026-08-29T13:49:14.220Z",
       "termek_id": "szaszi-csokaszolo-2025",
       "termek_nev": "Szászi Csókaszőlő",
       "meret": "0,75 l",
@@ -127,7 +127,7 @@
           "nev": null,
           "url": null,
           "megjegyzes": null,
-          "hiba": "nincs_talalat"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borvilag",
@@ -184,8 +184,8 @@
       ]
     },
     {
-      "futas_id": 1788010612263,
-      "ido": "2026-08-29T13:36:52.263Z",
+      "futas_id": 1788011354220,
+      "ido": "2026-08-29T13:49:14.220Z",
       "termek_id": "jakab-pinot-nyari",
       "termek_nev": "Jakab Pinot Noir 'Easy'",
       "meret": "0,75 l",
@@ -217,7 +217,7 @@
           "nev": null,
           "url": null,
           "megjegyzes": null,
-          "hiba": "nincs_talalat"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borvilag",
@@ -274,8 +274,8 @@
       ]
     },
     {
-      "futas_id": 1788010612263,
-      "ido": "2026-08-29T13:36:52.263Z",
+      "futas_id": 1788011354220,
+      "ido": "2026-08-29T13:49:14.220Z",
       "termek_id": "kislaki-sauvignon-blanc",
       "termek_nev": "Kislaki Jánoshegy Sauvignon Blanc",
       "meret": "0,75 l",
@@ -307,7 +307,7 @@
           "nev": null,
           "url": null,
           "megjegyzes": null,
-          "hiba": "nincs_talalat"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borvilag",
@@ -364,19 +364,19 @@
       ]
     },
     {
-      "futas_id": 1788010612263,
-      "ido": "2026-08-29T13:36:52.263Z",
+      "futas_id": 1788011354220,
+      "ido": "2026-08-29T13:49:14.220Z",
       "termek_id": "tokaji-aszu-5puttonyos",
       "termek_nev": "Tokaji Aszú 5 puttonyos",
       "meret": "0,5 l",
       "pozicio": {
-        "darab": 3,
+        "darab": 2,
         "min": 7800,
         "max": 13590,
-        "median": 8565,
+        "median": 10695,
         "radovin_ar": 13590,
-        "rank": 3,
-        "rank_jelolo": "3/3"
+        "rank": 2,
+        "rank_jelolo": "2/2"
       },
       "arak": [
         {
@@ -393,11 +393,11 @@
           "shop": "winehub",
           "shop_nev": "Winehub",
           "tipus": "konkurencia",
-          "ar": 8565,
-          "nev": "Grand Tokaj Classic Selection Tokaji Aszú 5 puttonyos 2019",
-          "url": "https://winehub.hu/termek/grand-tokaj-classic-selection-tokaji-aszu-5-puttonyos-2019-0119hugran0032/",
+          "ar": null,
+          "nev": null,
+          "url": null,
           "megjegyzes": null,
-          "hiba": null
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borvilag",
@@ -454,8 +454,8 @@
       ]
     },
     {
-      "futas_id": 1788010612263,
-      "ido": "2026-08-29T13:36:52.263Z",
+      "futas_id": 1788011354220,
+      "ido": "2026-08-29T13:49:14.220Z",
       "termek_id": "palinka-fenegyerek-vadcseresznye",
       "termek_nev": "Fenegyerek Vadcseresznye pálinka",
       "meret": "0,35 l",
@@ -487,7 +487,7 @@
           "nev": null,
           "url": null,
           "megjegyzes": null,
-          "hiba": "nincs_talalat"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borvilag",
@@ -544,8 +544,8 @@
       ]
     },
     {
-      "futas_id": 1788010612263,
-      "ido": "2026-08-29T13:36:52.263Z",
+      "futas_id": 1788011354220,
+      "ido": "2026-08-29T13:49:14.220Z",
       "termek_id": "palinka-zimek-szilva",
       "termek_nev": "Zimek hordós szilva pálinka",
       "meret": "0,5 l",
@@ -577,7 +577,7 @@
           "nev": null,
           "url": null,
           "megjegyzes": null,
-          "hiba": "nincs_talalat"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borvilag",
@@ -634,8 +634,8 @@
       ]
     },
     {
-      "futas_id": 1788010612263,
-      "ido": "2026-08-29T13:36:52.263Z",
+      "futas_id": 1788011354220,
+      "ido": "2026-08-29T13:49:14.220Z",
       "termek_id": "palinka-zimek-meggy",
       "termek_nev": "Zimek meggy pálinka",
       "meret": "0,5 l",
@@ -667,7 +667,7 @@
           "nev": null,
           "url": null,
           "megjegyzes": null,
-          "hiba": "nincs_talalat"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borvilag",
@@ -724,8 +724,8 @@
       ]
     },
     {
-      "futas_id": 1788010612263,
-      "ido": "2026-08-29T13:36:52.263Z",
+      "futas_id": 1788011354220,
+      "ido": "2026-08-29T13:49:14.220Z",
       "termek_id": "palinka-zimek-birs",
       "termek_nev": "Zimek birs pálinka",
       "meret": "0,5 l",
@@ -757,7 +757,7 @@
           "nev": null,
           "url": null,
           "megjegyzes": null,
-          "hiba": "nincs_talalat"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borvilag",
@@ -767,7 +767,7 @@
           "nev": null,
           "url": null,
           "megjegyzes": null,
-          "hiba": "katalógus_hiba:HTTP 429"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borpiac",
@@ -814,8 +814,8 @@
       ]
     },
     {
-      "futas_id": 1788010612263,
-      "ido": "2026-08-29T13:36:52.263Z",
+      "futas_id": 1788011354220,
+      "ido": "2026-08-29T13:49:14.220Z",
       "termek_id": "vilmos-kortepalinka",
       "termek_nev": "Zwack Vilmos körtepálinka",
       "meret": "0,5 l",
@@ -847,7 +847,7 @@
           "nev": null,
           "url": null,
           "megjegyzes": null,
-          "hiba": "nincs_talalat"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borvilag",
@@ -857,7 +857,7 @@
           "nev": null,
           "url": null,
           "megjegyzes": null,
-          "hiba": "katalógus_hiba:HTTP 429"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borpiac",
@@ -904,8 +904,8 @@
       ]
     },
     {
-      "futas_id": 1788010612263,
-      "ido": "2026-08-29T13:36:52.263Z",
+      "futas_id": 1788011354220,
+      "ido": "2026-08-29T13:49:14.220Z",
       "termek_id": "la-spinetta-sangiovese",
       "termek_nev": "La Spinetta Il Nero di Casanova Sangiovese",
       "meret": "0,75 l",
@@ -937,7 +937,7 @@
           "nev": null,
           "url": null,
           "megjegyzes": null,
-          "hiba": "nincs_talalat"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borvilag",
@@ -947,7 +947,187 @@
           "nev": null,
           "url": null,
           "megjegyzes": null,
-          "hiba": "katalógus_hiba:HTTP 429"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        }
+      ],
+      "konkurens_allapot": [
+        {
+          "shop": "veritas",
+          "nev": "Veritas Borkereskedés",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borhalo",
+          "nev": "Borháló",
+          "statusz": "pending"
+        },
+        {
+          "shop": "italpark",
+          "nev": "Italpark",
+          "statusz": "pending"
+        },
+        {
+          "shop": "bortarsasag",
+          "nev": "Bortársaság",
+          "statusz": "blocked"
+        },
+        {
+          "shop": "benebor",
+          "nev": "Benebor",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borbaro",
+          "nev": "Borbáró",
+          "statusz": "pending"
+        }
+      ]
+    },
+    {
+      "futas_id": 1788011354220,
+      "ido": "2026-08-29T13:49:14.220Z",
+      "termek_id": "jw-black-1l",
+      "termek_nev": "Johnnie Walker Black Label whisky",
+      "meret": "1 l",
+      "pozicio": {
+        "darab": 2,
+        "min": 28990,
+        "max": 35000,
+        "median": 31995,
+        "radovin_ar": 28990,
+        "rank": 1,
+        "rank_jelolo": "1/2"
+      },
+      "arak": [
+        {
+          "shop": "radovin",
+          "shop_nev": "Radovin Borkereskedés",
+          "tipus": "radovin",
+          "ar": 28990,
+          "nev": "Johnnie Walker Black Triple Cask 40% 1l",
+          "url": "https://radovin.hu/termek/johnnie-walker-black-triple-cask-40-1l/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": 35000,
+          "nev": "Johnnie Walker - Black Label Triple Cask Edition Blended Scotch Whisky",
+          "url": "https://johnnie-walker-18-years-the-ultimate-blended-scotch-whisky-masolat",
+          "megjegyzes": "via katalóguslista (shopify)",
+          "hiba": null
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        }
+      ],
+      "konkurens_allapot": [
+        {
+          "shop": "veritas",
+          "nev": "Veritas Borkereskedés",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borhalo",
+          "nev": "Borháló",
+          "statusz": "pending"
+        },
+        {
+          "shop": "italpark",
+          "nev": "Italpark",
+          "statusz": "pending"
+        },
+        {
+          "shop": "bortarsasag",
+          "nev": "Bortársaság",
+          "statusz": "blocked"
+        },
+        {
+          "shop": "benebor",
+          "nev": "Benebor",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borbaro",
+          "nev": "Borbáró",
+          "statusz": "pending"
+        }
+      ]
+    },
+    {
+      "futas_id": 1788011354220,
+      "ido": "2026-08-29T13:49:14.220Z",
+      "termek_id": "monkey47-gin-05l",
+      "termek_nev": "Monkey 47 Dry Gin",
+      "meret": "0,5 l",
+      "pozicio": {
+        "darab": 2,
+        "min": 17850,
+        "max": 20990,
+        "median": 19420,
+        "radovin_ar": 20990,
+        "rank": 2,
+        "rank_jelolo": "2/2"
+      },
+      "arak": [
+        {
+          "shop": "radovin",
+          "shop_nev": "Radovin Borkereskedés",
+          "tipus": "radovin",
+          "ar": 20990,
+          "nev": "Monkey 47 Dry Gin 47% 0",
+          "url": "https://radovin.hu/termek/monkey-47-dry-gin-47-05l/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": 17850,
+          "nev": "Monkey 47 - Schwarzwald Dry Gin",
+          "url": "https://malfy-rosa-gin-masolat",
+          "megjegyzes": "via katalóguslista (shopify)",
+          "hiba": null
         },
         {
           "shop": "borpiac",

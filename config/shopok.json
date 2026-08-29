@@ -90,10 +90,9 @@
       "tipus": "konkurencia",
       "statusz": "active",
       "base_url": "https://winehub.hu",
-      "kereso_url": "https://www.winehub.hu/?s={q}&post_type=product",
-      "adapter": "woocommerce",
-      "kesleltetes_ms": 700,
-      "megjegyzes": "WooCommerce JSON-LD, pontos. A Radovinhoz hasonló adapterrel."
+      "adapter": "woocommerce-api",
+      "kesleltetes_ms": 0,
+      "megjegyzes": "WooCommerce. Teljes katalógus /wp-json/wc/store/products (pontos, headless nélkül). A régi /?s= JSON-LD kereső törékeny lett, ezért katalóguslistás adapterrel megy."
     },
     {
       "id": "borvilag",
