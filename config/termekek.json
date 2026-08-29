@@ -1,6 +1,6 @@
 {
   "meta": {
-    "verzio": "1.1.0",
+    "verzio": "1.2.0",
     "frissitve": "2026-08-29",
     "datum_forma": "ISO-8601 (UTC)",
     "penznem": "HUF"
@@ -128,7 +128,11 @@
       "fajta": "Black Label Triple Cask",
       "radovin_kereso": "Johnnie Walker Black Triple Cask",
       "radovin_slug": "johnnie-walker-black-triple-cask-40-1l",
-      "konkurencia_kereso": { "borvilag": "Johnnie Walker", "borpiac": "Johnnie Walker", "winehub": "Johnnie Walker" },
+      "konkurencia_kereso": {
+        "borvilag": "Johnnie Walker",
+        "borpiac": "Johnnie Walker",
+        "winehub": "Johnnie Walker"
+      },
       "megjegyzes": "Prémium, mindenhol kapható whisky. Pontos tétel: Black Label Triple Cask (a Double Black NEM ez). Borvilág nevesítése: 'Black Label Triple Cask Edition'."
     },
     {
@@ -141,7 +145,11 @@
       "fajta": "Schwarzwald Dry Gin",
       "radovin_kereso": "Monkey 47 Dry Gin",
       "radovin_slug": "monkey-47-dry-gin-47-05l",
-      "konkurencia_kereso": { "borvilag": "Monkey 47", "borpiac": "Monkey 47", "winehub": "Monkey 47" },
+      "konkurencia_kereso": {
+        "borvilag": "Monkey 47",
+        "borpiac": "Monkey 47",
+        "winehub": "Monkey 47"
+      },
       "megjegyzes": "Prémium, mindenhol kapható gin. Pontos tétel: Schwarzwald Dry Gin (a Borvilág nevesítése)."
     },
     {
@@ -307,6 +315,236 @@
       "radovin_kereso": "Macallan 12 Double Cask",
       "radovin_slug": "the-macallan-12-eves-double-cask",
       "megjegyzes": "Pontos tétel: 12 years Double Cask (a Borvilág nevesítése)."
+    },
+    {
+      "id": "bock-capella-2012",
+      "nev": "Bock Capella Cuvée 2012",
+      "marka": "Bock",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2012",
+      "fajta": "Capella",
+      "radovin_kereso": "Bock Capella",
+      "radovin_slug": "bock-capella-cuvee-2012-villanyi-15-075-l",
+      "megjegyzes": "Verifikát pár (felmérés + Borháló tárház): Radovin 22990 vs Borháló 25940."
+    },
+    {
+      "id": "gizella-bomboly-furmint-2023",
+      "nev": "Gizella Bomboly Furmint 2023",
+      "marka": "Gizella",
+      "tipus": "fehérbor",
+      "meret": "0,75 l",
+      "evjarat": "2023",
+      "fajta": "Bomboly Furmint",
+      "radovin_kereso": "Gizella Bomboly Furmint 2023",
+      "radovin_slug": "gizella-bomboly-furmint-2023-13-075l",
+      "megjegyzes": "Verifikát pár: Radovin 10990 vs Borháló 'Gizella Pince Bomboly Furmint 2023' 10500."
+    },
+    {
+      "id": "bott-csontos-furmint-2023",
+      "nev": "Bott Pince Csontos Tokaji Furmint 2023",
+      "marka": "Bott Pince",
+      "tipus": "fehérbor",
+      "meret": "0,75 l",
+      "evjarat": "2023",
+      "fajta": "Csontos Furmint",
+      "radovin_kereso": "Bott Csontos Furmint 2023",
+      "radovin_slug": "bott-pince-csontos-tokaji-furmint-2023-135-075l",
+      "megjegyzes": "Verifikát pár: Radovin 7990 vs Borháló 8390."
+    },
+    {
+      "id": "disznoko-aszu-6p-kapi-2017",
+      "nev": "Disznókő Tokaji Aszú 6 puttonyos Kapi 2017",
+      "marka": "Disznókő",
+      "tipus": "édesbor",
+      "meret": "0,5 l",
+      "evjarat": "2017",
+      "fajta": "Aszú Kapi",
+      "radovin_kereso": "Disznókő Aszú 6 puttonyos Kapi 2017",
+      "radovin_slug": "disznoko-tokaji-aszu-6-puttonyos-kapi-2017-11-05l",
+      "megjegyzes": "Verifikát pár: Radovin 52490 vs Borháló 'Disznókő 6 puttonyos Aszú Kapi 2017' 48530. 0,5l."
+    },
+    {
+      "id": "pelle-brut-nature-2020",
+      "nev": "Pelle Tokaji Pezsgő Brut Nature 2020",
+      "marka": "Pelle",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": "2020",
+      "fajta": "Brut Nature",
+      "radovin_kereso": "Pelle Brut Nature 2020",
+      "radovin_slug": "pelle-pezsgo-kiraly-furmint-brut-nature-2020-125-075l-2",
+      "megjegyzes": "Verifikát pár: Radovin 8890 vs Borháló 8460."
+    },
+    {
+      "id": "heumann-merlot-2017",
+      "nev": "Heumann Merlot 2017",
+      "marka": "Heumann",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2017",
+      "fajta": "Merlot",
+      "radovin_kereso": "Heumann Merlot 2017",
+      "radovin_slug": "heumann-merlot-2017",
+      "megjegyzes": "Verifikát pár: Radovin 8890 vs Borháló 8000."
+    },
+    {
+      "id": "heumann-terra-tartaro-2018",
+      "nev": "Heumann Terra Tartaro 2018",
+      "marka": "Heumann",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2018",
+      "fajta": "Terra Tartaro",
+      "radovin_kereso": "Heumann Terra Tartaro 2018",
+      "radovin_slug": "heumann-terra-tartaro-2015",
+      "megjegyzes": "Verifikát pár: Radovin 11490 vs Borháló 11890. A Radovin-slug '2015' de a terméknév 2018 (Radovin elírás); a tényleges ér 2018-as."
+    },
+    {
+      "id": "heumann-la-trinita-2019",
+      "nev": "Heumann La Trinitá 2019",
+      "marka": "Heumann",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2019",
+      "fajta": "La Trinitá",
+      "radovin_kereso": "Heumann La Trinitá 2019",
+      "radovin_slug": "heumann-la-trinita-2018",
+      "megjegyzes": "Verifikát pár: Radovin 12590 vs Borháló 'La Trinitá Villányi Franc 2019' 12420. A Radovin-slug '2018' de a terméknév 2019 (Radovin elírás); a tényleges ér 2019-es."
+    },
+    {
+      "id": "2ha-tabunello-2022",
+      "nev": "2HA Tabunello (Sangiovese) 2022",
+      "marka": "2HA",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2022",
+      "fajta": "Tabunello",
+      "radovin_kereso": "2HA Tabunello 2022",
+      "radovin_slug": "2ha-tabunello-sangiovese-2022-13-075l",
+      "megjegyzes": "Verifikát pár: Radovin 12590 vs Borháló 10330."
+    },
+    {
+      "id": "eszterbauer-baro-steiner-2023",
+      "nev": "Eszterbauer Bikavér Báró Steiner 2023",
+      "marka": "Eszterbauer",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2023",
+      "fajta": "Báró Steiner Bikavér",
+      "radovin_kereso": "Eszterbauer Báró Steiner 2023",
+      "radovin_slug": "eszterbauer-bikaver-baro-steiner-2023-szekszardi-15-075-l",
+      "megjegyzes": "Verifikát pár: Radovin 6290 vs Borháló 5490."
+    },
+    {
+      "id": "folly-budai-zold-2025",
+      "nev": "Folly Budai Zöld 2025",
+      "marka": "Folly",
+      "tipus": "fehérbor",
+      "meret": "0,75 l",
+      "evjarat": "2025",
+      "fajta": "Budai Zöld",
+      "radovin_kereso": "Folly Budai Zöld 2025",
+      "radovin_slug": "folly-budai-zold-2025-badacsony-075l",
+      "megjegyzes": "Verifikát pár: Radovin 4990 vs Borháló 'Folly Arborétum Budai Zöld 2025' 5280."
+    },
+    {
+      "id": "bodri-rozi-rose-2025",
+      "nev": "Bodri Rozi Rosé 2025",
+      "marka": "Bodri",
+      "tipus": "rosé",
+      "meret": "0,75 l",
+      "evjarat": "2025",
+      "fajta": "Rozi Rosé",
+      "radovin_kereso": "Bodri Rozi Rosé 2025",
+      "radovin_slug": "bodri-rozi-rose-2023-115-075l",
+      "megjegyzes": "Verifikát pár: Radovin 1890 vs Borháló 1990. A Radovin-slug '2023' de a terméknév 2025 (Radovin elírás); a tényleges ér 2025-ös."
+    },
+    {
+      "id": "barta-egy-kis-edes-2022",
+      "nev": "Barta Egy Kis Édes Furmint-Muskotály 2022",
+      "marka": "Barta",
+      "tipus": "édesbor",
+      "meret": "0,75 l",
+      "evjarat": "2022",
+      "fajta": "Egy Kis Édes",
+      "radovin_kereso": "Barta Egy Kis Édes 2022",
+      "radovin_slug": "barta-egy-kis-edes-furmint-muskotaly-2022-125-075l",
+      "megjegyzes": "Verifikát pár: Radovin 6990 vs Borháló 6890."
+    },
+    {
+      "id": "charles-heidsieck-brut-reserve",
+      "nev": "Charles Heidsieck Brut Réserve",
+      "marka": "Charles Heidsieck",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "fajta": "Brut Réserve",
+      "radovin_kereso": "Charles Heidsieck Brut Réserve",
+      "radovin_slug": "charles-heidsieck-brut-reserve",
+      "megjegyzes": "Verifikát pár: Radovin 31990 vs Borháló 'Charles Heidsieck Brut Reserve Champagne' 30900. 0,75l (nem Magnum/Jeroboam)."
+    },
+    {
+      "id": "pol-roger-brut-reserve",
+      "nev": "Pol Roger Brut Réserve",
+      "marka": "Pol Roger",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "fajta": "Brut Réserve",
+      "radovin_kereso": "Pol Roger Brut Réserve",
+      "radovin_slug": "pol-roger-brut-reserve",
+      "aktiv": false,
+      "szuneteltetes_oka": "A Borhálón csak díszdobozos (ajándékcsomagos) kiszerelés van (28900 Ft), sima 0,75l-es nincs — a csomagolás eltér, ezért nem tisztán összehasonlítható a Radovin sima palackjával (30990). Szigorú elv: csak ekvivalens kiszerelésű párt fogadunk el. 2026-08-29.",
+      "megjegyzes": "Radovin 30990 vs Borháló 'Pol Roger Brut Reserve Champagne Díszdobozzal' 28900. CSAPDA: a díszdobozos ajándékcsomag nem ekvivalens a sima palackkal → szüneteltetve."
+    },
+    {
+      "id": "jw-island-green-1l",
+      "nev": "Johnnie Walker Island Green 1l",
+      "marka": "Johnnie Walker",
+      "tipus": "whisky",
+      "meret": "1 l",
+      "evjarat": null,
+      "fajta": "Island Green Blended Malt",
+      "radovin_kereso": "Johnnie Walker Island Green",
+      "radovin_slug": "johnnie-walker-island-green-43-1l",
+      "megjegyzes": "Verifikát pár: Radovin 33590 vs Borvilág 'Johnnie Walker - Island Green Blended Malt Scotch Whisky' 32890. 1l."
+    },
+    {
+      "id": "monkey47-sloe-gin-05l",
+      "nev": "Monkey 47 Sloe Gin 0,5l",
+      "marka": "Monkey 47",
+      "tipus": "gin",
+      "meret": "0,5 l",
+      "evjarat": null,
+      "fajta": "Schwarzwald Sloe Gin",
+      "radovin_kereso": "Monkey 47 Sloe Gin",
+      "radovin_slug": "monkey-47-sloe-gin-29-05l",
+      "megjegyzes": "Verifikát pár: Radovin 20990 vs Borvilág 'Monkey 47 - Schwarzwald Sloe Gin' 22490. 0,5l. (A Dry Gin-nél a Radovin olcsóbb; itt a Sloe-nál is.)"
+    },
+    {
+      "id": "kali-kovek-rezeda-2024",
+      "nev": "Káli Kövek Rezeda Olaszrizling 2024",
+      "marka": "Káli Kövek",
+      "tipus": "fehérbor",
+      "meret": "0,75 l",
+      "evjarat": "2024",
+      "fajta": "Rezeda Olaszrizling",
+      "radovin_kereso": "Káli Kövek Rezeda Olaszrizling 2024",
+      "radovin_slug": "kali-kovek-rezeda-olaszrizling-135-2024-075l",
+      "megjegyzes": "Verifikát pár: Radovin 3890 vs Borháló 'Káli Kövek Rezeda Olaszrizling 2024' 3850. 40. tétel."
+    },
+    {
+      "id": "2ha-shiraz-2021",
+      "nev": "2HA Shiraz 2021",
+      "marka": "2HA",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2021",
+      "fajta": "Shiraz",
+      "radovin_kereso": "2HA Shiraz 2021",
+      "radovin_slug": "2ha-shiraz-2020",
+      "megjegyzes": "Verifikát pár: Radovin 9990 vs Borháló 2HA Shiraz 2021 9070. (A Radovin slug-ban 2020, de a terméknév 2021 — Radovin elírás.)"
     }
   ]
 }
