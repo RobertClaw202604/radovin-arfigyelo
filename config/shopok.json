@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "verzio": "1.0.0",
+    "frissitve": "2026-08-29",
+    "megjegyzes": "Per-shop adapterek. Statusz: active=lekerve a futtataskor, blocked=bot-val/JS-renderelt (külön fejfeles böngészőt vagy engedélyt igényel)."
+  },
+  "ciklus_ora": 8,
+  "timeout_sec": 25,
+  "user_agent": "RadovinArfigyelo/1.0 (+https://github.com/RobertClaw202604; belső árfigyelő, nem árufeltörés)",
+  "shopok": [
+    {
+      "id": "radovin",
+      "nev": "Radovin Borkereskedés",
+      "tipus": "sajat",
+      "statusz": "active",
+      "base_url": "https://radovin.hu",
+      "kereso_url": "https://radovin.hu/?s={q}",
+      "adapter": "woocommerce",
+      "kesleltetes_ms": 600
+    },
+    {
+      "id": "veritas",
+      "nev": "Veritas Borkereskedés",
+      "tipus": "konkurencia",
+      "statusz": "pending",
+      "base_url": "https://www.borkereskedes.hu",
+      "kereso_url": "https://www.borkereskedes.hu/?s={q}",
+      "adapter": "html-simon",
+      "kesleltetes_ms": 900,
+      "megjegyzes": "ShopRenter-alapú; a valós árkinyerés még validálásra vár (task: veritas-adapter)."
+    },
+    {
+      "id": "borhalo",
+      "nev": "Borháló",
+      "tipus": "konkurencia",
+      "statusz": "pending",
+      "base_url": "https://www.borhalo.hu",
+      "kereso_url": "https://www.borhalo.hu/?s={q}",
+      "adapter": "html-simon",
+      "kesleltetes_ms": 900,
+      "megjegyzes": "JS-renderelt; headless + valós selectorok kellenek."
+    },
+    {
+      "id": "italpark",
+      "nev": "Italpark",
+      "tipus": "konkurencia",
+      "statusz": "pending",
+      "base_url": "https://www.italpark.hu",
+      "kereso_url": "https://www.italpark.hu/kereses?q={q}",
+      "adapter": "html-simon",
+      "kesleltetes_ms": 900,
+      "megjegyzes": "Validálásra vár."
+    },
+    {
+      "id": "bortarsasag",
+      "nev": "Bortársaság",
+      "tipus": "konkurencia",
+      "statusz": "blocked",
+      "base_url": "https://www.bortarsasag.hu",
+      "kereso_url": "https://www.bortarsasag.hu/hu/kereso?q={q}",
+      "adapter": "headless-kell",
+      "kesleltetes_ms": 1200,
+      "megjegyzes": "Bot-védett (0 bájt sima GET-re). Headless böngésző + megfelelő engedély kell."
+    },
+    {
+      "id": "benebor",
+      "nev": "Benebor",
+      "tipus": "konkurencia",
+      "statusz": "pending",
+      "base_url": "https://beneborshop.hu",
+      "kereso_url": "https://beneborshop.hu/?s={q}",
+      "adapter": "html-simon",
+      "kesleltetes_ms": 900
+    },
+    {
+      "id": "borbaro",
+      "nev": "Borbáró",
+      "tipus": "konkurencia",
+      "statusz": "pending",
+      "base_url": "https://www.borbaro.hu",
+      "kereso_url": "https://www.borbaro.hu/?s={q}",
+      "adapter": "html-simon",
+      "kesleltetes_ms": 900
+    },
+    {
+      "id": "winehub",
+      "nev": "Winehub",
+      "tipus": "konkurencia",
+      "statusz": "pending",
+      "base_url": "https://www.winehub.hu",
+      "kereso_url": "https://www.winehub.hu/?s={q}",
+      "adapter": "html-simon",
+      "kesleltetes_ms": 900
+    }
+  ]
+}

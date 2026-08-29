@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radovin Árfigyelő</title>
+<style>
+  :root{--bor:#6b1d1d;--bor-dark:#4a1212;--crema:#faf5ee;--krem:#f3ead9;--arany:#b8860b;--zold:#2e7d32;--piros:#c0392b;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--crema);color:#2a2a2a;line-height:1.55;}
+  header{background:linear-gradient(135deg,var(--bor),var(--bor-dark));color:#f5e9d6;padding:30px 22px;text-align:center;border-bottom:4px solid var(--arany);}
+  header h1{font-size:26px;letter-spacing:.5px;}
+  header .meta{font-size:13px;color:#d9c09a;margin-top:6px;}
+  .container{max-width:1200px;margin:0 auto;padding:24px 18px 60px;}
+  .toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px;}
+  .toolbar input[type=text]{flex:1;min-width:220px;padding:10px 12px;border:1px solid #d8c8a8;border-radius:6px;font-size:14px;}
+  .toolbar button,.btn{padding:10px 16px;border:none;border-radius:6px;background:var(--bor);color:#fff;font-size:14px;cursor:pointer;}
+  .toolbar button:hover,.btn:hover{background:var(--arany);}
+  .btn.small{padding:6px 10px;font-size:12px;}
+  .tab-row{display:flex;gap:6px;margin-bottom:16px;border-bottom:2px solid #e0d3bb;}
+  .tab{padding:10px 16px;cursor:pointer;border:none;background:none;font-size:14px;color:#5d5d5d;border-bottom:3px solid transparent;}
+  .tab.active{color:var(--bor);border-bottom-color:var(--bor);font-weight:600;}
+  .panel{display:none;}
+  .panel.active{display:block;}
+  .card{background:#fff;border:1px solid #e0d3bb;border-radius:8px;padding:16px 18px;margin-bottom:14px;}
+  .termek-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px;}
+  .termek-head h3{color:var(--bor);font-size:17px;}
+  .rank-badge{padding:4px 12px;border-radius:20px;font-size:13px;font-weight:600;}
+  .rank-1{background:#e8f5e9;color:var(--zold);}
+  .rank-mid{background:#fff8e1;color:#8a6d00;}
+  .rank-last{background:#fdecea;color:var(--piros);}
+  .rank-na{background:#eee;color:#888;}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;}
+  th,td{border:1px solid #e8dec8;padding:8px 10px;text-align:left;}
+  thead th{background:var(--bor);color:#f5e9d6;font-size:12px;}
+  tbody tr:nth-child(even){background:#faf4e8;}
+  .ar-ft{font-weight:600;white-space:nowrap;}
+  .ar-own{background:#fff4d6 !important;font-weight:700;}
+  .min{color:var(--zold);}
+  .max{color:var(--piros);}
+  .hiba{color:var(--piros);}
+  .chart-mini{width:100%;height:90px;display:flex;align-items:flex-end;gap:2px;margin-top:8px;}
+  .chart-mini .bar{flex:1;background:var(--bor);border-radius:2px 2px 0 0;position:relative;min-height:2px;}
+  .chart-mini .bar.latest{background:var(--arany);}
+  .legend{font-size:12px;color:#666;margin-top:4px;}
+  .admin-only{display:none;}
+  .admin-on .admin-only{display:block;}
+  .note{font-size:12px;color:#777;font-style:italic;margin-top:6px;}
+  footer{background:var(--bor-dark);color:#d9c09a;text-align:center;padding:18px;font-size:12px;}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🍷 Radovin Árfigyelő</h1>
+  <div class="meta" id="meta-sor">Betöltés…</div>
+</header>
+
+<div class="container">
+  <div class="tab-row">
+    <button class="tab active" data-panel="jelen">📊 Jelenlegi állapot</button>
+    <button class="tab" data-panel="elozmeny">🕓 Árelőzmények</button>
+    <button class="tab admin-only" data-panel="admin">⚙️ Admin</button>
+  </div>
+
+  <div class="toolbar admin-only">
+    <input type="text" id="kereso" placeholder="Keresés termékre…">
+  </div>
+
+  <!-- JELENLEGI ÁLLAPOT -->
+  <div class="panel active" id="panel-jelen">
+    <div id="jelen-list"></div>
+  </div>
+
+  <!-- ELŐZMÉNYEK -->
+  <div class="panel" id="panel-elozmeny">
+    <div id="elozmeny-list"></div>
+  </div>
+
+  <!-- ADMIN -->
+  <div class="panel" id="panel-admin">
+    <div class="card" id="login-box">
+      <h3>Belépés</h3>
+      <p style="margin:8px 0 12px;font-size:14px;">A termékek hozzáadásához jelentkezz be.</p>
+      <input type="email" id="tan-email" placeholder="Email" style="padding:10px;border:1px solid #d8c8a8;border-radius:6px;width:100%;margin-bottom:8px;">
+      <input type="password" id="tan-pw" placeholder="Jelszó" style="padding:10px;border:1px solid #d8c8a8;border-radius:6px;width:100%;margin-bottom:8px;">
+      <button class="btn" onclick="belep()">Belépés</button>
+      <div class="note" id="login-hiba"></div>
+    </div>
+    <div class="card" id="admin-box" style="display:none;">
+      <h3>Termék hozzáadása</h3>
+      <form id="form-uj-termek">
+        <input type="text" id="uj-nev" placeholder="Termék neve (pl. Kreinbacher Brut)" required style="padding:10px;border:1px solid #d8c8a8;border-radius:6px;width:100%;margin-bottom:8px;">
+        <input type="text" id="uj-marka" placeholder="Márka" style="padding:10px;border:1px solid #d8c8a8;border-radius:6px;width:48%;margin-right:4%;margin-bottom:8px;">
+        <input type="text" id="uj-meret" placeholder="Méret (pl. 0,75 l)" style="padding:10px;border:1px solid #d8c8a8;border-radius:6px;width:48%;margin-bottom:8px;">
+        <input type="text" id="uj-radio" placeholder="Radovin keresőszó (ha eltér)" style="padding:10px;border:1px solid #d8c8a8;border-radius:6px;width:100%;margin-bottom:8px;">
+        <button type="submit" class="btn">➕ Hozzáadás</button>
+      </form>
+      <div class="note" id="add-hiba"></div>
+    </div>
+  </div>
+</div>
+
+<footer>Radovin Árfigyelő · 8 óránkénti frissítés · GitHub: RobertClaw202604/radovin-arfigyelo</footer>
+
+<script>
+// ---- Bejelentkezés (egyszerű ellenőrzés, felület-védelem; nem éles auth) ----
+const ADMIN_EMAIL='szbudahazy@gmail.com';
+const ADMIN_PW='Camel100';
+let belepve=false;
+
+function belep(){
+  const e=document.getElementById('tan-email').value.trim();
+  const p=document.getElementById('tan-pw').value;
+  const hiba=document.getElementById('login-hiba');
+  if(e===ADMIN_EMAIL && p===ADMIN_PW){
+    belepve=true;
+    document.body.classList.add('admin-on');
+    document.getElementById('login-box').style.display='none';
+    document.getElementById('admin-box').style.display='block';
+  } else {
+    hiba.textContent='Érvénytelen belépési adatok.';
+  }
+}
+function kijelentkezes(){ belepve=false; document.body.classList.remove('admin-on'); }
+
+// ---- Tab-vezérlés ----
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  document.getElementById('panel-'+t.dataset.panel).classList.add('active');
+}));
+
+// ---- Adatok ----
+let legutobbi=null, elozmeny=null;
+
+function rankOsztaly(p){
+  if(!p||!p.rank) return 'rank-na';
+  if(p.rank===1) return 'rank-1';
+  if(p.rank===p.darab) return 'rank-last';
+  return 'rank-mid';
+}
+function rankCimke(p){
+  return p && p.rank ? `${p.rank}. hely (${p.darab} ár)` : 'nincs adat';
+}
+
+async function betolt(){
+  try{
+    const [a,b] = await Promise.all([
+      fetch('data/legutobbi.json').then(r=>r.ok?r.json():null),
+      fetch('data/elozmeny.json').then(r=>r.ok?r.json():null)
+    ]);
+    legutobbi=a; elozmeny=b;
+    if(a) document.getElementById('meta-sor').innerHTML=`Utolsó frissítés: <strong>${new Date(a.ido).toLocaleString('hu-HU')}</strong> · ${a.termekekszam} termék`;
+    jelenRendre();
+    elozmenyRendre();
+  }catch(e){ document.getElementById('meta-sor').textContent='Nem sikerült betölteni az adatokat.'; }
+}
+
+function jelenRendre(){
+  const wrap=document.getElementById('jelen-list');
+  if(!legutobbi || !legutobbi.eredmenyek || !legutobbi.eredmenyek.length){ wrap.innerHTML='<div class="card">Még nincs adat.</div>'; return; }
+  const q=(document.getElementById('kereso').value||'').toLowerCase();
+  const list=legutobbi.eredmenyek.filter(e=>e.termek_nev.toLowerCase().includes(q));
+  wrap.innerHTML=list.map(p=>{
+    const pz=p.pozicio||{};
+    const sorok=(p.arak||[]).map(a=>{
+      const cls= a.shop==='radovin'? 'ar-own' : (a.ar===pz.min?'min':(a.ar===pz.max?'max':''));
+      return `<tr class="${cls}">
+        <td><strong>${a.shop_nev||a.shop}</strong> ${a.shop==='radovin'?'<span style="color:var(--arany)">(Radovin)</span>':''}</td>
+        <td>${a.nev||'—'}</td>
+        <td class="ar-ft">${a.ar!=null? (a.ar.toLocaleString('hu-HU')+' Ft') : '<span class="hiba">nincs</span>'}</td>
+        ${a.hiba?`<td class="hiba">${a.hiba}</td>`:'<td></td>'}
+      </tr>`;
+    }).join('');
+    return `<div class="card">
+      <div class="termek-head">
+        <h3>${p.termek_nev} <span style="color:#888;font-size:13px;font-weight:400;">(${p.meret||'?'})</span></h3>
+        <span class="rank-badge ${rankOsztaly(pz)}">${rankCimke(pz)}</span>
+      </div>
+      <table><thead><tr><th>Shop</th><th>Termék</th><th>Ár</th><th></th></tr></thead><tbody>${sorok}</tbody></table>
+      ${(p.konkurens_allapot&&p.konkurens_allapot.length)?`<div class="note">ℹ️ Konkurens árak (${p.konkurens_allapot.map(s=>s.nev).join(', ')}) még fejlesztés alatt – folyamatosan kerülnek be.</div>`:''}
+      <div class="note">Radovin ár: <strong>${pz.radovin_ar!=null? pz.radovin_ar.toLocaleString('hu-HU')+' Ft':'—'}</strong> · min: <strong>${pz.min!=null?pz.min.toLocaleString('hu-HU')+' Ft':'—'}</strong> · max: <strong>${pz.max!=null?pz.max.toLocaleString('hu-HU')+' Ft':'—'}</strong> · medián: ${pz.median!=null?pz.median.toLocaleString('hu-HU')+' Ft':'—'}</div>
+    </div>`;
+  }).join('');
+}
+
+function elozmenyRendre(){
+  const wrap=document.getElementById('elozmeny-list');
+  if(!elozmeny || Object.keys(elozmeny).length===0){ wrap.innerHTML='<div class="card">Még nincs árelőzmény.</div>'; return; }
+  wrap.innerHTML=Object.entries(elozmeny).map(([id,futasok])=>{
+    const sorok=[...futasok].reverse().slice(0,12).map(f=>`<tr>
+      <td>${new Date(f.ido).toLocaleString('hu-HU')}</td>
+      <td>${f.radovin_ar!=null?f.radovin_ar.toLocaleString('hu-HU')+' Ft':'—'}</td>
+      <td>${f.median!=null?f.median.toLocaleString('hu-HU')+' Ft':'—'}</td>
+      <td><span class="rank-badge ${rankOsztaly({rank:f.rank,darab:f.rank})}">${f.rank||'—'}</span></td>
+    </tr>`).join('');
+    return `<div class="card"><h3 style="color:var(--bor);font-size:15px;margin-bottom:8px;">${id}</h3>
+      <table><thead><tr><th>Időpont</th><th>Radovin</th><th>Medián</th><th>Hely</th></tr></thead><tbody>${sorok}</tbody></table></div>`;
+  }).join('');
+}
+
+document.getElementById('kereso').addEventListener('input',()=>jelenRendre());
+
+// Új termék hozzáadása – mentés a szerver felé (a run.js betölti).
+document.getElementById('form-uj-termek').addEventListener('submit', async (ev)=>{
+  ev.preventDefault();
+  const uj={};
+  if(!document.querySelector('#admin-box').style.display!== 'block'){return;}
+  const res=await fetch('api/hozzaad',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+    nev:document.getElementById('uj-nev').value.trim(),
+    marka:document.getElementById('uj-marka').value.trim(),
+    meret:document.getElementById('uj-meret').value.trim(),
+    radovin_kereso:document.getElementById('uj-radio').value.trim()
+  })});
+  const t=await res.json();
+  document.getElementById('add-hiba').textContent = t.ok? 'Termék hozzáadva ✓' : ('Hiba: '+t.hiba);
+});
+
+betolt();
+</script>
+</body>
+</html>

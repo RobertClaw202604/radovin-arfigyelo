@@ -1,0 +1,16 @@
+{
+  "name": "radovin-arfigyelo",
+  "version": "1.0.0",
+  "description": "Radovin árfigyelő – konkurens bor/töményital árak összehasonlítása, pozícióval és idősorral",
+  "type": "commonjs",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js",
+    "run": "node run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

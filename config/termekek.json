@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "verzio": "1.0.0",
+    "frissitve": "2026-08-29",
+    "datum_forma": "ISO-8601 (UTC)",
+    "penznem": "HUF"
+  },
+  "termekek": [
+    {
+      "id": "kreinbacher-brut",
+      "nev": "Kreinbacher Brut pezsgő",
+      "marka": "Kreinbacher",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Kreinbacher Brut"
+    },
+    {
+      "id": "szaszi-csokaszolo-2025",
+      "nev": "Szászi Csókaszőlő",
+      "marka": "Szászi",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2025",
+      "radovin_kereso": "Csókaszőlő 2025"
+    },
+    {
+      "id": "jakab-pinot-nyari",
+      "nev": "Jakab Pinot Noir 'Easy'",
+      "marka": "Jakab",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2023",
+      "radovin_kereso": "Pinot Noir ‘Easy’"
+    },
+    {
+      "id": "kreinbacher-furmint",
+      "nev": "Kreinbacher Furmint",
+      "marka": "Kreinbacher",
+      "tipus": "fehérbor",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Kreinbacher Furmint"
+    },
+    {
+      "id": "tokaji-aszu-5puttonyos",
+      "nev": "Tokaji Aszú 5 puttonyos",
+      "marka": "generikus (Tokaj)",
+      "tipus": "édesbor",
+      "meret": "0,5 l",
+      "evjarat": null,
+      "radovin_kereso": "Aszú 5 puttonyos"
+    },
+    {
+      "id": "palinka-fenegyerek-vadcseresznye",
+      "nev": "Fenegyerek Vadcseresznye pálinka",
+      "marka": "Fenegyerek",
+      "tipus": "tömény ital",
+      "meret": "0,35 l",
+      "evjarat": null,
+      "radovin_kereso": "Fenegyerek Vadcseresznye"
+    },
+    {
+      "id": "palinka-zimek-szilva",
+      "nev": "Zimek hordós szilva pálinka",
+      "marka": "Zimek",
+      "tipus": "tömény ital",
+      "meret": "0,5 l",
+      "evjarat": null,
+      "radovin_kereso": "Zimek hordós szilva"
+    },
+    {
+      "id": "palinka-zimek-meggy",
+      "nev": "Zimek meggy pálinka",
+      "marka": "Zimek",
+      "tipus": "tömény ital",
+      "meret": "0,5 l",
+      "evjarat": null,
+      "radovin_kereso": "Zimek meggy pálinka"
+    },
+    {
+      "id": "palinka-zimek-birs",
+      "nev": "Zimek birs pálinka",
+      "marka": "Zimek",
+      "tipus": "tömény ital",
+      "meret": "0,5 l",
+      "evjarat": null,
+      "radovin_kereso": "Zimek birs pálinka"
+    },
+    {
+      "id": "vilmos-kortepalinka",
+      "nev": "Zwack Vilmos körtepálinka",
+      "marka": "Zwack",
+      "tipus": "tömény ital",
+      "meret": "0,5 l",
+      "evjarat": null,
+      "radovin_kereso": "Vilmos"
+    },
+    {
+      "id": "la-spinetta-sangiovese",
+      "nev": "La Spinetta Il Nero di Casanova Sangiovese",
+      "marka": "La Spinetta",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2022",
+      "radovin_kereso": "La Spinetta Il Nero di Casanova"
+    }
+  ]
+}
