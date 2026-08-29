@@ -1,6 +1,6 @@
 {
   "meta": {
-    "verzio": "1.0.0",
+    "verzio": "1.1.0",
     "frissitve": "2026-08-29",
     "datum_forma": "ISO-8601 (UTC)",
     "penznem": "HUF"
@@ -22,6 +22,7 @@
       "tipus": "vörösbor",
       "meret": "0,75 l",
       "evjarat": "2025",
+      "fajta": "Csókaszőlő",
       "radovin_kereso": "Csókaszőlő 2025"
     },
     {
@@ -31,6 +32,7 @@
       "tipus": "vörösbor",
       "meret": "0,75 l",
       "evjarat": "2023",
+      "fajta": "Pinot Noir",
       "radovin_kereso": "Pinot Noir ‘Easy’"
     },
     {
@@ -40,6 +42,7 @@
       "tipus": "fehérbor",
       "meret": "0,75 l",
       "evjarat": "2025",
+      "fajta": "Sauvignon Blanc",
       "radovin_kereso": "Kislaki Jánoshegy Sauvignon"
     },
     {
@@ -49,7 +52,9 @@
       "tipus": "édesbor",
       "meret": "0,5 l",
       "evjarat": null,
-      "radovin_kereso": "Aszú 5 puttonyos"
+      "radovin_kereso": "Aszú 5 puttonyos",
+      "aktiv": false,
+      "szuneteltetes_oka": "Generikus borfajta (nincs pincészet+évjárat) – nem egyedi termék, instabil ars (Mariasy 13590 <-> Royal 40890). Szabolcs kérésére szunetel (2026-08-29); majd eldoneres, mi legyen vele."
     },
     {
       "id": "palinka-fenegyerek-vadcseresznye",
@@ -58,6 +63,7 @@
       "tipus": "tömény ital",
       "meret": "0,35 l",
       "evjarat": null,
+      "fajta": "Vadcseresznye",
       "radovin_kereso": "Fenegyerek Vadcseresznye"
     },
     {
@@ -67,6 +73,7 @@
       "tipus": "tömény ital",
       "meret": "0,5 l",
       "evjarat": null,
+      "fajta": "hordós szilva",
       "radovin_kereso": "Zimek hordós szilva"
     },
     {
@@ -76,6 +83,7 @@
       "tipus": "tömény ital",
       "meret": "0,5 l",
       "evjarat": null,
+      "fajta": "meggy",
       "radovin_kereso": "Zimek meggy pálinka"
     },
     {
@@ -85,6 +93,7 @@
       "tipus": "tömény ital",
       "meret": "0,5 l",
       "evjarat": null,
+      "fajta": "birs",
       "radovin_kereso": "Zimek birs pálinka"
     },
     {
@@ -94,7 +103,10 @@
       "tipus": "tömény ital",
       "meret": "0,5 l",
       "evjarat": null,
-      "radovin_kereso": "Vilmos"
+      "fajta": "körte",
+      "radovin_kereso": "Vilmos",
+      "aktiv": false,
+      "szuneteltetes_oka": "A Radovin katalógusban NINCS Zwack Vilmos pálinka (csak más gyártók: Zimek Piros Vilmos, Cruxx Vilmoskieffer). A 'Vilmos' kereső nem a Zwack terméket hozza. Szabolcs baseline-elve szerint csak Radovin-készletű tétel figyelhető. 2026-08-29."
     },
     {
       "id": "la-spinetta-sangiovese",
@@ -103,6 +115,7 @@
       "tipus": "vörösbor",
       "meret": "0,75 l",
       "evjarat": "2022",
+      "fajta": "Sangiovese",
       "radovin_kereso": "La Spinetta Il Nero di Casanova"
     },
     {
@@ -112,10 +125,11 @@
       "tipus": "whisky",
       "meret": "1 l",
       "evjarat": null,
+      "fajta": "Black Label Triple Cask",
       "radovin_kereso": "Johnnie Walker Black Triple Cask",
       "radovin_slug": "johnnie-walker-black-triple-cask-40-1l",
       "konkurencia_kereso": { "borvilag": "Johnnie Walker", "borpiac": "Johnnie Walker", "winehub": "Johnnie Walker" },
-      "megjegyzes": "Prémium, mindenhol kapható whisky a szigorú összehasonlításhoz."
+      "megjegyzes": "Prémium, mindenhol kapható whisky. Pontos tétel: Black Label Triple Cask (a Double Black NEM ez). Borvilág nevesítése: 'Black Label Triple Cask Edition'."
     },
     {
       "id": "monkey47-gin-05l",
@@ -124,10 +138,175 @@
       "tipus": "gin",
       "meret": "0,5 l",
       "evjarat": null,
+      "fajta": "Schwarzwald Dry Gin",
       "radovin_kereso": "Monkey 47 Dry Gin",
       "radovin_slug": "monkey-47-dry-gin-47-05l",
       "konkurencia_kereso": { "borvilag": "Monkey 47", "borpiac": "Monkey 47", "winehub": "Monkey 47" },
-      "megjegyzes": "Prémium, mindenhol kapható gin a szigorú összehasonlításhoz."
+      "megjegyzes": "Prémium, mindenhol kapható gin. Pontos tétel: Schwarzwald Dry Gin (a Borvilág nevesítése)."
+    },
+    {
+      "id": "bock-chardonnay-2025",
+      "nev": "Bock Chardonnay 2025",
+      "marka": "Bock",
+      "tipus": "fehérbor",
+      "meret": "0,75 l",
+      "evjarat": "2025",
+      "fajta": "Chardonnay",
+      "radovin_kereso": "Bock Chardonnay 2025",
+      "radovin_slug": "bock-chardonnay-2022"
+    },
+    {
+      "id": "bock-ermitage-2023",
+      "nev": "Bock Ermitage 2023",
+      "marka": "Bock",
+      "tipus": "fehérbor",
+      "meret": "0,75 l",
+      "evjarat": "2023",
+      "fajta": "Ermitage",
+      "radovin_kereso": "Bock Ermitage 2023",
+      "radovin_slug": "bock-ermitage-2023-145-075l-masolat"
+    },
+    {
+      "id": "bock-olaszrizling-2025",
+      "nev": "Bock Olaszrizling 2025",
+      "marka": "Bock",
+      "tipus": "fehérbor",
+      "meret": "0,75 l",
+      "evjarat": "2025",
+      "fajta": "Olaszrizling",
+      "radovin_kereso": "Bock Olaszrizling",
+      "radovin_slug": null,
+      "aktiv": false,
+      "szuneteltetes_oka": "A Radovin-kereső nem találja (nincs biztosított Radovin-baseline ár). Az éles futásban 'nincs_talalat'. Szabolcs alapelve szerint csak Radovin-készletű tétel figyelhető. 2026-08-29."
+    },
+    {
+      "id": "gere-portugieser-2025",
+      "nev": "Gere Portugieser 2025",
+      "marka": "Gere",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2025",
+      "fajta": "Portugieser",
+      "radovin_kereso": "Gere Portugieser 2025",
+      "radovin_slug": null
+    },
+    {
+      "id": "gere-kopar-2021",
+      "nev": "Gere Kopar 2021",
+      "marka": "Gere",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2021",
+      "fajta": "Kopar",
+      "radovin_kereso": "Gere Kopar 2021",
+      "radovin_slug": null
+    },
+    {
+      "id": "gere-solus-2023",
+      "nev": "Gere Solus 2023",
+      "marka": "Gere",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2023",
+      "fajta": "Solus",
+      "radovin_kereso": "Gere Solus 2023",
+      "radovin_slug": null
+    },
+    {
+      "id": "gere-athus-2023",
+      "nev": "Gere Athus Cuvée 2023",
+      "marka": "Gere",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2023",
+      "fajta": "Athus",
+      "radovin_kereso": "Gere Athus",
+      "radovin_slug": null,
+      "aktiv": false,
+      "szuneteltetes_oka": "A Radovin-kereső nem találja (nincs biztosított Radovin-baseline ár). Az éles futásban 'nincs_talalat'. Szabolcs alapelve szerint csak Radovin-készletű tétel figyelhető. 2026-08-29."
+    },
+    {
+      "id": "gere-merlot-2022",
+      "nev": "Gere Merlot 2022",
+      "marka": "Gere",
+      "tipus": "vörösbor",
+      "meret": "0,75 l",
+      "evjarat": "2022",
+      "fajta": "Merlot",
+      "radovin_kereso": "Gere Merlot",
+      "radovin_slug": null,
+      "aktiv": false,
+      "szuneteltetes_oka": "A Radovin-kereső nem találja (nincs biztosított Radovin-baseline ár). Az éles futásban 'nincs_talalat'. Szabolcs alapelve szerint csak Radovin-készletű tétel figyelhető. 2026-08-29."
+    },
+    {
+      "id": "sauska-brut-nature",
+      "nev": "Sauska Brut Nature",
+      "marka": "Sauska",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "fajta": "Brut Nature",
+      "radovin_kereso": "Sauska Brut Nature",
+      "radovin_slug": "sauska-brut-nature-075l"
+    },
+    {
+      "id": "sauska-extra-dry",
+      "nev": "Sauska Extra Dry",
+      "marka": "Sauska",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "fajta": "Extra Dry",
+      "radovin_kereso": "Sauska Extra Dry",
+      "radovin_slug": "sauska-extra-dry-075l"
+    },
+    {
+      "id": "sauska-rose-brut",
+      "nev": "Sauska Rosé Brut",
+      "marka": "Sauska",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "fajta": "Rosé Brut",
+      "radovin_kereso": "Sauska Rosé Brut",
+      "radovin_slug": "sauska-rose-brut-12-075l",
+      "megjegyzes": "A Radovinon 0,75 l (7990 Ft), NEM a Magnum 1,5 l."
+    },
+    {
+      "id": "appleton-8-reserve",
+      "nev": "Appleton Estate Reserve Blend 8",
+      "marka": "Appleton",
+      "tipus": "rum",
+      "meret": "0,7 l",
+      "evjarat": null,
+      "fajta": "Reserve Blend",
+      "radovin_kereso": "Appleton 8 Reserve Blend",
+      "radovin_slug": "appleton-estate-8-years-reserve-blend-43-07l",
+      "megjegyzes": "Pontos tétel: Reserve Blend 8 év (a Borvilág nevesítése; az 12 éves a Rare Blend, NEM ez)."
+    },
+    {
+      "id": "mount-gay-xo",
+      "nev": "Mount Gay XO Triple Cask",
+      "marka": "Mount Gay",
+      "tipus": "rum",
+      "meret": "0,7 l",
+      "evjarat": null,
+      "fajta": "XO Reserve Triple Cask",
+      "radovin_kereso": "Mount Gay XO Triple Cask",
+      "radovin_slug": "mount-gay-xo",
+      "megjegyzes": "Pontos tétel: XO Triple Cask (a Borvilág nevesítése: 'XO Reserve Triple Cask')."
+    },
+    {
+      "id": "macallan-12-double-cask",
+      "nev": "The Macallan 12 Double Cask",
+      "marka": "Macallan",
+      "tipus": "whisky",
+      "meret": "0,7 l",
+      "evjarat": null,
+      "fajta": "12 years Double Cask",
+      "radovin_kereso": "Macallan 12 Double Cask",
+      "radovin_slug": "the-macallan-12-eves-double-cask",
+      "megjegyzes": "Pontos tétel: 12 years Double Cask (a Borvilág nevesítése)."
     }
   ]
 }

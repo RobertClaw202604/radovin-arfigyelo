@@ -1,11 +1,11 @@
 {
-  "futas_id": 1788014477773,
-  "ido": "2026-08-29T14:41:17.773Z",
-  "termekekszam": 13,
+  "futas_id": 1788027724260,
+  "ido": "2026-08-29T18:22:04.260Z",
+  "termekekszam": 22,
   "eredmenyek": [
     {
-      "futas_id": 1788014477773,
-      "ido": "2026-08-29T14:41:17.773Z",
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
       "termek_id": "kreinbacher-brut",
       "termek_nev": "Kreinbacher Brut pezsgő",
       "meret": "0,75 l",
@@ -105,30 +105,30 @@
       ]
     },
     {
-      "futas_id": 1788014477773,
-      "ido": "2026-08-29T14:41:17.773Z",
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
       "termek_id": "szaszi-csokaszolo-2025",
       "termek_nev": "Szászi Csókaszőlő",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 0,
-        "min": null,
-        "max": null,
-        "median": null,
-        "radovin_ar": null,
-        "rank": null,
-        "rank_jelolo": "—"
+        "darab": 1,
+        "min": 8590,
+        "max": 8590,
+        "median": 8590,
+        "radovin_ar": 8590,
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "arak": [
         {
           "shop": "radovin",
           "shop_nev": "Radovin Borkereskedés",
           "tipus": "radovin",
-          "ar": null,
-          "nev": null,
-          "url": null,
+          "ar": 8590,
+          "nev": "Szászi Csókaszőlő 2025 13% 0",
+          "url": "https://radovin.hu/termek/szaszi-csokaszolo-2025-13-075l-masolat-2/",
           "megjegyzes": null,
-          "hiba": "nincs_talalat"
+          "hiba": null
         },
         {
           "shop": "borhalo",
@@ -206,8 +206,8 @@
       ]
     },
     {
-      "futas_id": 1788014477773,
-      "ido": "2026-08-29T14:41:17.773Z",
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
       "termek_id": "jakab-pinot-nyari",
       "termek_nev": "Jakab Pinot Noir 'Easy'",
       "meret": "0,75 l",
@@ -307,8 +307,8 @@
       ]
     },
     {
-      "futas_id": 1788014477773,
-      "ido": "2026-08-29T14:41:17.773Z",
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
       "termek_id": "kislaki-sauvignon-blanc",
       "termek_nev": "Kislaki Jánoshegy Sauvignon Blanc",
       "meret": "0,75 l",
@@ -408,109 +408,8 @@
       ]
     },
     {
-      "futas_id": 1788014477773,
-      "ido": "2026-08-29T14:41:17.773Z",
-      "termek_id": "tokaji-aszu-5puttonyos",
-      "termek_nev": "Tokaji Aszú 5 puttonyos",
-      "meret": "0,5 l",
-      "pozicio": {
-        "darab": 3,
-        "min": 7800,
-        "max": 14990,
-        "median": 13590,
-        "radovin_ar": 13590,
-        "rank": 2,
-        "rank_jelolo": "2/3"
-      },
-      "arak": [
-        {
-          "shop": "radovin",
-          "shop_nev": "Radovin Borkereskedés",
-          "tipus": "radovin",
-          "ar": 13590,
-          "nev": "MARIASY Aszú 5 puttonyos 2019 11% Tokaji 0",
-          "url": "https://radovin.hu/termek/mariasy-aszu-5-puttonyos-2019-11-tokaji-05l/",
-          "megjegyzes": null,
-          "hiba": null
-        },
-        {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "tipus": "konkurencia",
-          "ar": 14990,
-          "nev": "Béres Tokaji Aszú 5 puttonyos 2014",
-          "url": "https://borhalo.hu/termek/beres-tokaji-aszu-5-puttonyos-2014",
-          "megjegyzes": "via Borháló katalógus (GA4)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
-          "tipus": "konkurencia",
-          "ar": null,
-          "nev": null,
-          "url": null,
-          "megjegyzes": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
-        },
-        {
-          "shop": "winehub",
-          "shop_nev": "Winehub",
-          "tipus": "konkurencia",
-          "ar": null,
-          "nev": null,
-          "url": null,
-          "megjegyzes": null,
-          "hiba": "nincs_pontos_talalat"
-        },
-        {
-          "shop": "borvilag",
-          "shop_nev": "Borvilág",
-          "tipus": "konkurencia",
-          "ar": 7800,
-          "nev": "Babits pincészet - Tokaji Aszú 5 puttonyos",
-          "url": "https://www.borvilag.hu/products/babits-pinceszet-tokaji-aszu-5-puttonyos",
-          "megjegyzes": "via katalóguslista (shopify)",
-          "hiba": null
-        },
-        {
-          "shop": "borpiac",
-          "shop_nev": "Borpiac",
-          "tipus": "konkurencia",
-          "ar": null,
-          "nev": null,
-          "url": null,
-          "megjegyzes": null,
-          "hiba": "nincs_pontos_talalat"
-        }
-      ],
-      "gyujtes_szam": 7,
-      "konkurens_allapot": [
-        {
-          "shop": "veritas",
-          "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "bortarsasag",
-          "nev": "Bortársaság",
-          "statusz": "blocked"
-        },
-        {
-          "shop": "benebor",
-          "nev": "Benebor",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borbaro",
-          "nev": "Borbáró",
-          "statusz": "pending"
-        }
-      ]
-    },
-    {
-      "futas_id": 1788014477773,
-      "ido": "2026-08-29T14:41:17.773Z",
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
       "termek_id": "palinka-fenegyerek-vadcseresznye",
       "termek_nev": "Fenegyerek Vadcseresznye pálinka",
       "meret": "0,35 l",
@@ -610,8 +509,8 @@
       ]
     },
     {
-      "futas_id": 1788014477773,
-      "ido": "2026-08-29T14:41:17.773Z",
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
       "termek_id": "palinka-zimek-szilva",
       "termek_nev": "Zimek hordós szilva pálinka",
       "meret": "0,5 l",
@@ -711,8 +610,8 @@
       ]
     },
     {
-      "futas_id": 1788014477773,
-      "ido": "2026-08-29T14:41:17.773Z",
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
       "termek_id": "palinka-zimek-meggy",
       "termek_nev": "Zimek meggy pálinka",
       "meret": "0,5 l",
@@ -812,8 +711,8 @@
       ]
     },
     {
-      "futas_id": 1788014477773,
-      "ido": "2026-08-29T14:41:17.773Z",
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
       "termek_id": "palinka-zimek-birs",
       "termek_nev": "Zimek birs pálinka",
       "meret": "0,5 l",
@@ -913,109 +812,8 @@
       ]
     },
     {
-      "futas_id": 1788014477773,
-      "ido": "2026-08-29T14:41:17.773Z",
-      "termek_id": "vilmos-kortepalinka",
-      "termek_nev": "Zwack Vilmos körtepálinka",
-      "meret": "0,5 l",
-      "pozicio": {
-        "darab": 0,
-        "min": null,
-        "max": null,
-        "median": null,
-        "radovin_ar": null,
-        "rank": null,
-        "rank_jelolo": "—"
-      },
-      "arak": [
-        {
-          "shop": "radovin",
-          "shop_nev": "Radovin Borkereskedés",
-          "tipus": "radovin",
-          "ar": null,
-          "nev": null,
-          "url": null,
-          "megjegyzes": null,
-          "hiba": "nincs_talalat"
-        },
-        {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "tipus": "konkurencia",
-          "ar": null,
-          "nev": null,
-          "url": null,
-          "megjegyzes": null,
-          "hiba": "nincs_pontos_talalat"
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
-          "tipus": "konkurencia",
-          "ar": null,
-          "nev": null,
-          "url": null,
-          "megjegyzes": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
-        },
-        {
-          "shop": "winehub",
-          "shop_nev": "Winehub",
-          "tipus": "konkurencia",
-          "ar": null,
-          "nev": null,
-          "url": null,
-          "megjegyzes": null,
-          "hiba": "nincs_pontos_talalat"
-        },
-        {
-          "shop": "borvilag",
-          "shop_nev": "Borvilág",
-          "tipus": "konkurencia",
-          "ar": null,
-          "nev": null,
-          "url": null,
-          "megjegyzes": null,
-          "hiba": "nincs_pontos_talalat"
-        },
-        {
-          "shop": "borpiac",
-          "shop_nev": "Borpiac",
-          "tipus": "konkurencia",
-          "ar": null,
-          "nev": null,
-          "url": null,
-          "megjegyzes": null,
-          "hiba": "nincs_pontos_talalat"
-        }
-      ],
-      "gyujtes_szam": 2,
-      "konkurens_allapot": [
-        {
-          "shop": "veritas",
-          "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "bortarsasag",
-          "nev": "Bortársaság",
-          "statusz": "blocked"
-        },
-        {
-          "shop": "benebor",
-          "nev": "Benebor",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borbaro",
-          "nev": "Borbáró",
-          "statusz": "pending"
-        }
-      ]
-    },
-    {
-      "futas_id": 1788014477773,
-      "ido": "2026-08-29T14:41:17.773Z",
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
       "termek_id": "la-spinetta-sangiovese",
       "termek_nev": "La Spinetta Il Nero di Casanova Sangiovese",
       "meret": "0,75 l",
@@ -1115,8 +913,8 @@
       ]
     },
     {
-      "futas_id": 1788014477773,
-      "ido": "2026-08-29T14:41:17.773Z",
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
       "termek_id": "jw-black-1l",
       "termek_nev": "Johnnie Walker Black Label whisky",
       "meret": "1 l",
@@ -1216,8 +1014,8 @@
       ]
     },
     {
-      "futas_id": 1788014477773,
-      "ido": "2026-08-29T14:41:17.773Z",
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
       "termek_id": "monkey47-gin-05l",
       "termek_nev": "Monkey 47 Dry Gin",
       "meret": "0,5 l",
@@ -1278,6 +1076,1117 @@
           "ar": 17850,
           "nev": "Monkey 47 - Schwarzwald Dry Gin",
           "url": "https://www.borvilag.hu/products/malfy-rosa-gin-masolat",
+          "megjegyzes": "via katalóguslista (shopify)",
+          "hiba": null
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        }
+      ],
+      "gyujtes_szam": 2,
+      "konkurens_allapot": [
+        {
+          "shop": "veritas",
+          "nev": "Veritas Borkereskedés",
+          "statusz": "pending"
+        },
+        {
+          "shop": "bortarsasag",
+          "nev": "Bortársaság",
+          "statusz": "blocked"
+        },
+        {
+          "shop": "benebor",
+          "nev": "Benebor",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borbaro",
+          "nev": "Borbáró",
+          "statusz": "pending"
+        }
+      ]
+    },
+    {
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
+      "termek_id": "bock-chardonnay-2025",
+      "termek_nev": "Bock Chardonnay 2025",
+      "meret": "0,75 l",
+      "pozicio": {
+        "darab": 2,
+        "min": 2190,
+        "max": 2190,
+        "median": 2190,
+        "radovin_ar": 2190,
+        "rank": 1,
+        "rank_jelolo": "1/2"
+      },
+      "arak": [
+        {
+          "shop": "radovin",
+          "shop_nev": "Radovin Borkereskedés",
+          "tipus": "radovin",
+          "ar": 2190,
+          "nev": "Bock Chardonnay 2025 Villányi 12% 0",
+          "url": "https://radovin.hu/termek/bock-chardonnay-2022/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": 2190,
+          "nev": "Bock Chardonnay 2025",
+          "url": "https://borhalo.hu/termek/bock-chardonnay-2025",
+          "megjegyzes": "via Borháló katalógus (GA4)",
+          "hiba": null
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        }
+      ],
+      "gyujtes_szam": 2,
+      "konkurens_allapot": [
+        {
+          "shop": "veritas",
+          "nev": "Veritas Borkereskedés",
+          "statusz": "pending"
+        },
+        {
+          "shop": "bortarsasag",
+          "nev": "Bortársaság",
+          "statusz": "blocked"
+        },
+        {
+          "shop": "benebor",
+          "nev": "Benebor",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borbaro",
+          "nev": "Borbáró",
+          "statusz": "pending"
+        }
+      ]
+    },
+    {
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
+      "termek_id": "bock-ermitage-2023",
+      "termek_nev": "Bock Ermitage 2023",
+      "meret": "0,75 l",
+      "pozicio": {
+        "darab": 2,
+        "min": 3990,
+        "max": 4100,
+        "median": 4045,
+        "radovin_ar": 4100,
+        "rank": 2,
+        "rank_jelolo": "2/2"
+      },
+      "arak": [
+        {
+          "shop": "radovin",
+          "shop_nev": "Radovin Borkereskedés",
+          "tipus": "radovin",
+          "ar": 4100,
+          "nev": "Bock Ermitage 2023 14",
+          "url": "https://radovin.hu/termek/bock-ermitage-2023-145-075l-masolat/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": 3990,
+          "nev": "Bock Ermitage 2023",
+          "url": "https://borhalo.hu/termek/bock-ermitage-2023",
+          "megjegyzes": "via Borháló katalógus (GA4)",
+          "hiba": null
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        }
+      ],
+      "gyujtes_szam": 2,
+      "konkurens_allapot": [
+        {
+          "shop": "veritas",
+          "nev": "Veritas Borkereskedés",
+          "statusz": "pending"
+        },
+        {
+          "shop": "bortarsasag",
+          "nev": "Bortársaság",
+          "statusz": "blocked"
+        },
+        {
+          "shop": "benebor",
+          "nev": "Benebor",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borbaro",
+          "nev": "Borbáró",
+          "statusz": "pending"
+        }
+      ]
+    },
+    {
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
+      "termek_id": "gere-portugieser-2025",
+      "termek_nev": "Gere Portugieser 2025",
+      "meret": "0,75 l",
+      "pozicio": {
+        "darab": 2,
+        "min": 2490,
+        "max": 2630,
+        "median": 2560,
+        "radovin_ar": 2490,
+        "rank": 1,
+        "rank_jelolo": "1/2"
+      },
+      "arak": [
+        {
+          "shop": "radovin",
+          "shop_nev": "Radovin Borkereskedés",
+          "tipus": "radovin",
+          "ar": 2490,
+          "nev": "Gere Attila Portugieser 2025 Villány 12% 0",
+          "url": "https://radovin.hu/termek/gere-attila-portugieser-2025-villany-12-075l/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": 2630,
+          "nev": "Gere Portugieser 2025",
+          "url": "https://borhalo.hu/termek/gere-portugieser-2025",
+          "megjegyzes": "via Borháló katalógus (GA4)",
+          "hiba": null
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        }
+      ],
+      "gyujtes_szam": 2,
+      "konkurens_allapot": [
+        {
+          "shop": "veritas",
+          "nev": "Veritas Borkereskedés",
+          "statusz": "pending"
+        },
+        {
+          "shop": "bortarsasag",
+          "nev": "Bortársaság",
+          "statusz": "blocked"
+        },
+        {
+          "shop": "benebor",
+          "nev": "Benebor",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borbaro",
+          "nev": "Borbáró",
+          "statusz": "pending"
+        }
+      ]
+    },
+    {
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
+      "termek_id": "gere-kopar-2021",
+      "termek_nev": "Gere Kopar 2021",
+      "meret": "0,75 l",
+      "pozicio": {
+        "darab": 2,
+        "min": 12500,
+        "max": 12990,
+        "median": 12745,
+        "radovin_ar": 12990,
+        "rank": 2,
+        "rank_jelolo": "2/2"
+      },
+      "arak": [
+        {
+          "shop": "radovin",
+          "shop_nev": "Radovin Borkereskedés",
+          "tipus": "radovin",
+          "ar": 12990,
+          "nev": "Gere Attila Kopar 2021 14% 0",
+          "url": "https://radovin.hu/termek/gere-attila-kopar-2021/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": 12500,
+          "nev": "Gere Kopar 2021 (V)",
+          "url": "https://borhalo.hu/termek/gere-kopar-2021-v",
+          "megjegyzes": "via Borháló katalógus (GA4)",
+          "hiba": null
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        }
+      ],
+      "gyujtes_szam": 2,
+      "konkurens_allapot": [
+        {
+          "shop": "veritas",
+          "nev": "Veritas Borkereskedés",
+          "statusz": "pending"
+        },
+        {
+          "shop": "bortarsasag",
+          "nev": "Bortársaság",
+          "statusz": "blocked"
+        },
+        {
+          "shop": "benebor",
+          "nev": "Benebor",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borbaro",
+          "nev": "Borbáró",
+          "statusz": "pending"
+        }
+      ]
+    },
+    {
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
+      "termek_id": "gere-solus-2023",
+      "termek_nev": "Gere Solus 2023",
+      "meret": "0,75 l",
+      "pozicio": {
+        "darab": 2,
+        "min": 19990,
+        "max": 19990,
+        "median": 19990,
+        "radovin_ar": 19990,
+        "rank": 1,
+        "rank_jelolo": "1/2"
+      },
+      "arak": [
+        {
+          "shop": "radovin",
+          "shop_nev": "Radovin Borkereskedés",
+          "tipus": "radovin",
+          "ar": 19990,
+          "nev": "Gere Attila Solus 2023 14",
+          "url": "https://radovin.hu/termek/gere-attila-solus-2023/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": 19990,
+          "nev": "Gere Solus Merlot 2023 (Kopár) (V)",
+          "url": "https://borhalo.hu/termek/gere-solus-merlot-2023-kopar-v",
+          "megjegyzes": "via Borháló katalógus (GA4)",
+          "hiba": null
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        }
+      ],
+      "gyujtes_szam": 2,
+      "konkurens_allapot": [
+        {
+          "shop": "veritas",
+          "nev": "Veritas Borkereskedés",
+          "statusz": "pending"
+        },
+        {
+          "shop": "bortarsasag",
+          "nev": "Bortársaság",
+          "statusz": "blocked"
+        },
+        {
+          "shop": "benebor",
+          "nev": "Benebor",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borbaro",
+          "nev": "Borbáró",
+          "statusz": "pending"
+        }
+      ]
+    },
+    {
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
+      "termek_id": "sauska-brut-nature",
+      "termek_nev": "Sauska Brut Nature",
+      "meret": "0,75 l",
+      "pozicio": {
+        "darab": 2,
+        "min": 9500,
+        "max": 9590,
+        "median": 9545,
+        "radovin_ar": 9590,
+        "rank": 2,
+        "rank_jelolo": "2/2"
+      },
+      "arak": [
+        {
+          "shop": "radovin",
+          "shop_nev": "Radovin Borkereskedés",
+          "tipus": "radovin",
+          "ar": 9590,
+          "nev": "Sauska Brut Nature 12",
+          "url": "https://radovin.hu/termek/sauska-brut-nature-075l/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": 9500,
+          "nev": "Sauska Brut Nature",
+          "url": "https://borhalo.hu/termek/sauska-brut-nature",
+          "megjegyzes": "via Borháló katalógus (GA4)",
+          "hiba": null
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        }
+      ],
+      "gyujtes_szam": 2,
+      "konkurens_allapot": [
+        {
+          "shop": "veritas",
+          "nev": "Veritas Borkereskedés",
+          "statusz": "pending"
+        },
+        {
+          "shop": "bortarsasag",
+          "nev": "Bortársaság",
+          "statusz": "blocked"
+        },
+        {
+          "shop": "benebor",
+          "nev": "Benebor",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borbaro",
+          "nev": "Borbáró",
+          "statusz": "pending"
+        }
+      ]
+    },
+    {
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
+      "termek_id": "sauska-extra-dry",
+      "termek_nev": "Sauska Extra Dry",
+      "meret": "0,75 l",
+      "pozicio": {
+        "darab": 2,
+        "min": 5400,
+        "max": 5990,
+        "median": 5695,
+        "radovin_ar": 5400,
+        "rank": 1,
+        "rank_jelolo": "1/2"
+      },
+      "arak": [
+        {
+          "shop": "radovin",
+          "shop_nev": "Radovin Borkereskedés",
+          "tipus": "radovin",
+          "ar": 5400,
+          "nev": "Sauska Extra Dry 0",
+          "url": "https://radovin.hu/termek/sauska-extra-dry-075l/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": 5990,
+          "nev": "Sauska Tokaj Pezsgő Extra Dry (V)",
+          "url": "https://borhalo.hu/termek/sauska-tokaj-pezsgo-extra-dry-v",
+          "megjegyzes": "via Borháló katalógus (GA4)",
+          "hiba": null
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        }
+      ],
+      "gyujtes_szam": 2,
+      "konkurens_allapot": [
+        {
+          "shop": "veritas",
+          "nev": "Veritas Borkereskedés",
+          "statusz": "pending"
+        },
+        {
+          "shop": "bortarsasag",
+          "nev": "Bortársaság",
+          "statusz": "blocked"
+        },
+        {
+          "shop": "benebor",
+          "nev": "Benebor",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borbaro",
+          "nev": "Borbáró",
+          "statusz": "pending"
+        }
+      ]
+    },
+    {
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
+      "termek_id": "sauska-rose-brut",
+      "termek_nev": "Sauska Rosé Brut",
+      "meret": "0,75 l",
+      "pozicio": {
+        "darab": 3,
+        "min": 7990,
+        "max": 8590,
+        "median": 7990,
+        "radovin_ar": 7990,
+        "rank": 1,
+        "rank_jelolo": "1/3"
+      },
+      "arak": [
+        {
+          "shop": "radovin",
+          "shop_nev": "Radovin Borkereskedés",
+          "tipus": "radovin",
+          "ar": 7990,
+          "nev": "Sauska Rosé Brut 12% 0",
+          "url": "https://radovin.hu/termek/sauska-rose-brut-12-075l/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": 8590,
+          "nev": "Sauska Tokaj Pezsgő Rosé Brut (V)",
+          "url": "https://borhalo.hu/termek/sauska-tokaj-pezsgo-rose-brut-v",
+          "megjegyzes": "via Borháló katalógus (GA4)",
+          "hiba": null
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": 7990,
+          "nev": "Sauska - Rosé Brut pezsgő",
+          "url": "https://www.borvilag.hu/products/sauska-chardonnay-masolat-2",
+          "megjegyzes": "via katalóguslista (shopify)",
+          "hiba": null
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        }
+      ],
+      "gyujtes_szam": 3,
+      "konkurens_allapot": [
+        {
+          "shop": "veritas",
+          "nev": "Veritas Borkereskedés",
+          "statusz": "pending"
+        },
+        {
+          "shop": "bortarsasag",
+          "nev": "Bortársaság",
+          "statusz": "blocked"
+        },
+        {
+          "shop": "benebor",
+          "nev": "Benebor",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borbaro",
+          "nev": "Borbáró",
+          "statusz": "pending"
+        }
+      ]
+    },
+    {
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
+      "termek_id": "appleton-8-reserve",
+      "termek_nev": "Appleton Estate Reserve Blend 8",
+      "meret": "0,7 l",
+      "pozicio": {
+        "darab": 2,
+        "min": 17990,
+        "max": 24190,
+        "median": 21090,
+        "radovin_ar": 24190,
+        "rank": 2,
+        "rank_jelolo": "2/2"
+      },
+      "arak": [
+        {
+          "shop": "radovin",
+          "shop_nev": "Radovin Borkereskedés",
+          "tipus": "radovin",
+          "ar": 24190,
+          "nev": "Appleton Estate 8 Years Reserve Blend 43% 0",
+          "url": "https://radovin.hu/termek/appleton-estate-8-years-reserve-blend-43-07l/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": 17990,
+          "nev": "Appleton Estate - Reserve Blend Rum",
+          "url": "https://www.borvilag.hu/products/appleton-estate-reserve-blend-rum-0-7l-40",
+          "megjegyzes": "via katalóguslista (shopify)",
+          "hiba": null
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        }
+      ],
+      "gyujtes_szam": 2,
+      "konkurens_allapot": [
+        {
+          "shop": "veritas",
+          "nev": "Veritas Borkereskedés",
+          "statusz": "pending"
+        },
+        {
+          "shop": "bortarsasag",
+          "nev": "Bortársaság",
+          "statusz": "blocked"
+        },
+        {
+          "shop": "benebor",
+          "nev": "Benebor",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borbaro",
+          "nev": "Borbáró",
+          "statusz": "pending"
+        }
+      ]
+    },
+    {
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
+      "termek_id": "mount-gay-xo",
+      "termek_nev": "Mount Gay XO Triple Cask",
+      "meret": "0,7 l",
+      "pozicio": {
+        "darab": 2,
+        "min": 23490,
+        "max": 28990,
+        "median": 26240,
+        "radovin_ar": 28990,
+        "rank": 2,
+        "rank_jelolo": "2/2"
+      },
+      "arak": [
+        {
+          "shop": "radovin",
+          "shop_nev": "Radovin Borkereskedés",
+          "tipus": "radovin",
+          "ar": 28990,
+          "nev": "Mount Gay XO Triple Cask 43% 0",
+          "url": "https://radovin.hu/termek/mount-gay-xo/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": 23490,
+          "nev": "Mount Gay - XO Reserve Triple Cask Blend Rum",
+          "url": "https://www.borvilag.hu/products/mount-gay-black-barrel-rum-masolat",
+          "megjegyzes": "via katalóguslista (shopify)",
+          "hiba": null
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        }
+      ],
+      "gyujtes_szam": 2,
+      "konkurens_allapot": [
+        {
+          "shop": "veritas",
+          "nev": "Veritas Borkereskedés",
+          "statusz": "pending"
+        },
+        {
+          "shop": "bortarsasag",
+          "nev": "Bortársaság",
+          "statusz": "blocked"
+        },
+        {
+          "shop": "benebor",
+          "nev": "Benebor",
+          "statusz": "pending"
+        },
+        {
+          "shop": "borbaro",
+          "nev": "Borbáró",
+          "statusz": "pending"
+        }
+      ]
+    },
+    {
+      "futas_id": 1788027724260,
+      "ido": "2026-08-29T18:22:04.260Z",
+      "termek_id": "macallan-12-double-cask",
+      "termek_nev": "The Macallan 12 Double Cask",
+      "meret": "0,7 l",
+      "pozicio": {
+        "darab": 3,
+        "min": 31010,
+        "max": 39000,
+        "median": 32289,
+        "radovin_ar": 39000,
+        "rank": 3,
+        "rank_jelolo": "3/3"
+      },
+      "arak": [
+        {
+          "shop": "radovin",
+          "shop_nev": "Radovin Borkereskedés",
+          "tipus": "radovin",
+          "ar": 39000,
+          "nev": "The Macallan 12 years Double Cask 40% 0",
+          "url": "https://radovin.hu/termek/the-macallan-12-eves-double-cask/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": 32289,
+          "nev": "MACALLAN 12 Years Double Cask Sherry whisky + dd (0,7l-40%)",
+          "url": "https://www.italpark.hu/macallan-12-years-double-cask-sherry-whisky-dd-07l-whisky-rendeles",
+          "megjegyzes": "via böngésző (itemprop)",
+          "hiba": null
+        },
+        {
+          "shop": "winehub",
+          "shop_nev": "Winehub",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": 31010,
+          "nev": "Macallan - 12 years Double Cask Sherry Seasoned Oak Cask Whisky",
+          "url": "https://www.borvilag.hu/products/jim-beam-sunshine-blend-special-release-whisky-masolat-1",
           "megjegyzes": "via katalóguslista (shopify)",
           "hiba": null
         },

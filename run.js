@@ -32,6 +32,12 @@ const ELOZMENY = path.join(DATA_DIR, 'elozmeny.json');
   const katalogusosCachel = new Map();
 
   for (const termek of termekek) {
+    // Szüneteltetett (aktiv:false) tételek kihagyva a futásból – nem kúszik az áruk,
+    // de a katalógusban megmaradnak a konfigban (Szabolcs kérésére, pl. generikus Tokaji).
+    if (termek.aktiv === false) {
+      console.log(`[${termek.id}] SZÜNETELTETVE – kihagyva (${termek.szuneteltetes_oka || 'nincs ok'})`);
+      continue;
+    }
     const termekArak = [];
     const gyujtendo = []; // termékgyűjtő: minden élő talalat (URL-kulcsú idősorba)
     for (const shop of activeShops) {
