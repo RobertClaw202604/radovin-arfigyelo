@@ -60,6 +60,7 @@
   <div class="tab-row">
     <button class="tab active" data-panel="jelen">📊 Jelenlegi állapot</button>
     <button class="tab" data-panel="elozmeny">🕓 Árelőzmények</button>
+    <button class="tab" data-panel="tarhaz">📦 Terméktárház</button>
     <button class="tab admin-only" data-panel="admin">⚙️ Admin</button>
   </div>
 
@@ -75,6 +76,15 @@
   <!-- ELŐZMÉNYEK -->
   <div class="panel" id="panel-elozmeny">
     <div id="elozmeny-list"></div>
+  </div>
+
+  <!-- TERMÉKTÁRHÁZ (gyűjtött konkrét termékek URL-kulcsú idősorral) -->
+  <div class="panel" id="panel-tarhaz">
+    <div class="toolbar">
+      <input type="text" id="tarhaz-kereso" placeholder="Keresés a gyűjtött termékek közt…">
+      <span class="note" id="tarhaz-meta"></span>
+    </div>
+    <div id="tarhaz-list"></div>
   </div>
 
   <!-- ADMIN -->
@@ -133,7 +143,7 @@ document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
 }));
 
 // ---- Adatok ----
-let legutobbi=null, elozmeny=null;
+let legutobbi=null, elozmeny=null, tarhaz=null;
 
 function rankOsztaly(p){
   if(!p||!p.rank) return 'rank-na';
@@ -147,14 +157,16 @@ function rankCimke(p){
 
 async function betolt(){
   try{
-    const [a,b] = await Promise.all([
+    const [a,b,t] = await Promise.all([
       fetch('data/legutobbi.json').then(r=>r.ok?r.json():null),
-      fetch('data/elozmeny.json').then(r=>r.ok?r.json():null)
+      fetch('data/elozmeny.json').then(r=>r.ok?r.json():null),
+      fetch('data/termekek.json').then(r=>r.ok?r.json():null)
     ]);
-    legutobbi=a; elozmeny=b;
+    legutobbi=a; elozmeny=b; tarhaz=t;
     if(a) document.getElementById('meta-sor').innerHTML=`Utolsó frissítés: <strong>${new Date(a.ido).toLocaleString('hu-HU')}</strong> · ${a.termekekszam} termék`;
     jelenRendre();
     elozmenyRendre();
+    tarhazRendre();
   }catch(e){ document.getElementById('meta-sor').textContent='Nem sikerült betölteni az adatokat.'; }
 }
 
@@ -202,6 +214,47 @@ function elozmenyRendre(){
 }
 
 document.getElementById('kereso').addEventListener('input',()=>jelenRendre());
+
+// ---- Terméktárház renderelés (URL-kulcsú idősor a termekek.json-ből) ----
+function tarhazRendre(){
+  const wrap=document.getElementById('tarhaz-list');
+  const meta=document.getElementById('tarhaz-meta');
+  if(!tarhaz || !Object.keys(tarhaz).length){
+    wrap.innerHTML='<div class="card">Még nincs gyűjtött termék. (A futás minden konkrét, elérhető terméket – név + weblink + ár + dátum – elment a Terméktárházba, akkor is, ha nem párosítható a katalógus egyik tételéhez sem.)</div>';
+    meta.textContent='';
+    return;
+  }
+  const q=(document.getElementById('tarhaz-kereso').value||'').toLowerCase();
+  const bejegyzesek=Object.entries(tarhaz)
+    .map(([url,sorozat])=>({url, nev:(sorozat[sorozat.length-1]&&sorozat[sorozat.length-1].nev)||'', shop:(sorozat[sorozat.length-1]&&sorozat[sorozat.length-1].shop)||'', arsor:(sorozat[sorozat.length-1]||{}).ar, idok:sorozat}))
+    .filter(x=>(x.nev||'').toLowerCase().includes(q)||(x.url||'').toLowerCase().includes(q)||(x.shop||'').toLowerCase().includes(q));
+  meta.textContent=`${Object.keys(tarhaz).length} gyűjtött terméklink · ${bejegyzesek.length} találat`;
+  const shopDomain={borhalo:'https://borhalo.hu',borvilag:'https://www.borvilag.hu',borpiac:'https://borpiac.hu',winehub:'https://winehub.hu',radovin:'https://radovin.hu',italpark:'https://www.italpark.hu'};
+  wrap.innerHTML=bejegyzesek.slice(0,300).map(x=>{
+    const leg=x.idok[x.idok.length-1];
+    const valtozott=x.idok.length>1&&x.idok[x.idok.length-1].ar!==x.idok[0].ar;
+    const domain=shopDomain[x.shop]||'https://borhalo.hu';
+    const teljesUrl=x.url.startsWith('http')?x.url:(domain+x.url);
+    return `<div class="card" style="margin-bottom:10px;padding:12px 14px;">
+      <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;">
+        <div style="min-width:0;">
+          <div style="font-weight:600;color:var(--bor);font-size:14px;">${x.nev||x.url}</div>
+          <div style="font-size:12px;color:#888;margin-top:2px;">${x.shop?('<strong>'+x.shop+'</strong> · '):''}${teljesUrl}</div>
+          <a class="btn small" style="margin-top:6px;display:inline-block;" href="${teljesUrl}" target="_blank" rel="noopener">🔗 Megnyitás</a>
+        </div>
+        <div style="text-align:right;">
+          <div class="ar-ft">${leg.ar!=null? leg.ar.toLocaleString('hu-HU')+' Ft':'—'}</div>
+          <div style="font-size:11px;color:#666;">${leg.ido?new Date(leg.ido).toLocaleDateString('hu-HU'):''}</div>
+          ${valtozott?'<div style="font-size:11px;color:var(--piros);">⚡ árváltozás</div>':''}
+          <div style="font-size:11px;color:#888;">${x.idok.length} mérés</div>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+  if(!bejegyzesek.length) wrap.innerHTML='<div class="card">Nincs a keresésnek megfelelő gyűjtött termék.</div>';
+}
+document.getElementById('tarhaz-kereso').addEventListener('input',()=>tarhazRendre());
+
 
 // Új termék hozzáadása – mentés a szerver felé (a run.js betölti).
 document.getElementById('form-uj-termek').addEventListener('submit', async (ev)=>{

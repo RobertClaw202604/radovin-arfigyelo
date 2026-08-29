@@ -1,22 +1,22 @@
 {
-  "futas_id": 1788011994498,
-  "ido": "2026-08-29T13:59:54.498Z",
+  "futas_id": 1788014477773,
+  "ido": "2026-08-29T14:41:17.773Z",
   "termekekszam": 13,
   "eredmenyek": [
     {
-      "futas_id": 1788011994498,
-      "ido": "2026-08-29T13:59:54.498Z",
+      "futas_id": 1788014477773,
+      "ido": "2026-08-29T14:41:17.773Z",
       "termek_id": "kreinbacher-brut",
       "termek_nev": "Kreinbacher Brut pezsgő",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
+        "darab": 3,
         "min": 8290,
-        "max": 8490,
-        "median": 8390,
+        "max": 8990,
+        "median": 8490,
         "radovin_ar": 8290,
         "rank": 1,
-        "rank_jelolo": "1/2"
+        "rank_jelolo": "1/3"
       },
       "arak": [
         {
@@ -27,6 +27,16 @@
           "nev": "Kreinbacher Brut Classic 12% 0",
           "url": "https://radovin.hu/termek/kreinbacher-brut-classic/",
           "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": 8990,
+          "nev": "Kreinbacher Pezsgő Brut Classic (V)",
+          "url": "https://borhalo.hu/termek/kreinbacher-pezsgo-brut-classic-v",
+          "megjegyzes": "via Borháló katalógus (GA4)",
           "hiba": null
         },
         {
@@ -55,7 +65,7 @@
           "tipus": "konkurencia",
           "ar": 8490,
           "nev": "Kreinbacher Birtok -  Brut Nature",
-          "url": "https://kreinbacher-birtok-brut-nature",
+          "url": "https://www.borvilag.hu/products/kreinbacher-birtok-brut-nature",
           "megjegyzes": "via katalóguslista (shopify)",
           "hiba": null
         },
@@ -70,15 +80,11 @@
           "hiba": "nincs_pontos_talalat"
         }
       ],
+      "gyujtes_szam": 3166,
       "konkurens_allapot": [
         {
           "shop": "veritas",
           "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borhalo",
-          "nev": "Borháló",
           "statusz": "pending"
         },
         {
@@ -99,8 +105,8 @@
       ]
     },
     {
-      "futas_id": 1788011994498,
-      "ido": "2026-08-29T13:59:54.498Z",
+      "futas_id": 1788014477773,
+      "ido": "2026-08-29T14:41:17.773Z",
       "termek_id": "szaszi-csokaszolo-2025",
       "termek_nev": "Szászi Csókaszőlő",
       "meret": "0,75 l",
@@ -125,6 +131,16 @@
           "hiba": "nincs_talalat"
         },
         {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "italpark",
           "shop_nev": "Italpark",
           "tipus": "konkurencia",
@@ -165,15 +181,11 @@
           "hiba": "nincs_pontos_talalat"
         }
       ],
+      "gyujtes_szam": 4,
       "konkurens_allapot": [
         {
           "shop": "veritas",
           "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borhalo",
-          "nev": "Borháló",
           "statusz": "pending"
         },
         {
@@ -194,8 +206,8 @@
       ]
     },
     {
-      "futas_id": 1788011994498,
-      "ido": "2026-08-29T13:59:54.498Z",
+      "futas_id": 1788014477773,
+      "ido": "2026-08-29T14:41:17.773Z",
       "termek_id": "jakab-pinot-nyari",
       "termek_nev": "Jakab Pinot Noir 'Easy'",
       "meret": "0,75 l",
@@ -220,6 +232,16 @@
           "hiba": null
         },
         {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "italpark",
           "shop_nev": "Italpark",
           "tipus": "konkurencia",
@@ -260,15 +282,11 @@
           "hiba": "nincs_pontos_talalat"
         }
       ],
+      "gyujtes_szam": 1,
       "konkurens_allapot": [
         {
           "shop": "veritas",
           "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borhalo",
-          "nev": "Borháló",
           "statusz": "pending"
         },
         {
@@ -289,8 +307,8 @@
       ]
     },
     {
-      "futas_id": 1788011994498,
-      "ido": "2026-08-29T13:59:54.498Z",
+      "futas_id": 1788014477773,
+      "ido": "2026-08-29T14:41:17.773Z",
       "termek_id": "kislaki-sauvignon-blanc",
       "termek_nev": "Kislaki Jánoshegy Sauvignon Blanc",
       "meret": "0,75 l",
@@ -315,6 +333,16 @@
           "hiba": null
         },
         {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "italpark",
           "shop_nev": "Italpark",
           "tipus": "konkurencia",
@@ -355,15 +383,11 @@
           "hiba": "nincs_pontos_talalat"
         }
       ],
+      "gyujtes_szam": 1,
       "konkurens_allapot": [
         {
           "shop": "veritas",
           "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borhalo",
-          "nev": "Borháló",
           "statusz": "pending"
         },
         {
@@ -384,19 +408,19 @@
       ]
     },
     {
-      "futas_id": 1788011994498,
-      "ido": "2026-08-29T13:59:54.498Z",
+      "futas_id": 1788014477773,
+      "ido": "2026-08-29T14:41:17.773Z",
       "termek_id": "tokaji-aszu-5puttonyos",
       "termek_nev": "Tokaji Aszú 5 puttonyos",
       "meret": "0,5 l",
       "pozicio": {
-        "darab": 2,
+        "darab": 3,
         "min": 7800,
-        "max": 13590,
-        "median": 10695,
+        "max": 14990,
+        "median": 13590,
         "radovin_ar": 13590,
         "rank": 2,
-        "rank_jelolo": "2/2"
+        "rank_jelolo": "2/3"
       },
       "arak": [
         {
@@ -407,6 +431,16 @@
           "nev": "MARIASY Aszú 5 puttonyos 2019 11% Tokaji 0",
           "url": "https://radovin.hu/termek/mariasy-aszu-5-puttonyos-2019-11-tokaji-05l/",
           "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": 14990,
+          "nev": "Béres Tokaji Aszú 5 puttonyos 2014",
+          "url": "https://borhalo.hu/termek/beres-tokaji-aszu-5-puttonyos-2014",
+          "megjegyzes": "via Borháló katalógus (GA4)",
           "hiba": null
         },
         {
@@ -435,7 +469,7 @@
           "tipus": "konkurencia",
           "ar": 7800,
           "nev": "Babits pincészet - Tokaji Aszú 5 puttonyos",
-          "url": "https://babits-pinceszet-tokaji-aszu-5-puttonyos",
+          "url": "https://www.borvilag.hu/products/babits-pinceszet-tokaji-aszu-5-puttonyos",
           "megjegyzes": "via katalóguslista (shopify)",
           "hiba": null
         },
@@ -450,15 +484,11 @@
           "hiba": "nincs_pontos_talalat"
         }
       ],
+      "gyujtes_szam": 7,
       "konkurens_allapot": [
         {
           "shop": "veritas",
           "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borhalo",
-          "nev": "Borháló",
           "statusz": "pending"
         },
         {
@@ -479,8 +509,8 @@
       ]
     },
     {
-      "futas_id": 1788011994498,
-      "ido": "2026-08-29T13:59:54.498Z",
+      "futas_id": 1788014477773,
+      "ido": "2026-08-29T14:41:17.773Z",
       "termek_id": "palinka-fenegyerek-vadcseresznye",
       "termek_nev": "Fenegyerek Vadcseresznye pálinka",
       "meret": "0,35 l",
@@ -505,6 +535,16 @@
           "hiba": null
         },
         {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "italpark",
           "shop_nev": "Italpark",
           "tipus": "konkurencia",
@@ -545,15 +585,11 @@
           "hiba": "nincs_pontos_talalat"
         }
       ],
+      "gyujtes_szam": 1,
       "konkurens_allapot": [
         {
           "shop": "veritas",
           "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borhalo",
-          "nev": "Borháló",
           "statusz": "pending"
         },
         {
@@ -574,8 +610,8 @@
       ]
     },
     {
-      "futas_id": 1788011994498,
-      "ido": "2026-08-29T13:59:54.498Z",
+      "futas_id": 1788014477773,
+      "ido": "2026-08-29T14:41:17.773Z",
       "termek_id": "palinka-zimek-szilva",
       "termek_nev": "Zimek hordós szilva pálinka",
       "meret": "0,5 l",
@@ -600,6 +636,16 @@
           "hiba": null
         },
         {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "italpark",
           "shop_nev": "Italpark",
           "tipus": "konkurencia",
@@ -640,15 +686,11 @@
           "hiba": "nincs_pontos_talalat"
         }
       ],
+      "gyujtes_szam": 1,
       "konkurens_allapot": [
         {
           "shop": "veritas",
           "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borhalo",
-          "nev": "Borháló",
           "statusz": "pending"
         },
         {
@@ -669,8 +711,8 @@
       ]
     },
     {
-      "futas_id": 1788011994498,
-      "ido": "2026-08-29T13:59:54.498Z",
+      "futas_id": 1788014477773,
+      "ido": "2026-08-29T14:41:17.773Z",
       "termek_id": "palinka-zimek-meggy",
       "termek_nev": "Zimek meggy pálinka",
       "meret": "0,5 l",
@@ -695,6 +737,16 @@
           "hiba": null
         },
         {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "italpark",
           "shop_nev": "Italpark",
           "tipus": "konkurencia",
@@ -735,15 +787,11 @@
           "hiba": "nincs_pontos_talalat"
         }
       ],
+      "gyujtes_szam": 1,
       "konkurens_allapot": [
         {
           "shop": "veritas",
           "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borhalo",
-          "nev": "Borháló",
           "statusz": "pending"
         },
         {
@@ -764,8 +812,8 @@
       ]
     },
     {
-      "futas_id": 1788011994498,
-      "ido": "2026-08-29T13:59:54.498Z",
+      "futas_id": 1788014477773,
+      "ido": "2026-08-29T14:41:17.773Z",
       "termek_id": "palinka-zimek-birs",
       "termek_nev": "Zimek birs pálinka",
       "meret": "0,5 l",
@@ -790,6 +838,16 @@
           "hiba": null
         },
         {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "italpark",
           "shop_nev": "Italpark",
           "tipus": "konkurencia",
@@ -830,15 +888,11 @@
           "hiba": "nincs_pontos_talalat"
         }
       ],
+      "gyujtes_szam": 1,
       "konkurens_allapot": [
         {
           "shop": "veritas",
           "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borhalo",
-          "nev": "Borháló",
           "statusz": "pending"
         },
         {
@@ -859,8 +913,8 @@
       ]
     },
     {
-      "futas_id": 1788011994498,
-      "ido": "2026-08-29T13:59:54.498Z",
+      "futas_id": 1788014477773,
+      "ido": "2026-08-29T14:41:17.773Z",
       "termek_id": "vilmos-kortepalinka",
       "termek_nev": "Zwack Vilmos körtepálinka",
       "meret": "0,5 l",
@@ -885,6 +939,16 @@
           "hiba": "nincs_talalat"
         },
         {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "italpark",
           "shop_nev": "Italpark",
           "tipus": "konkurencia",
@@ -925,15 +989,11 @@
           "hiba": "nincs_pontos_talalat"
         }
       ],
+      "gyujtes_szam": 2,
       "konkurens_allapot": [
         {
           "shop": "veritas",
           "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borhalo",
-          "nev": "Borháló",
           "statusz": "pending"
         },
         {
@@ -954,8 +1014,8 @@
       ]
     },
     {
-      "futas_id": 1788011994498,
-      "ido": "2026-08-29T13:59:54.498Z",
+      "futas_id": 1788014477773,
+      "ido": "2026-08-29T14:41:17.773Z",
       "termek_id": "la-spinetta-sangiovese",
       "termek_nev": "La Spinetta Il Nero di Casanova Sangiovese",
       "meret": "0,75 l",
@@ -980,6 +1040,16 @@
           "hiba": null
         },
         {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "italpark",
           "shop_nev": "Italpark",
           "tipus": "konkurencia",
@@ -1020,15 +1090,11 @@
           "hiba": "nincs_pontos_talalat"
         }
       ],
+      "gyujtes_szam": 1,
       "konkurens_allapot": [
         {
           "shop": "veritas",
           "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borhalo",
-          "nev": "Borháló",
           "statusz": "pending"
         },
         {
@@ -1049,8 +1115,8 @@
       ]
     },
     {
-      "futas_id": 1788011994498,
-      "ido": "2026-08-29T13:59:54.498Z",
+      "futas_id": 1788014477773,
+      "ido": "2026-08-29T14:41:17.773Z",
       "termek_id": "jw-black-1l",
       "termek_nev": "Johnnie Walker Black Label whisky",
       "meret": "1 l",
@@ -1073,6 +1139,16 @@
           "url": "https://radovin.hu/termek/johnnie-walker-black-triple-cask-40-1l/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "italpark",
@@ -1100,7 +1176,7 @@
           "tipus": "konkurencia",
           "ar": 35000,
           "nev": "Johnnie Walker - Black Label Triple Cask Edition Blended Scotch Whisky",
-          "url": "https://johnnie-walker-18-years-the-ultimate-blended-scotch-whisky-masolat",
+          "url": "https://www.borvilag.hu/products/johnnie-walker-18-years-the-ultimate-blended-scotch-whisky-masolat",
           "megjegyzes": "via katalóguslista (shopify)",
           "hiba": null
         },
@@ -1115,15 +1191,11 @@
           "hiba": "nincs_pontos_talalat"
         }
       ],
+      "gyujtes_szam": 2,
       "konkurens_allapot": [
         {
           "shop": "veritas",
           "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borhalo",
-          "nev": "Borháló",
           "statusz": "pending"
         },
         {
@@ -1144,8 +1216,8 @@
       ]
     },
     {
-      "futas_id": 1788011994498,
-      "ido": "2026-08-29T13:59:54.498Z",
+      "futas_id": 1788014477773,
+      "ido": "2026-08-29T14:41:17.773Z",
       "termek_id": "monkey47-gin-05l",
       "termek_nev": "Monkey 47 Dry Gin",
       "meret": "0,5 l",
@@ -1168,6 +1240,16 @@
           "url": "https://radovin.hu/termek/monkey-47-dry-gin-47-05l/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "italpark",
@@ -1195,7 +1277,7 @@
           "tipus": "konkurencia",
           "ar": 17850,
           "nev": "Monkey 47 - Schwarzwald Dry Gin",
-          "url": "https://malfy-rosa-gin-masolat",
+          "url": "https://www.borvilag.hu/products/malfy-rosa-gin-masolat",
           "megjegyzes": "via katalóguslista (shopify)",
           "hiba": null
         },
@@ -1210,15 +1292,11 @@
           "hiba": "nincs_pontos_talalat"
         }
       ],
+      "gyujtes_szam": 2,
       "konkurens_allapot": [
         {
           "shop": "veritas",
           "nev": "Veritas Borkereskedés",
-          "statusz": "pending"
-        },
-        {
-          "shop": "borhalo",
-          "nev": "Borháló",
           "statusz": "pending"
         },
         {

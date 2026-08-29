@@ -8,6 +8,7 @@ const fs = require('fs');
 const path = require('path');
 const scraper = require('./lib/scraper.js');
 const { pozicio } = require('./lib/pozicio.js');
+const termekgyujto = require('./lib/termekgyujto.js');
 
 const DIR = __dirname;
 const cfg = JSON.parse(fs.readFileSync(path.join(DIR, 'config/shopok.json'), 'utf8'));
@@ -26,11 +27,46 @@ const ELOZMENY = path.join(DATA_DIR, 'elozmeny.json');
   const activeShops = cfg.shopok.filter((s) => s.statusz === 'active');
   const pendingShops = cfg.shopok.filter((s) => s.statusz === 'pending' || s.statusz === 'blocked');
   const eredmenyek = [];
+  // Katalógusos shopok teljes listájának futás-szintű dedup-ja (shoponként egyszer),
+  // hogy a JSONL ne duplikálódjon 13×-osan ugyanazzal a shop-katalógussal.
+  const katalogusosCachel = new Map();
 
   for (const termek of termekek) {
     const termekArak = [];
+    const gyujtendo = []; // termékgyűjtő: minden élő talalat (URL-kulcsú idősorba)
     for (const shop of activeShops) {
       const r = await scraper.run(termek, shop, cfg);
+
+      // TERMÉKGYŰJTŐ (Szabolcs): minden konkrét, élő talalat mentése – a katalógus-
+      // egyezéstől FÜGGETLENÜL (akkor is, ha nem párosítható). A link azonos marad,
+      // ha az ár változik is; a kulcs az URL. Ez a crawl/matcher logikát NEM érinti.
+      // A katalógusos shopok teljes listáját SHOPONKÉNT egyszer mentjük (nem tételenként,
+      // hogy ne duplikálódjon a JSONL), a tételhez tartozó találatot pedig mindig.
+      const forras = shop.tipus === 'sajat' ? 'radovin' : 'konkurencia';
+      if (r && Array.isArray(r.talalatok)) {
+        const katalogusos = ['borhalo', 'katlistas', 'shopify', 'woocommerce-api'].includes(shop.adapter);
+        const marVolt = katalogusosCachel.get(shop.id) === true;
+        for (const t of r.talalatok) {
+          if (!(t && t.url && t.ar != null)) continue;
+          // Katalógusos shop: teljes listát csak az első érintkezésnél mentjük,
+          // utána már csak a tételhez párosuló legjobb találatot (elkerüljük a
+          // 13× duplikációt a JSONL-ben).
+          if (katalogusos) {
+            if (marVolt && !(r.talalat && r.talalat.url === t.url)) continue;
+          }
+          gyujtendo.push({
+            url: t.url,
+            nev: t.nev || null,
+            ar: t.ar,
+            shop: shop.id,
+            termek_id: termek.id,
+            tipus: forras,
+            megjegyzes: 'aktív találat (' + (shop.adapter || '') + ')',
+          });
+        }
+        if (katalogusos) katalogusosCachel.set(shop.id, true);
+      }
+
       if (r && r.talalat && r.talalat.ar != null) {
         termekArak.push({
           shop: shop.id,
@@ -59,6 +95,10 @@ const ELOZMENY = path.join(DATA_DIR, 'elozmeny.json');
     // A pozícióba csak az active (validált) árak kerülnek. A pending/blocked
     // szhopok külön, „fejlesztés alatt” jelzéssel szerepelnek, nem számolnak bele.
     const p = pozicio(termekArak);
+
+    // Termékgyűjtő: minden élő, konkrét talalat URL-kulcsú idősorba mentése.
+    const gyujtesSzam = termekgyujto.mentes(gyujtendo) || 0;
+
     const konkurensAllapot = pendingShops.map((s) => ({
       shop: s.id,
       nev: s.nev,
@@ -80,6 +120,7 @@ const ELOZMENY = path.join(DATA_DIR, 'elozmeny.json');
         rank_jelolo: p.rank_jelolo,
       },
       arak: termekArak,
+      gyujtes_szam: gyujtesSzam,
       konkurens_allapot: konkurensAllapot,
     };
     eredmenyek.push(sor);

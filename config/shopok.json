@@ -33,12 +33,13 @@
       "id": "borhalo",
       "nev": "Borháló",
       "tipus": "konkurencia",
-      "statusz": "pending",
-      "base_url": "https://www.borhalo.hu",
-      "kereso_url": "https://www.borhalo.hu/?s={q}",
-      "adapter": "html-simon",
-      "kesleltetes_ms": 900,
-      "megjegyzes": "JS-renderelt; headless + valós selectorok kellenek."
+      "statusz": "active",
+      "base_url": "https://borhalo.hu",
+      "adapter": "borhalo",
+      "kesleltetes_ms": 0,
+      "kategoria_slugek": ["borok-2", "pezsgok-6", "parlatok-8"],
+      "kategoria_max_lap": 12,
+      "megjegyzes": "Egyedi webshop-motor. A terméknév+ár a GA4 dataLayer JSON-ben van a nyers HTML-ben (item_name + price), `termekeink/{kat}?limit=100&page=N` lapozással, headless NÉLKÜL. Fontos: base_url www NÉLKÜL (www-ről a pezsgők/párlatok 301). A borok (~971), pezsgők (~290), párlatok (~21) kategóriákat lapozza a szigorú matcherhez. A Johnnie/Monkey whisky/gin NINCS a kínálatban; a Kreinbacher a pezsgőkben van."
     },
     {
       "id": "italpark",

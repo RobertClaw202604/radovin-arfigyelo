@@ -36,23 +36,17 @@ node server.js   # webes megjelenítő: http://localhost:4300
    a teljes katalógust nyilvános JSON-endpointról húzza – Shopify `/products.json` (Borvilág),
    WooCommerce `/wp-json/wc/store/products` (Borpiac) – és a szigorú matcherrel jelöli a legjobb
    találatot. **Headless NÉLKÜL** megbízható, pontos.
-3. **Headless (böngészős)** (`headless` adapter, Puppeteer-core + a rendszer Chrome-ja): a
-   JS-renderelt/AJAX-os shopokhoz (Italpark, Veritas, Borháló, Bortársaság), amelyek sima GET-re
-   nem adnak megbízható árat. A headless adapter **méret-tudatos**: ha a találat kiszerelése eltér
-   a katalógus-tételétől (pl. a Radovin 1l-es vs az Italpark 0,7l-es Johnnie Walker), a találatot
-   elutasítja (`kiszereles_elteter`), így **soha nem ad hamis / eltérő kiszerelésű** összehasonlítást.
-   A `kategoria_url` (márka-alapú kategóriaoldal) használatakor először olcsó GET-ellenőrzéssel
-   kiszűri a nem létező kategóriákat (nem indít böngészőt hiába).
+4. **Borháló katalógus** (`borhalo` adapter, headless NÉLKÜL): a borhalo.hu egyedi webshop-motorja a
+   terméknevet+árat a **GA4 dataLayer JSON-jében** adja a nyers HTML-ben (`item_name` + `price`).
+   A `termekeink/{kat}?limit=100&page=N` kategórialapok sima GET-tel kinyerhetők (www nélküli
+   base_url, mert a www-ről a pezsgők/párlatok 301). A borok (~971), pezsgők (~290), párlatok (~21)
+   kategóriákat lapozza a szigorú matcherhez. A katalógus futásonként egyszer töltődik le (cache).
 
-**Jelenleg éles, pontos shopok:** Radovin (saját), Winehub, Borvilág, Borpiac, **Italpark (headless)**.
-**Fejlesztés alatt:** Veritas, Borháló, Benebor, Borbáró (JS/robotvédett).
-**Bot-védett:** Bortársaság.
-
-> Az Italpark headless-szel aktív, de a jelenlegi katalógus tételeihez **nincs valódi (azonos
-> kiszerelésű) Italpark-árazás** – a Johnnie Walker Black a Radovinnál 1l, az Italparkon 0,7l
-> (eltérő termék), a többi tétel Radovin-specifikus. A rendszer ezt **becsületesen „nincs adat“-ként**
-> jelzi (nem hamis árat), és amint olyan tétel kerül be, amely az Italparkon azonos kiszerelésben
-> kapható, automatikusan élesen összehasonlítja.
+**Jelenleg éles, pontos shopok:** Radovin (saját), Winehub, Borvilág, Borpiac, Italpark (headless),
+**Borháló**.
+**Fejlesztés alatt:** Veritas, Benebor, Borbáró (JS/robotvédett).
+**Bot-védett:** Bortársaság (IP-szintű blokk desktop-UA-val; mobil-UA-val a szerver átengedi, de a
+terméktartalom JS-renderelt és márka-filter interakciót igényel → külön böngésző-automatizálási munka).
 
 **A párosítás szigorú**: a versenytársi találat csak akkor számít, ha a márka, a
 kiszerelés (liter) és adott esetben a puttony-szám is egyezik. A „generikus“ márka (pl.
@@ -64,6 +58,20 @@ kiszerelés (liter) és adott esetben a puttony-szám is egyezik. A „generikus
 - `data/arak.jsonl` – nyers, idősoros áradat (minden futás)
 - `data/legutobbi.json` – a legutóbbi futás összesítése (webes nézet)
 - `data/elozmeny.json` – termékenkénti előzmény-index
+
+## 📦 Terméktárház (termékgyűjtő)
+A rendszer **minden konkrét, megtalált terméket** elment – név + weblink + ár + dátum –
+**akkor is, ha nem párosítható** a katalógus egyik tételéhez sem.
+
+- `data/termekek.jsonl` – append-only idősor; **az URL a kulcs** (a link azonos marad,
+  ha az ár változik is, és ahhoz az URL-hez egy újabb áridőpont fűződik)
+- `data/termekek.json` – URL-alapú index az aktuális ársorozatról (a webes „📦 Terméktárház
+  fülön”)
+  – 3000+ gyűjtött konkrét termék (Borvilág, Borháló, Winehub, Borpiac, Radovin)
+
+Ez a crawl/matcher logikát **nem** befolyásolja – csak egy kötelező mentési réteg, amely a
+jövőbeni párosításhoz is használható. A teljes shop-katalógusok shoponként egyszer kerülnek
+be (nincs tételenkénti duplikáció).
 
 ## Megjegyzés
 Az árakhoz a **Radovin WooCommerce JSON-LD**-je ad pontos adatot (stabil).
