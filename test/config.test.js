@@ -75,3 +75,24 @@ test('érvényes azonositas blokk átmegy', () => {
   const r = configModul.ellenorizTermekek(jo);
   assert.equal(r.length, 1);
 });
+
+// --- Commit 3: azonositas-migráció integritása a valódi konfigon ---
+// Minden termék rendelkezik érvényes azonositas + shop_azonositas blokkal,
+// az evjarat_statusz az engedélyezett halmazból való, és a shop_azonositas
+// legalább a radovin referencia-shopot tartalmazza.
+test('Commit 3: minden termék rendelkezik azonositas + shop_azonositas-tal (46/46)', () => {
+  const r = configModul.betoltEgesz();
+  const ok = configModul.EVJARAT_STATUSZOK;
+  for (const t of r.termekek) {
+    assert.ok(t.azonositas, `${t.id}: hiányzik azonositas`);
+    assert.ok(Array.isArray(t.azonositas.marka_aliasok) && t.azonositas.marka_aliasok.length >= 1, `${t.id}: nincs marka_aliasok`);
+    assert.ok(typeof t.azonositas.tetel === 'string' && t.azonositas.tetel.length >= 1, `${t.id}: nincs tetel`);
+    assert.ok(ok.includes(t.azonositas.evjarat_statusz), `${t.id}: érvénytelen evjarat_statusz=${t.azonositas.evjarat_statusz}`);
+    assert.ok(typeof t.azonositas.kiszereles_ml === 'number' && t.azonositas.kiszereles_ml > 0, `${t.id}: nincs érvényes kiszereles_ml`);
+    assert.ok(t.shop_azonositas && t.shop_azonositas.radovin, `${t.id}: hiányzik a radovin referencia a shop_azonositas-ban`);
+    const rad = t.shop_azonositas.radovin;
+    assert.ok(Array.isArray(rad.elfogadott_tetel_aliasok) && rad.elfogadott_tetel_aliasok.length >= 1, `${t.id}: nincs elfogadott_tetel_aliasok a radovinnál`);
+    assert.ok(typeof rad.ellenorzott_nev === 'string' && rad.ellenorzott_nev.length >= 1, `${t.id}: nincs ellenorzott_nev a radovinnál`);
+  }
+});
+
