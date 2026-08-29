@@ -94,6 +94,26 @@
       "adapter": "woocommerce",
       "kesleltetes_ms": 700,
       "megjegyzes": "WooCommerce JSON-LD, pontos. A Radovinhoz hasonló adapterrel."
+    },
+    {
+      "id": "borvilag",
+      "nev": "Borvilág",
+      "tipus": "konkurencia",
+      "statusz": "active",
+      "base_url": "https://www.borvilag.hu",
+      "adapter": "shopify",
+      "kesleltetes_ms": 0,
+      "megjegyzes": "Shopify. Nyilvános /products.json API, pontos árakkal, headless NÉLKÜL. A teljes katalógus húzva, szigorú matcherrel szelektál."
+    },
+    {
+      "id": "borpiac",
+      "nev": "Borpiac",
+      "tipus": "konkurencia",
+      "statusz": "active",
+      "base_url": "https://www.borpiac.hu",
+      "adapter": "woocommerce-api",
+      "kesleltetes_ms": 0,
+      "megjegyzes": "WooCommerce. Nyilvános /wp-json/wc/store/products API, pontos árakkal, headless NÉLKÜL. Teljes katalógus + szigorú matcher."
     }
   ]
 }

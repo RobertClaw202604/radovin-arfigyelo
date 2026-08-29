@@ -1,22 +1,22 @@
 {
-  "futas_id": 1788010026329,
-  "ido": "2026-08-29T13:27:06.329Z",
+  "futas_id": 1788010612263,
+  "ido": "2026-08-29T13:36:52.263Z",
   "termekekszam": 11,
   "eredmenyek": [
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "termek_id": "kreinbacher-brut",
       "termek_nev": "Kreinbacher Brut pezsgő",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
+        "darab": 3,
         "min": 8290,
         "max": 9990,
-        "median": 9140,
+        "median": 8490,
         "radovin_ar": 8290,
         "rank": 1,
-        "rank_jelolo": "1/2"
+        "rank_jelolo": "1/3"
       },
       "arak": [
         {
@@ -38,6 +38,26 @@
           "url": "https://winehub.hu/termek/kreinbacher-prestige-brut-02xxhukrei0004/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": 8490,
+          "nev": "Kreinbacher Birtok -  Brut Nature",
+          "url": "https://kreinbacher-birtok-brut-nature",
+          "megjegyzes": "via katalóguslista (shopify)",
+          "hiba": null
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -74,30 +94,30 @@
       ]
     },
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "termek_id": "szaszi-csokaszolo-2025",
       "termek_nev": "Szászi Csókaszőlő",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 1,
-        "min": 8590,
-        "max": 8590,
-        "median": 8590,
-        "radovin_ar": 8590,
-        "rank": 1,
-        "rank_jelolo": "1/1"
+        "darab": 0,
+        "min": null,
+        "max": null,
+        "median": null,
+        "radovin_ar": null,
+        "rank": null,
+        "rank_jelolo": "—"
       },
       "arak": [
         {
           "shop": "radovin",
           "shop_nev": "Radovin Borkereskedés",
           "tipus": "radovin",
-          "ar": 8590,
-          "nev": "Szászi Csókaszőlő 2025 13% 0",
-          "url": "https://radovin.hu/termek/szaszi-csokaszolo-2025-13-075l-masolat-2/",
+          "ar": null,
+          "nev": null,
+          "url": null,
           "megjegyzes": null,
-          "hiba": null
+          "hiba": "nincs_talalat"
         },
         {
           "shop": "winehub",
@@ -108,6 +128,26 @@
           "url": null,
           "megjegyzes": null,
           "hiba": "nincs_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -144,8 +184,8 @@
       ]
     },
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "termek_id": "jakab-pinot-nyari",
       "termek_nev": "Jakab Pinot Noir 'Easy'",
       "meret": "0,75 l",
@@ -178,6 +218,26 @@
           "url": null,
           "megjegyzes": null,
           "hiba": "nincs_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -214,8 +274,8 @@
       ]
     },
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "termek_id": "kislaki-sauvignon-blanc",
       "termek_nev": "Kislaki Jánoshegy Sauvignon Blanc",
       "meret": "0,75 l",
@@ -248,6 +308,26 @@
           "url": null,
           "megjegyzes": null,
           "hiba": "nincs_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -284,40 +364,60 @@
       ]
     },
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "termek_id": "tokaji-aszu-5puttonyos",
       "termek_nev": "Tokaji Aszú 5 puttonyos",
       "meret": "0,5 l",
       "pozicio": {
-        "darab": 0,
-        "min": null,
-        "max": null,
-        "median": null,
-        "radovin_ar": null,
-        "rank": null,
-        "rank_jelolo": "—"
+        "darab": 3,
+        "min": 7800,
+        "max": 13590,
+        "median": 8565,
+        "radovin_ar": 13590,
+        "rank": 3,
+        "rank_jelolo": "3/3"
       },
       "arak": [
         {
           "shop": "radovin",
           "shop_nev": "Radovin Borkereskedés",
           "tipus": "radovin",
-          "ar": null,
-          "nev": null,
-          "url": null,
+          "ar": 13590,
+          "nev": "MARIASY Aszú 5 puttonyos 2019 11% Tokaji 0",
+          "url": "https://radovin.hu/termek/mariasy-aszu-5-puttonyos-2019-11-tokaji-05l/",
           "megjegyzes": null,
-          "hiba": "nincs_talalat"
+          "hiba": null
         },
         {
           "shop": "winehub",
           "shop_nev": "Winehub",
           "tipus": "konkurencia",
+          "ar": 8565,
+          "nev": "Grand Tokaj Classic Selection Tokaji Aszú 5 puttonyos 2019",
+          "url": "https://winehub.hu/termek/grand-tokaj-classic-selection-tokaji-aszu-5-puttonyos-2019-0119hugran0032/",
+          "megjegyzes": null,
+          "hiba": null
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": 7800,
+          "nev": "Babits pincészet - Tokaji Aszú 5 puttonyos",
+          "url": "https://babits-pinceszet-tokaji-aszu-5-puttonyos",
+          "megjegyzes": "via katalóguslista (shopify)",
+          "hiba": null
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
           "ar": null,
           "nev": null,
           "url": null,
           "megjegyzes": null,
-          "hiba": "nincs_talalat"
+          "hiba": "nincs_pontos_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -354,8 +454,8 @@
       ]
     },
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "termek_id": "palinka-fenegyerek-vadcseresznye",
       "termek_nev": "Fenegyerek Vadcseresznye pálinka",
       "meret": "0,35 l",
@@ -388,6 +488,26 @@
           "url": null,
           "megjegyzes": null,
           "hiba": "nincs_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -424,8 +544,8 @@
       ]
     },
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "termek_id": "palinka-zimek-szilva",
       "termek_nev": "Zimek hordós szilva pálinka",
       "meret": "0,5 l",
@@ -458,6 +578,26 @@
           "url": null,
           "megjegyzes": null,
           "hiba": "nincs_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -494,8 +634,8 @@
       ]
     },
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "termek_id": "palinka-zimek-meggy",
       "termek_nev": "Zimek meggy pálinka",
       "meret": "0,5 l",
@@ -528,6 +668,26 @@
           "url": null,
           "megjegyzes": null,
           "hiba": "nincs_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -564,8 +724,8 @@
       ]
     },
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "termek_id": "palinka-zimek-birs",
       "termek_nev": "Zimek birs pálinka",
       "meret": "0,5 l",
@@ -598,6 +758,26 @@
           "url": null,
           "megjegyzes": null,
           "hiba": "nincs_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "katalógus_hiba:HTTP 429"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -634,8 +814,8 @@
       ]
     },
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "termek_id": "vilmos-kortepalinka",
       "termek_nev": "Zwack Vilmos körtepálinka",
       "meret": "0,5 l",
@@ -668,6 +848,26 @@
           "url": null,
           "megjegyzes": null,
           "hiba": "nincs_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "katalógus_hiba:HTTP 429"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ],
       "konkurens_allapot": [
@@ -704,8 +904,8 @@
       ]
     },
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "termek_id": "la-spinetta-sangiovese",
       "termek_nev": "La Spinetta Il Nero di Casanova Sangiovese",
       "meret": "0,75 l",
@@ -738,6 +938,26 @@
           "url": null,
           "megjegyzes": null,
           "hiba": "nincs_talalat"
+        },
+        {
+          "shop": "borvilag",
+          "shop_nev": "Borvilág",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "katalógus_hiba:HTTP 429"
+        },
+        {
+          "shop": "borpiac",
+          "shop_nev": "Borpiac",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ],
       "konkurens_allapot": [

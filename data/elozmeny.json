@@ -1,26 +1,26 @@
 {
   "kreinbacher-brut": [
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
-      "rank": "1/2",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
+      "rank": "1/3",
       "radovin_ar": 8290,
-      "median": 9140
+      "median": 8490
     }
   ],
   "szaszi-csokaszolo-2025": [
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
-      "rank": "1/1",
-      "radovin_ar": 8590,
-      "median": 8590
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
+      "rank": "—",
+      "radovin_ar": null,
+      "median": null
     }
   ],
   "jakab-pinot-nyari": [
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "rank": "1/1",
       "radovin_ar": 4790,
       "median": 4790
@@ -28,8 +28,8 @@
   ],
   "kislaki-sauvignon-blanc": [
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "rank": "1/1",
       "radovin_ar": 3790,
       "median": 3790
@@ -37,17 +37,17 @@
   ],
   "tokaji-aszu-5puttonyos": [
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
-      "rank": "—",
-      "radovin_ar": null,
-      "median": null
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
+      "rank": "3/3",
+      "radovin_ar": 13590,
+      "median": 8565
     }
   ],
   "palinka-fenegyerek-vadcseresznye": [
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "rank": "1/1",
       "radovin_ar": 23190,
       "median": 23190
@@ -55,8 +55,8 @@
   ],
   "palinka-zimek-szilva": [
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "rank": "1/1",
       "radovin_ar": 13990,
       "median": 13990
@@ -64,8 +64,8 @@
   ],
   "palinka-zimek-meggy": [
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "rank": "1/1",
       "radovin_ar": 12500,
       "median": 12500
@@ -73,8 +73,8 @@
   ],
   "palinka-zimek-birs": [
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "rank": "1/1",
       "radovin_ar": 14990,
       "median": 14990
@@ -82,8 +82,8 @@
   ],
   "vilmos-kortepalinka": [
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "rank": "—",
       "radovin_ar": null,
       "median": null
@@ -91,8 +91,8 @@
   ],
   "la-spinetta-sangiovese": [
     {
-      "futas_id": 1788010026329,
-      "ido": "2026-08-29T13:27:06.329Z",
+      "futas_id": 1788010612263,
+      "ido": "2026-08-29T13:36:52.263Z",
       "rank": "1/1",
       "radovin_ar": 7800,
       "median": 7800

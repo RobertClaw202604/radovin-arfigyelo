@@ -28,19 +28,27 @@ node server.js   # webes megjelenítő: http://localhost:4300
   - `active` = lekérve a futtatáskor, `pending` = adapter még fejlesztés alatt
   - A **Bortársaság** bot-védett, ehhez fejfeles böngésző + engedély kell, ezért `blocked`
 
-## Adapterek és jelenlegi lefedettség
-- **WooCommerce/JSON-LD** (`woocommerce` adapter): a Radovin és a Winehub pontosan,
-  headless nélkül. A keresőből termék-URL-t, a termékoldal JSON-LD `price` mezőjéből árat.
-- **Headless (böngészős)** (`headless` adapter, Puppeteer-core + a rendszer Chrome-ja):
-  a JS-renderelt/AJAX-os shopokhoz (Veritas, Italpark, Borháló, Bortársaság), amelyek
-  sima GET-re nem adnak megbízható árat. Jelenleg `pending` / validálás alatt; a
-  sima kereső-lista sok esetben robotvédett, ezért per-márka kategóriaoldalról érdemes
-  kinyerni.
+## Adapterek és jelenlegi lefedettség (repertoár)
+**Kinyerési módok, amelyek működnek és pontosak:**
+1. **WooCommerce JSON-LD** (`woocommerce` adapter): a Radovin és a Winehub pontosan,
+   headless nélkül. A keresőből termék-URL-t, a termékoldal JSON-LD `price` mezőjéből árat.
+2. **Katalóguslista-API** (`katlistas`/`shopify`/`woocommerce-api` adapter, `lib/katlistas.js`):
+   a teljes katalógust nyilvános JSON-endpointról húzza – Shopify `/products.json` (Borvilág),
+   WooCommerce `/wp-json/wc/store/products` (Borpiac) – és a szigorú matcherrel jelöli a legjobb
+   találatot. **Headless NÉLKÜL** megbízható, pontos.
+3. **Headless (böngészős)** (`headless` adapter, Puppeteer-core + a rendszer Chrome-ja): a
+   JS-renderelt/AJAX-os shopokhoz (Veritas, Italpark, Borháló, Bortársaság), amelyek sima GET-re
+   nem adnak megbízható árat. Jelenleg `pending` / validálás alatt.
+
+**Jelenleg éles, pontos shopok:** Radovin (saját), Winehub, Borvilág, Borpiac.
+**Fejlesztés alatt:** Veritas, Italpark, Borháló, Benebor, Borbáró (JS/robotvédett).
+**Bot-védett:** Bortársaság.
 
 **A párosítás szigorú**: a versenytársi találat csak akkor számít, ha a márka, a
-kiszerelés (liter) és adott esetben a puttony-szám is egyezik. Ha nincs pontos találat,
-**nem** adunk hamis árat — a tétel „nincs adat” jelzést kap. Ez elkerüli, hogy a pozíciót
-összekevert (pl. 5 vs 6 puttonyos, más márka) árak torzítsák.
+kiszerelés (liter) és adott esetben a puttony-szám is egyezik. A „generikus“ márka (pl.
+„generikus (Tokaj)“) azt jelenti, hogy bármely pincészet elfogadható (a típust/puttonyt
+így a radovin tétele pozíciójához mérjük). Ha nincs pontos találat, **nem** adunk hamis
+árat — a tétel „nincs adat” jelzést kap.
 
 ## Adatfájlok
 - `data/arak.jsonl` – nyers, idősoros áradat (minden futás)
