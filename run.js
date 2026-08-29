@@ -9,10 +9,18 @@ const path = require('path');
 const scraper = require('./lib/scraper.js');
 const { pozicio } = require('./lib/pozicio.js');
 const termekgyujto = require('./lib/termekgyujto.js');
+const configModul = require('./lib/runtime/config.js');
 
 const DIR = __dirname;
+
+// Commit 1 / P0: fail-fast konfig-validáció. Ha a shopok.json / termekek.json
+// érvénytelen (hibás mező, duplikált id, ismeretlen adapter active shopnál),
+// a futás NEM indul el – ahelyett, hogy hamis/hiányos összehasonlítást gyártana.
+const elozetes = configModul.betoltEgesz();
 const cfg = JSON.parse(fs.readFileSync(path.join(DIR, 'config/shopok.json'), 'utf8'));
-const termekek = JSON.parse(fs.readFileSync(path.join(DIR, 'config/termekek.json'), 'utf8')).termekek;
+// A validált, ellenőrzött listák – ezekkel dolgozunk (nem a nyers cfg-val).
+const shopok = elozetes.shopok;
+const termekek = elozetes.termekek;
 
 const DATA_DIR = path.join(DIR, 'data');
 if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -24,8 +32,8 @@ const ELOZMENY = path.join(DATA_DIR, 'elozmeny.json');
 (async () => {
   const futasId = Date.now();
   const futasIdeje = new Date(futasId).toISOString();
-  const activeShops = cfg.shopok.filter((s) => s.statusz === 'active');
-  const pendingShops = cfg.shopok.filter((s) => s.statusz === 'pending' || s.statusz === 'blocked');
+  const activeShops = shopok.filter((s) => s.statusz === 'active');
+  const pendingShops = shopok.filter((s) => s.statusz === 'pending' || s.statusz === 'blocked');
   const eredmenyek = [];
   // Katalógusos shopok teljes listájának futás-szintű dedup-ja (shoponként egyszer),
   // hogy a JSONL ne duplikálódjon 13×-osan ugyanazzal a shop-katalógussal.

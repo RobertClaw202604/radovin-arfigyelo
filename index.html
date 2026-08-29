@@ -12,12 +12,7 @@
   header h1{font-size:26px;letter-spacing:.5px;}
   header .meta{font-size:13px;color:#d9c09a;margin-top:6px;}
   .container{max-width:1200px;margin:0 auto;padding:24px 18px 60px;}
-  .toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px;}
-  .toolbar input[type=text]{flex:1;min-width:220px;padding:10px 12px;border:1px solid #d8c8a8;border-radius:6px;font-size:14px;}
-  .toolbar button,.btn{padding:10px 16px;border:none;border-radius:6px;background:var(--bor);color:#fff;font-size:14px;cursor:pointer;}
-  .toolbar button:hover,.btn:hover{background:var(--arany);}
-  .btn.small{padding:6px 10px;font-size:12px;}
-  .tab-row{display:flex;gap:6px;margin-bottom:16px;border-bottom:2px solid #e0d3bb;}
+  .tab-row{display:flex;gap:6px;margin-bottom:16px;border-bottom:2px solid #e0d3bb;flex-wrap:wrap;}
   .tab{padding:10px 16px;cursor:pointer;border:none;background:none;font-size:14px;color:#5d5d5d;border-bottom:3px solid transparent;}
   .tab.active{color:var(--bor);border-bottom-color:var(--bor);font-weight:600;}
   .panel{display:none;}
@@ -39,12 +34,12 @@
   .min{color:var(--zold);}
   .max{color:var(--piros);}
   .hiba{color:var(--piros);}
-  .chart-mini{width:100%;height:90px;display:flex;align-items:flex-end;gap:2px;margin-top:8px;}
-  .chart-mini .bar{flex:1;background:var(--bor);border-radius:2px 2px 0 0;position:relative;min-height:2px;}
-  .chart-mini .bar.latest{background:var(--arany);}
+  .status-chip{display:inline-block;padding:1px 8px;border-radius:10px;font-size:11px;font-weight:600;}
+  .status-ok{background:#e8f5e9;color:var(--zold);}
+  .status-na{background:#eee;color:#888;}
+  .status-hiba{background:#fdecea;color:var(--piros);}
+  .status-figya{background:#fff8e1;color:#8a6d00;}
   .legend{font-size:12px;color:#666;margin-top:4px;}
-  .admin-only{display:none;}
-  .admin-on .admin-only{display:block;}
   .note{font-size:12px;color:#777;font-style:italic;margin-top:6px;}
   footer{background:var(--bor-dark);color:#d9c09a;text-align:center;padding:18px;font-size:12px;}
 </style>
@@ -61,11 +56,10 @@
     <button class="tab active" data-panel="jelen">📊 Jelenlegi állapot</button>
     <button class="tab" data-panel="elozmeny">🕓 Árelőzmények</button>
     <button class="tab" data-panel="tarhaz">📦 Terméktárház</button>
-    <button class="tab admin-only" data-panel="admin">⚙️ Admin</button>
   </div>
 
-  <div class="toolbar admin-only">
-    <input type="text" id="kereso" placeholder="Keresés termékre…">
+  <div class="toolbar" id="kelcso" style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px;">
+    <input type="text" id="kereso" placeholder="Keresés termékre…" style="flex:1;min-width:220px;padding:10px 12px;border:1px solid #d8c8a8;border-radius:6px;font-size:14px;">
   </div>
 
   <!-- JELENLEGI ÁLLAPOT -->
@@ -80,70 +74,27 @@
 
   <!-- TERMÉKTÁRHÁZ (gyűjtött konkrét termékek URL-kulcsú idősorral) -->
   <div class="panel" id="panel-tarhaz">
-    <div class="toolbar">
-      <input type="text" id="tarhaz-kereso" placeholder="Keresés a gyűjtött termékek közt…">
+    <div class="toolbar" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px;">
+      <input type="text" id="tarhaz-kereso" placeholder="Keresés a gyűjtött termékek közt…" style="flex:1;min-width:220px;padding:10px 12px;border:1px solid #d8c8a8;border-radius:6px;font-size:14px;">
       <span class="note" id="tarhaz-meta"></span>
     </div>
     <div id="tarhaz-list"></div>
-  </div>
-
-  <!-- ADMIN -->
-  <div class="panel" id="panel-admin">
-    <div class="card" id="login-box">
-      <h3>Belépés</h3>
-      <p style="margin:8px 0 12px;font-size:14px;">A termékek hozzáadásához jelentkezz be.</p>
-      <input type="email" id="tan-email" placeholder="Email" style="padding:10px;border:1px solid #d8c8a8;border-radius:6px;width:100%;margin-bottom:8px;">
-      <input type="password" id="tan-pw" placeholder="Jelszó" style="padding:10px;border:1px solid #d8c8a8;border-radius:6px;width:100%;margin-bottom:8px;">
-      <button class="btn" onclick="belep()">Belépés</button>
-      <div class="note" id="login-hiba"></div>
-    </div>
-    <div class="card" id="admin-box" style="display:none;">
-      <h3>Termék hozzáadása</h3>
-      <form id="form-uj-termek">
-        <input type="text" id="uj-nev" placeholder="Termék neve (pl. Kreinbacher Brut)" required style="padding:10px;border:1px solid #d8c8a8;border-radius:6px;width:100%;margin-bottom:8px;">
-        <input type="text" id="uj-marka" placeholder="Márka" style="padding:10px;border:1px solid #d8c8a8;border-radius:6px;width:48%;margin-right:4%;margin-bottom:8px;">
-        <input type="text" id="uj-meret" placeholder="Méret (pl. 0,75 l)" style="padding:10px;border:1px solid #d8c8a8;border-radius:6px;width:48%;margin-bottom:8px;">
-        <input type="text" id="uj-radio" placeholder="Radovin keresőszó (ha eltér)" style="padding:10px;border:1px solid #d8c8a8;border-radius:6px;width:100%;margin-bottom:8px;">
-        <button type="submit" class="btn">➕ Hozzáadás</button>
-      </form>
-      <div class="note" id="add-hiba"></div>
-    </div>
   </div>
 </div>
 
 <footer>Radovin Árfigyelő · 8 óránkénti frissítés · GitHub: RobertClaw202604/radovin-arfigyelo</footer>
 
 <script>
-// ---- Bejelentkezés (egyszerű ellenőrzés, felület-védelem; nem éles auth) ----
-const ADMIN_EMAIL='szbudahazy@gmail.com';
-const ADMIN_PW='Camel100';
-let belepve=false;
-
-function belep(){
-  const e=document.getElementById('tan-email').value.trim();
-  const p=document.getElementById('tan-pw').value;
-  const hiba=document.getElementById('login-hiba');
-  if(e===ADMIN_EMAIL && p===ADMIN_PW){
-    belepve=true;
-    document.body.classList.add('admin-on');
-    document.getElementById('login-box').style.display='none';
-    document.getElementById('admin-box').style.display='block';
-  } else {
-    hiba.textContent='Érvénytelen belépési adatok.';
-  }
-}
-function kijelentkezes(){ belepve=false; document.body.classList.remove('admin-on'); }
-
 // ---- Tab-vezérlés ----
-document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
-  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
-  document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+document.querySelectorAll('.tab').forEach(function(t){t.addEventListener('click',function(){
+  document.querySelectorAll('.tab').forEach(function(x){x.classList.remove('active');});
+  document.querySelectorAll('.panel').forEach(function(x){x.classList.remove('active');});
   t.classList.add('active');
   document.getElementById('panel-'+t.dataset.panel).classList.add('active');
-}));
+});});
 
 // ---- Adatok ----
-let legutobbi=null, elozmeny=null, tarhaz=null;
+var legutobbi=null, elozmeny=null, tarhaz=null;
 
 function rankOsztaly(p){
   if(!p||!p.rank) return 'rank-na';
@@ -152,18 +103,27 @@ function rankOsztaly(p){
   return 'rank-mid';
 }
 function rankCimke(p){
-  return p && p.rank ? `${p.rank}. hely (${p.darab} ár)` : 'nincs adat';
+  return p && p.rank ? (p.rank+'. hely ('+p.darab+' ár)') : 'nincs adat';
+}
+function shopStatuszChip(a){
+  if(!a.hiba && a.ar!=null) return '<span class="status-chip status-ok">✓ ár</span>';
+  if(a.hiba==='nincs_talalat'||a.hiba==='no_exact_match') return '<span class="status-chip status-na">nincs pontos egyezés</span>';
+  if(a.hiba) return '<span class="status-chip status-hiba">forrás hiba</span>';
+  return '<span class="status-chip status-na">—</span>';
+}
+function esc(s){
+  return String(s==null?'':s).replace(/[&<>"']/g,function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+  });
 }
 
 async function betolt(){
   try{
-    const [a,b,t] = await Promise.all([
-      fetch('data/legutobbi.json').then(r=>r.ok?r.json():null),
-      fetch('data/elozmeny.json').then(r=>r.ok?r.json():null),
-      fetch('data/termekek.json').then(r=>r.ok?r.json():null)
-    ]);
+    var a=await fetch('data/legutobbi.json').then(function(r){return r.ok?r.json():null;});
+    var b=await fetch('data/elozmeny.json').then(function(r){return r.ok?r.json():null;});
+    var t=await fetch('data/termekek.json').then(function(r){return r.ok?r.json():null;});
     legutobbi=a; elozmeny=b; tarhaz=t;
-    if(a) document.getElementById('meta-sor').innerHTML=`Utolsó frissítés: <strong>${new Date(a.ido).toLocaleString('hu-HU')}</strong> · ${a.termekekszam} termék`;
+    if(a) document.getElementById('meta-sor').innerHTML='Utolsó frissítés: <strong>'+new Date(a.ido).toLocaleString('hu-HU')+'</strong> · '+a.termekekszam+' termék';
     jelenRendre();
     elozmenyRendre();
     tarhazRendre();
@@ -171,105 +131,93 @@ async function betolt(){
 }
 
 function jelenRendre(){
-  const wrap=document.getElementById('jelen-list');
+  var wrap=document.getElementById('jelen-list');
   if(!legutobbi || !legutobbi.eredmenyek || !legutobbi.eredmenyek.length){ wrap.innerHTML='<div class="card">Még nincs adat.</div>'; return; }
-  const q=(document.getElementById('kereso').value||'').toLowerCase();
-  const list=legutobbi.eredmenyek.filter(e=>e.termek_nev.toLowerCase().includes(q));
-  wrap.innerHTML=list.map(p=>{
-    const pz=p.pozicio||{};
-    const sorok=(p.arak||[]).map(a=>{
-      const cls= a.shop==='radovin'? 'ar-own' : (a.ar===pz.min?'min':(a.ar===pz.max?'max':''));
-      return `<tr class="${cls}">
-        <td><strong>${a.shop_nev||a.shop}</strong> ${a.shop==='radovin'?'<span style="color:var(--arany)">(Radovin)</span>':''}</td>
-        <td>${a.nev||'—'}</td>
-        <td class="ar-ft">${a.ar!=null? (a.ar.toLocaleString('hu-HU')+' Ft') : '<span class="hiba">nincs</span>'}</td>
-        ${a.hiba?`<td class="hiba">${a.hiba}</td>`:'<td></td>'}
-      </tr>`;
+  var q=(document.getElementById('kereso').value||'').toLowerCase();
+  var list=legutobbi.eredmenyek.filter(function(e){return e.termek_nev.toLowerCase().includes(q);});
+  wrap.innerHTML=list.map(function(p){
+    var pz=p.pozicio||{};
+    var sorok=(p.arak||[]).map(function(a){
+      var cls= a.shop==='radovin'? 'ar-own' : (a.ar===pz.min?'min':(a.ar===pz.max?'max':''));
+      return '<tr class="'+cls+'">'+
+        '<td><strong>'+esc(a.shop_nev||a.shop)+'</strong>'+(a.shop==='radovin'?' <span style="color:var(--arany)">(Radovin)</span>':'')+'</td>'+
+        '<td>'+esc(a.nev||'—')+'</td>'+
+        '<td class="ar-ft">'+(a.ar!=null? (a.ar.toLocaleString('hu-HU')+' Ft') : '<span class="hiba">nincs</span>')+'</td>'+
+        '<td>'+shopStatuszChip(a)+'</td>'+
+      '</tr>';
     }).join('');
-    return `<div class="card">
-      <div class="termek-head">
-        <h3>${p.termek_nev} <span style="color:#888;font-size:13px;font-weight:400;">(${p.meret||'?'})</span></h3>
-        <span class="rank-badge ${rankOsztaly(pz)}">${rankCimke(pz)}</span>
-      </div>
-      <table><thead><tr><th>Shop</th><th>Termék</th><th>Ár</th><th></th></tr></thead><tbody>${sorok}</tbody></table>
-      ${(p.konkurens_allapot&&p.konkurens_allapot.length)?`<div class="note">ℹ️ Konkurens árak (${p.konkurens_allapot.map(s=>s.nev).join(', ')}) még fejlesztés alatt – folyamatosan kerülnek be.</div>`:''}
-      <div class="note">Radovin ár: <strong>${pz.radovin_ar!=null? pz.radovin_ar.toLocaleString('hu-HU')+' Ft':'—'}</strong> · min: <strong>${pz.min!=null?pz.min.toLocaleString('hu-HU')+' Ft':'—'}</strong> · max: <strong>${pz.max!=null?pz.max.toLocaleString('hu-HU')+' Ft':'—'}</strong> · medián: ${pz.median!=null?pz.median.toLocaleString('hu-HU')+' Ft':'—'}</div>
-    </div>`;
+    return '<div class="card">'+
+      '<div class="termek-head">'+
+        '<h3>'+esc(p.termek_nev)+' <span style="color:#888;font-size:13px;font-weight:400;">('+esc(p.meret||'?')+')</span></h3>'+
+        '<span class="rank-badge '+rankOsztaly(pz)+'">'+rankCimke(pz)+'</span>'+
+      '</div>'+
+      '<table><thead><tr><th>Shop</th><th>Termék</th><th>Ár</th><th>Állapot</th></tr></thead><tbody>'+sorok+'</tbody></table>'+
+      ((p.konkurens_allapot&&p.konkurens_allapot.length)?'<div class="note">ℹ️ Konkurens árak ('+p.konkurens_allapot.map(function(s){return s.nev;}).join(', ')+') még fejlesztés alatt – folyamatosan kerülnek be.</div>':'')+
+      '<div class="note">Radovin ár: <strong>'+(pz.radovin_ar!=null? pz.radovin_ar.toLocaleString('hu-HU')+' Ft':'—')+'</strong> · min: <strong>'+(pz.min!=null?pz.min.toLocaleString('hu-HU')+' Ft':'—')+'</strong> · max: <strong>'+(pz.max!=null?pz.max.toLocaleString('hu-HU')+' Ft':'—')+'</strong> · medián: '+(pz.median!=null?pz.median.toLocaleString('hu-HU')+' Ft':'—')+'</div>'+
+    '</div>';
   }).join('');
 }
 
 function elozmenyRendre(){
-  const wrap=document.getElementById('elozmeny-list');
+  var wrap=document.getElementById('elozmeny-list');
   if(!elozmeny || Object.keys(elozmeny).length===0){ wrap.innerHTML='<div class="card">Még nincs árelőzmény.</div>'; return; }
-  wrap.innerHTML=Object.entries(elozmeny).map(([id,futasok])=>{
-    const sorok=[...futasok].reverse().slice(0,12).map(f=>`<tr>
-      <td>${new Date(f.ido).toLocaleString('hu-HU')}</td>
-      <td>${f.radovin_ar!=null?f.radovin_ar.toLocaleString('hu-HU')+' Ft':'—'}</td>
-      <td>${f.median!=null?f.median.toLocaleString('hu-HU')+' Ft':'—'}</td>
-      <td><span class="rank-badge ${rankOsztaly({rank:f.rank,darab:f.rank})}">${f.rank||'—'}</span></td>
-    </tr>`).join('');
-    return `<div class="card"><h3 style="color:var(--bor);font-size:15px;margin-bottom:8px;">${id}</h3>
-      <table><thead><tr><th>Időpont</th><th>Radovin</th><th>Medián</th><th>Hely</th></tr></thead><tbody>${sorok}</tbody></table></div>`;
+  wrap.innerHTML=Object.entries(elozmeny).map(function(par){
+    var id=par[0], futasok=par[1];
+    var sorok=[].concat(futasok).reverse().slice(0,12).map(function(f){
+      return '<tr>'+
+        '<td>'+new Date(f.ido).toLocaleString('hu-HU')+'</td>'+
+        '<td>'+(f.radovin_ar!=null?f.radovin_ar.toLocaleString('hu-HU')+' Ft':'—')+'</td>'+
+        '<td>'+(f.median!=null?f.median.toLocaleString('hu-HU')+' Ft':'—')+'</td>'+
+        '<td><span class="rank-badge '+rankOsztaly({rank:f.rank,darab:f.rank})+'">'+(f.rank||'—')+'</span></td>'+
+      '</tr>';
+    }).join('');
+    return '<div class="card"><h3 style="color:var(--bor);font-size:15px;margin-bottom:8px;">'+esc(id)+'</h3>'+
+      '<table><thead><tr><th>Időpont</th><th>Radovin</th><th>Medián</th><th>Hely</th></tr></thead><tbody>'+sorok+'</tbody></table></div>';
   }).join('');
 }
 
-document.getElementById('kereso').addEventListener('input',()=>jelenRendre());
+document.getElementById('kereso').addEventListener('input',function(){jelenRendre();});
 
 // ---- Terméktárház renderelés (URL-kulcsú idősor a termekek.json-ből) ----
+var shopDomain={borhalo:'https://borhalo.hu',borvilag:'https://www.borvilag.hu',borpiac:'https://borpiac.hu',winehub:'https://winehub.hu',radovin:'https://radovin.hu',italpark:'https://www.italpark.hu'};
+
 function tarhazRendre(){
-  const wrap=document.getElementById('tarhaz-list');
-  const meta=document.getElementById('tarhaz-meta');
+  var wrap=document.getElementById('tarhaz-list');
+  var meta=document.getElementById('tarhaz-meta');
   if(!tarhaz || !Object.keys(tarhaz).length){
     wrap.innerHTML='<div class="card">Még nincs gyűjtött termék. (A futás minden konkrét, elérhető terméket – név + weblink + ár + dátum – elment a Terméktárházba, akkor is, ha nem párosítható a katalógus egyik tételéhez sem.)</div>';
     meta.textContent='';
     return;
   }
-  const q=(document.getElementById('tarhaz-kereso').value||'').toLowerCase();
-  const bejegyzesek=Object.entries(tarhaz)
-    .map(([url,sorozat])=>({url, nev:(sorozat[sorozat.length-1]&&sorozat[sorozat.length-1].nev)||'', shop:(sorozat[sorozat.length-1]&&sorozat[sorozat.length-1].shop)||'', arsor:(sorozat[sorozat.length-1]||{}).ar, idok:sorozat}))
-    .filter(x=>(x.nev||'').toLowerCase().includes(q)||(x.url||'').toLowerCase().includes(q)||(x.shop||'').toLowerCase().includes(q));
-  meta.textContent=`${Object.keys(tarhaz).length} gyűjtött terméklink · ${bejegyzesek.length} találat`;
-  const shopDomain={borhalo:'https://borhalo.hu',borvilag:'https://www.borvilag.hu',borpiac:'https://borpiac.hu',winehub:'https://winehub.hu',radovin:'https://radovin.hu',italpark:'https://www.italpark.hu'};
-  wrap.innerHTML=bejegyzesek.slice(0,300).map(x=>{
-    const leg=x.idok[x.idok.length-1];
-    const valtozott=x.idok.length>1&&x.idok[x.idok.length-1].ar!==x.idok[0].ar;
-    const domain=shopDomain[x.shop]||'https://borhalo.hu';
-    const teljesUrl=x.url.startsWith('http')?x.url:(domain+x.url);
-    return `<div class="card" style="margin-bottom:10px;padding:12px 14px;">
-      <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;">
-        <div style="min-width:0;">
-          <div style="font-weight:600;color:var(--bor);font-size:14px;">${x.nev||x.url}</div>
-          <div style="font-size:12px;color:#888;margin-top:2px;">${x.shop?('<strong>'+x.shop+'</strong> · '):''}${teljesUrl}</div>
-          <a class="btn small" style="margin-top:6px;display:inline-block;" href="${teljesUrl}" target="_blank" rel="noopener">🔗 Megnyitás</a>
-        </div>
-        <div style="text-align:right;">
-          <div class="ar-ft">${leg.ar!=null? leg.ar.toLocaleString('hu-HU')+' Ft':'—'}</div>
-          <div style="font-size:11px;color:#666;">${leg.ido?new Date(leg.ido).toLocaleDateString('hu-HU'):''}</div>
-          ${valtozott?'<div style="font-size:11px;color:var(--piros);">⚡ árváltozás</div>':''}
-          <div style="font-size:11px;color:#888;">${x.idok.length} mérés</div>
-        </div>
-      </div>
-    </div>`;
+  var q=(document.getElementById('tarhaz-kereso').value||'').toLowerCase();
+  var bejegyzesek=Object.entries(tarhaz)
+    .map(function(par){var url=par[0],sorozat=par[1];var leg=sorozat[sorozat.length-1]||{};return {url:url,nev:leg.nev||'',shop:leg.shop||'',arsor:leg.ar,idok:sorozat};})
+    .filter(function(x){return (x.nev||'').toLowerCase().includes(q)||(x.url||'').toLowerCase().includes(q)||(x.shop||'').toLowerCase().includes(q);});
+  meta.textContent=Object.keys(tarhaz).length+' gyűjtött terméklink · '+bejegyzesek.length+' találat';
+  wrap.innerHTML=bejegyzesek.slice(0,300).map(function(x){
+    var leg=x.idok[x.idok.length-1];
+    var valtozott=x.idok.length>1&&x.idok[x.idok.length-1].ar!==x.idok[0].ar;
+    var domain=shopDomain[x.shop]||'https://borhalo.hu';
+    var teljesUrl=x.url.indexOf('http')===0?x.url:(domain+x.url);
+    return '<div class="card" style="margin-bottom:10px;padding:12px 14px;">'+
+      '<div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;">'+
+        '<div style="min-width:0;">'+
+          '<div style="font-weight:600;color:var(--bor);font-size:14px;">'+esc(x.nev||x.url)+'</div>'+
+          '<div style="font-size:12px;color:#888;margin-top:2px;">'+(x.shop?('<strong>'+esc(x.shop)+'</strong> · '):'')+esc(teljesUrl)+'</div>'+
+          '<a class="btn small" style="margin-top:6px;display:inline-block;padding:6px 10px;border:none;border-radius:6px;background:var(--bor);color:#fff;font-size:12px;text-decoration:none;" href="'+teljesUrl+'" target="_blank" rel="noopener">🔗 Megnyitás</a>'+
+        '</div>'+
+        '<div style="text-align:right;">'+
+          '<div class="ar-ft">'+(leg.ar!=null? leg.ar.toLocaleString('hu-HU')+' Ft':'—')+'</div>'+
+          '<div style="font-size:11px;color:#666;">'+(leg.ido?new Date(leg.ido).toLocaleDateString('hu-HU'):'')+'</div>'+
+          (valtozott?'<div style="font-size:11px;color:var(--piros);">⚡ árváltozás</div>':'')+
+          '<div style="font-size:11px;color:#888;">'+x.idok.length+' mérés</div>'+
+        '</div>'+
+      '</div>'+
+    '</div>';
   }).join('');
   if(!bejegyzesek.length) wrap.innerHTML='<div class="card">Nincs a keresésnek megfelelő gyűjtött termék.</div>';
 }
-document.getElementById('tarhaz-kereso').addEventListener('input',()=>tarhazRendre());
-
-
-// Új termék hozzáadása – mentés a szerver felé (a run.js betölti).
-document.getElementById('form-uj-termek').addEventListener('submit', async (ev)=>{
-  ev.preventDefault();
-  const uj={};
-  if(!document.querySelector('#admin-box').style.display!== 'block'){return;}
-  const res=await fetch('api/hozzaad',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
-    nev:document.getElementById('uj-nev').value.trim(),
-    marka:document.getElementById('uj-marka').value.trim(),
-    meret:document.getElementById('uj-meret').value.trim(),
-    radovin_kereso:document.getElementById('uj-radio').value.trim()
-  })});
-  const t=await res.json();
-  document.getElementById('add-hiba').textContent = t.ok? 'Termék hozzáadva ✓' : ('Hiba: '+t.hiba);
-});
+document.getElementById('tarhaz-kereso').addEventListener('input',function(){tarhazRendre();});
 
 betolt();
 </script>

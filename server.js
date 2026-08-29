@@ -1,17 +1,26 @@
-// Radovin Árfigyelő – kiszolgáló
-// Kiszolgálja a web/ mappát + kezeli a termék-hozzáadást (api/hozzaad),
-// valamint biztosítja a data/ JSON-öket a megjelenítéshez.
-// Használat: node server.js  (alapértelmezett: localhost:4300)
+// Radovin Árfigyelő – kiszolgáló (LOKÁLIS ADMIN)
+// Csak a helyi gépen fut, kizárólag a 127.0.0.1 loopback interfészen hallgat.
+// Szolgálja a könyvtár statikus fájljait (index.html + data/), és kezeli a
+// termék-hozzáadást (api/hozzaad).
+// Használat: node server.js  (alapértelmezett: 127.0.0.1:4300)
 //
-// MEGJEGYZÉS: a per-shop scraping a run.js-ben fut; ez a szerver csak a
-// megjelenítőt és a termék-hozzáadást szolgálja. Éles gitHub publikáláskor
-// a static site a web/ + data/ feltöltésével is működik (run.js generálja).
+// BIZTONSÁG (Commit 1 / P0):
+//  - Kizárólag loopback binding – nem érhető el a hálózatról / internetről.
+//  - NEM tartalmaz hardkódolt jelszót / tokent.
+//  - A /api/hozzaad írási végpont védett: a környezeti RADOVIN_ADMIN_TOKEN
+//    változóval kell hívni (Authorization: Bearer <token>). Ha nincs beállítva
+//    a token, az írási végpont letiltott.
+//  - A konfig-ba írás ATOMIKUS (temp fájl + rename), hogy ne szakadjon félbe.
+//
+// A GitHub Pages-en közzétett statikus nézet (index.html + data/) READ-ONLY,
+// és NEM tartalmaz semmilyen hitelesítő adatot.
 
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
 const PORT = process.env.PORT || 4300;
+const HOST = process.env.HOST || '127.0.0.1'; // kizárólag loopback
 const DIR = __dirname;
 const WEB = DIR;
 const DATA = path.join(DIR, 'data');
@@ -29,8 +38,15 @@ const MIME = {
 const server = http.createServer(async (req, res) => {
   const url = req.url.split('?')[0];
 
-  // --- API: termék hozzáadás ---
+  // --- API: termék hozzáadás (védett, csak loopback) ---
   if (url === '/api/hozzaad' && req.method === 'POST') {
+    const tok = process.env.RADOVIN_ADMIN_TOKEN;
+    const auth = (req.headers.authorization || '').replace(/^Bearer\s+/i, '').trim();
+    if (!tok || auth !== tok) {
+      res.writeHead(401, {'Content-Type':'application/json'});
+      res.end(JSON.stringify({ok:false, hiba:'admin token hiányzik vagy érvénytelen; a /api/hozzaad írási végpont védett és csak helyi tokennel hívható'}));
+      return;
+    }
     let body = '';
     req.on('data', (c) => (body += c));
     req.on('end', () => {
@@ -54,7 +70,10 @@ const server = http.createServer(async (req, res) => {
           evjarat: null,
           radovin_kereso: (adat.radovin_kereso || '').trim() || nev,
         });
-        fs.writeFileSync(TERMEKEK, JSON.stringify(lista, null, 2));
+        // ATOMIKUS írás (temp + rename): ne sérüljön a konfig félbemaradt írásnál.
+        const tmp = TERMEKEK + '.tmp-' + process.pid + '-' + Date.now();
+        fs.writeFileSync(tmp, JSON.stringify(lista, null, 2));
+        fs.renameSync(tmp, TERMEKEK);
         res.writeHead(200, {'Content-Type':'application/json'});
         res.end(JSON.stringify({ok:true, id}));
       } catch (e) {
@@ -80,6 +99,6 @@ const server = http.createServer(async (req, res) => {
   fs.createReadStream(fpath).pipe(res);
 });
 
-server.listen(PORT, () => {
-  console.log(`Radovin Árfigyelő fut: http://localhost:${PORT}`);
+server.listen(PORT, HOST, () => {
+  console.log(`Radovin Árfigyelő fut (LOKÁLIS): http://${HOST}:${PORT}`);
 });

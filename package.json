@@ -6,10 +6,13 @@
   "main": "run.js",
   "scripts": {
     "start": "node run.js",
-    "run": "node run.js"
+    "run": "node run.js",
+    "test": "node --test",
+    "scan-secrets": "node scripts/scan-secrets.js",
+    "check": "node scripts/scan-secrets.js && node -e \"require('./lib/runtime/config.js').betoltEgesz(); console.log('config OK')\""
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=24"
   },
   "license": "UNLICENSED",
   "private": true,
@@ -27,6 +30,7 @@
   },
   "homepage": "https://github.com/RobertClaw202604/radovin-arfigyelo#readme",
   "dependencies": {
+    "ajv": "^8.20.0",
     "puppeteer-core": "^25.9.0"
   }
 }
