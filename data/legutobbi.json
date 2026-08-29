@@ -1,11 +1,11 @@
 {
-  "futas_id": 1788009057266,
-  "ido": "2026-08-29T13:10:57.266Z",
+  "futas_id": 1788009265598,
+  "ido": "2026-08-29T13:14:25.598Z",
   "termekekszam": 11,
   "eredmenyek": [
     {
-      "futas_id": 1788009057266,
-      "ido": "2026-08-29T13:10:57.266Z",
+      "futas_id": 1788009265598,
+      "ido": "2026-08-29T13:14:25.598Z",
       "termek_id": "kreinbacher-brut",
       "termek_nev": "Kreinbacher Brut pezsgő",
       "meret": "0,75 l",
@@ -69,8 +69,8 @@
       ]
     },
     {
-      "futas_id": 1788009057266,
-      "ido": "2026-08-29T13:10:57.266Z",
+      "futas_id": 1788009265598,
+      "ido": "2026-08-29T13:14:25.598Z",
       "termek_id": "szaszi-csokaszolo-2025",
       "termek_nev": "Szászi Csókaszőlő",
       "meret": "0,75 l",
@@ -134,8 +134,8 @@
       ]
     },
     {
-      "futas_id": 1788009057266,
-      "ido": "2026-08-29T13:10:57.266Z",
+      "futas_id": 1788009265598,
+      "ido": "2026-08-29T13:14:25.598Z",
       "termek_id": "jakab-pinot-nyari",
       "termek_nev": "Jakab Pinot Noir 'Easy'",
       "meret": "0,75 l",
@@ -199,17 +199,17 @@
       ]
     },
     {
-      "futas_id": 1788009057266,
-      "ido": "2026-08-29T13:10:57.266Z",
-      "termek_id": "kreinbacher-furmint",
-      "termek_nev": "Kreinbacher Furmint",
+      "futas_id": 1788009265598,
+      "ido": "2026-08-29T13:14:25.598Z",
+      "termek_id": "kislaki-sauvignon-blanc",
+      "termek_nev": "Kislaki Jánoshegy Sauvignon Blanc",
       "meret": "0,75 l",
       "pozicio": {
         "darab": 1,
-        "min": 9690,
-        "max": 9690,
-        "median": 9690,
-        "radovin_ar": 9690,
+        "min": 3790,
+        "max": 3790,
+        "median": 3790,
+        "radovin_ar": 3790,
         "rank": 1,
         "rank_jelolo": "1/1"
       },
@@ -218,9 +218,9 @@
           "shop": "radovin",
           "shop_nev": "Radovin Borkereskedés",
           "tipus": "radovin",
-          "ar": 9690,
-          "nev": "Kreinbacher Prestige Brut 12",
-          "url": "https://radovin.hu/termek/kreinbacher-prestige-brut/",
+          "ar": 3790,
+          "nev": "Kislaki Jánoshegy Sauvignon Blanc 2025 12",
+          "url": "https://radovin.hu/termek/kislaki-janoshegy-sauvignon-blanc-2025-125-075/",
           "megjegyzes": null,
           "hiba": null
         }
@@ -264,8 +264,8 @@
       ]
     },
     {
-      "futas_id": 1788009057266,
-      "ido": "2026-08-29T13:10:57.266Z",
+      "futas_id": 1788009265598,
+      "ido": "2026-08-29T13:14:25.598Z",
       "termek_id": "tokaji-aszu-5puttonyos",
       "termek_nev": "Tokaji Aszú 5 puttonyos",
       "meret": "0,5 l",
@@ -329,8 +329,8 @@
       ]
     },
     {
-      "futas_id": 1788009057266,
-      "ido": "2026-08-29T13:10:57.266Z",
+      "futas_id": 1788009265598,
+      "ido": "2026-08-29T13:14:25.598Z",
       "termek_id": "palinka-fenegyerek-vadcseresznye",
       "termek_nev": "Fenegyerek Vadcseresznye pálinka",
       "meret": "0,35 l",
@@ -394,8 +394,8 @@
       ]
     },
     {
-      "futas_id": 1788009057266,
-      "ido": "2026-08-29T13:10:57.266Z",
+      "futas_id": 1788009265598,
+      "ido": "2026-08-29T13:14:25.598Z",
       "termek_id": "palinka-zimek-szilva",
       "termek_nev": "Zimek hordós szilva pálinka",
       "meret": "0,5 l",
@@ -459,8 +459,8 @@
       ]
     },
     {
-      "futas_id": 1788009057266,
-      "ido": "2026-08-29T13:10:57.266Z",
+      "futas_id": 1788009265598,
+      "ido": "2026-08-29T13:14:25.598Z",
       "termek_id": "palinka-zimek-meggy",
       "termek_nev": "Zimek meggy pálinka",
       "meret": "0,5 l",
@@ -524,8 +524,8 @@
       ]
     },
     {
-      "futas_id": 1788009057266,
-      "ido": "2026-08-29T13:10:57.266Z",
+      "futas_id": 1788009265598,
+      "ido": "2026-08-29T13:14:25.598Z",
       "termek_id": "palinka-zimek-birs",
       "termek_nev": "Zimek birs pálinka",
       "meret": "0,5 l",
@@ -589,8 +589,8 @@
       ]
     },
     {
-      "futas_id": 1788009057266,
-      "ido": "2026-08-29T13:10:57.266Z",
+      "futas_id": 1788009265598,
+      "ido": "2026-08-29T13:14:25.598Z",
       "termek_id": "vilmos-kortepalinka",
       "termek_nev": "Zwack Vilmos körtepálinka",
       "meret": "0,5 l",
@@ -654,8 +654,8 @@
       ]
     },
     {
-      "futas_id": 1788009057266,
-      "ido": "2026-08-29T13:10:57.266Z",
+      "futas_id": 1788009265598,
+      "ido": "2026-08-29T13:14:25.598Z",
       "termek_id": "la-spinetta-sangiovese",
       "termek_nev": "La Spinetta Il Nero di Casanova Sangiovese",
       "meret": "0,75 l",
