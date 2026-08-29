@@ -44,14 +44,16 @@
       "id": "italpark",
       "nev": "Italpark",
       "tipus": "konkurencia",
-      "statusz": "pending",
+      "statusz": "active",
       "base_url": "https://www.italpark.hu",
       "kereso_url": "https://www.italpark.hu/kereses?search={q}",
+      "kategoria_url": "https://www.italpark.hu/{marka}-whisky",
       "adapter": "headless",
-      "kesleltetes_ms": 1500,
+      "kesleltetes_ms": 800,
+      "timeout_sec": 30,
       "termek_kartya_selector": ".product-card",
       "ar_selector": ".product-price--special, .product-price--regular",
-      "megjegyzes": "ShopRenter + robotvédelem; a sima kereső nem hoz találatot headless-ben sem. A márka-kategóriaoldalról (pl. /bodri-bor) pontosan kinyerhető, de ehhez per-márka kategória-URL kell. Külön fejlesztési task."
+      "megjegyzes": "ShopRenter + robotvédelem: a sima kereső headless-ben is üres, ezért márka-kategóriaoldalról megy ({marka}-whisky minta). A headless adapter MÉRET-tudatos: ha a találat kiszerelése eltér a katalógus-tételétől (pl. 1l vs 0,7l), az érvénytelen (kiszereles_elteter), nem hamis összehasonlítás. A jelenlegi katalógusból csak a Johnnie Walkernek van kategóriaoldala, de a Black csak 0,7l-ben kapható a Radovin 1l-es helyett -> nincs valódi tétel; a rendszer becsületesen nincs adat-ot ad. Azonos kiszerelésű, italkapacitású tétel betételekor automatikusan éles."
     },
     {
       "id": "bortarsasag",

@@ -37,12 +37,22 @@ node server.js   # webes megjelenítő: http://localhost:4300
    WooCommerce `/wp-json/wc/store/products` (Borpiac) – és a szigorú matcherrel jelöli a legjobb
    találatot. **Headless NÉLKÜL** megbízható, pontos.
 3. **Headless (böngészős)** (`headless` adapter, Puppeteer-core + a rendszer Chrome-ja): a
-   JS-renderelt/AJAX-os shopokhoz (Veritas, Italpark, Borháló, Bortársaság), amelyek sima GET-re
-   nem adnak megbízható árat. Jelenleg `pending` / validálás alatt.
+   JS-renderelt/AJAX-os shopokhoz (Italpark, Veritas, Borháló, Bortársaság), amelyek sima GET-re
+   nem adnak megbízható árat. A headless adapter **méret-tudatos**: ha a találat kiszerelése eltér
+   a katalógus-tételétől (pl. a Radovin 1l-es vs az Italpark 0,7l-es Johnnie Walker), a találatot
+   elutasítja (`kiszereles_elteter`), így **soha nem ad hamis / eltérő kiszerelésű** összehasonlítást.
+   A `kategoria_url` (márka-alapú kategóriaoldal) használatakor először olcsó GET-ellenőrzéssel
+   kiszűri a nem létező kategóriákat (nem indít böngészőt hiába).
 
-**Jelenleg éles, pontos shopok:** Radovin (saját), Winehub, Borvilág, Borpiac.
-**Fejlesztés alatt:** Veritas, Italpark, Borháló, Benebor, Borbáró (JS/robotvédett).
+**Jelenleg éles, pontos shopok:** Radovin (saját), Winehub, Borvilág, Borpiac, **Italpark (headless)**.
+**Fejlesztés alatt:** Veritas, Borháló, Benebor, Borbáró (JS/robotvédett).
 **Bot-védett:** Bortársaság.
+
+> Az Italpark headless-szel aktív, de a jelenlegi katalógus tételeihez **nincs valódi (azonos
+> kiszerelésű) Italpark-árazás** – a Johnnie Walker Black a Radovinnál 1l, az Italparkon 0,7l
+> (eltérő termék), a többi tétel Radovin-specifikus. A rendszer ezt **becsületesen „nincs adat“-ként**
+> jelzi (nem hamis árat), és amint olyan tétel kerül be, amely az Italparkon azonos kiszerelésben
+> kapható, automatikusan élesen összehasonlítja.
 
 **A párosítás szigorú**: a versenytársi találat csak akkor számít, ha a márka, a
 kiszerelés (liter) és adott esetben a puttony-szám is egyezik. A „generikus“ márka (pl.

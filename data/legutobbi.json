@@ -1,11 +1,11 @@
 {
-  "futas_id": 1788011354220,
-  "ido": "2026-08-29T13:49:14.220Z",
+  "futas_id": 1788011994498,
+  "ido": "2026-08-29T13:59:54.498Z",
   "termekekszam": 13,
   "eredmenyek": [
     {
-      "futas_id": 1788011354220,
-      "ido": "2026-08-29T13:49:14.220Z",
+      "futas_id": 1788011994498,
+      "ido": "2026-08-29T13:59:54.498Z",
       "termek_id": "kreinbacher-brut",
       "termek_nev": "Kreinbacher Brut pezsgő",
       "meret": "0,75 l",
@@ -28,6 +28,16 @@
           "url": "https://radovin.hu/termek/kreinbacher-brut-classic/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
         },
         {
           "shop": "winehub",
@@ -72,11 +82,6 @@
           "statusz": "pending"
         },
         {
-          "shop": "italpark",
-          "nev": "Italpark",
-          "statusz": "pending"
-        },
-        {
           "shop": "bortarsasag",
           "nev": "Bortársaság",
           "statusz": "blocked"
@@ -94,8 +99,8 @@
       ]
     },
     {
-      "futas_id": 1788011354220,
-      "ido": "2026-08-29T13:49:14.220Z",
+      "futas_id": 1788011994498,
+      "ido": "2026-08-29T13:59:54.498Z",
       "termek_id": "szaszi-csokaszolo-2025",
       "termek_nev": "Szászi Csókaszőlő",
       "meret": "0,75 l",
@@ -120,6 +125,16 @@
           "hiba": "nincs_talalat"
         },
         {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
           "shop": "winehub",
           "shop_nev": "Winehub",
           "tipus": "konkurencia",
@@ -162,11 +177,6 @@
           "statusz": "pending"
         },
         {
-          "shop": "italpark",
-          "nev": "Italpark",
-          "statusz": "pending"
-        },
-        {
           "shop": "bortarsasag",
           "nev": "Bortársaság",
           "statusz": "blocked"
@@ -184,8 +194,8 @@
       ]
     },
     {
-      "futas_id": 1788011354220,
-      "ido": "2026-08-29T13:49:14.220Z",
+      "futas_id": 1788011994498,
+      "ido": "2026-08-29T13:59:54.498Z",
       "termek_id": "jakab-pinot-nyari",
       "termek_nev": "Jakab Pinot Noir 'Easy'",
       "meret": "0,75 l",
@@ -210,6 +220,16 @@
           "hiba": null
         },
         {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
           "shop": "winehub",
           "shop_nev": "Winehub",
           "tipus": "konkurencia",
@@ -252,11 +272,6 @@
           "statusz": "pending"
         },
         {
-          "shop": "italpark",
-          "nev": "Italpark",
-          "statusz": "pending"
-        },
-        {
           "shop": "bortarsasag",
           "nev": "Bortársaság",
           "statusz": "blocked"
@@ -274,8 +289,8 @@
       ]
     },
     {
-      "futas_id": 1788011354220,
-      "ido": "2026-08-29T13:49:14.220Z",
+      "futas_id": 1788011994498,
+      "ido": "2026-08-29T13:59:54.498Z",
       "termek_id": "kislaki-sauvignon-blanc",
       "termek_nev": "Kislaki Jánoshegy Sauvignon Blanc",
       "meret": "0,75 l",
@@ -300,6 +315,16 @@
           "hiba": null
         },
         {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
           "shop": "winehub",
           "shop_nev": "Winehub",
           "tipus": "konkurencia",
@@ -342,11 +367,6 @@
           "statusz": "pending"
         },
         {
-          "shop": "italpark",
-          "nev": "Italpark",
-          "statusz": "pending"
-        },
-        {
           "shop": "bortarsasag",
           "nev": "Bortársaság",
           "statusz": "blocked"
@@ -364,8 +384,8 @@
       ]
     },
     {
-      "futas_id": 1788011354220,
-      "ido": "2026-08-29T13:49:14.220Z",
+      "futas_id": 1788011994498,
+      "ido": "2026-08-29T13:59:54.498Z",
       "termek_id": "tokaji-aszu-5puttonyos",
       "termek_nev": "Tokaji Aszú 5 puttonyos",
       "meret": "0,5 l",
@@ -388,6 +408,16 @@
           "url": "https://radovin.hu/termek/mariasy-aszu-5-puttonyos-2019-11-tokaji-05l/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
         },
         {
           "shop": "winehub",
@@ -432,11 +462,6 @@
           "statusz": "pending"
         },
         {
-          "shop": "italpark",
-          "nev": "Italpark",
-          "statusz": "pending"
-        },
-        {
           "shop": "bortarsasag",
           "nev": "Bortársaság",
           "statusz": "blocked"
@@ -454,8 +479,8 @@
       ]
     },
     {
-      "futas_id": 1788011354220,
-      "ido": "2026-08-29T13:49:14.220Z",
+      "futas_id": 1788011994498,
+      "ido": "2026-08-29T13:59:54.498Z",
       "termek_id": "palinka-fenegyerek-vadcseresznye",
       "termek_nev": "Fenegyerek Vadcseresznye pálinka",
       "meret": "0,35 l",
@@ -480,6 +505,16 @@
           "hiba": null
         },
         {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
           "shop": "winehub",
           "shop_nev": "Winehub",
           "tipus": "konkurencia",
@@ -522,11 +557,6 @@
           "statusz": "pending"
         },
         {
-          "shop": "italpark",
-          "nev": "Italpark",
-          "statusz": "pending"
-        },
-        {
           "shop": "bortarsasag",
           "nev": "Bortársaság",
           "statusz": "blocked"
@@ -544,8 +574,8 @@
       ]
     },
     {
-      "futas_id": 1788011354220,
-      "ido": "2026-08-29T13:49:14.220Z",
+      "futas_id": 1788011994498,
+      "ido": "2026-08-29T13:59:54.498Z",
       "termek_id": "palinka-zimek-szilva",
       "termek_nev": "Zimek hordós szilva pálinka",
       "meret": "0,5 l",
@@ -570,6 +600,16 @@
           "hiba": null
         },
         {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
           "shop": "winehub",
           "shop_nev": "Winehub",
           "tipus": "konkurencia",
@@ -612,11 +652,6 @@
           "statusz": "pending"
         },
         {
-          "shop": "italpark",
-          "nev": "Italpark",
-          "statusz": "pending"
-        },
-        {
           "shop": "bortarsasag",
           "nev": "Bortársaság",
           "statusz": "blocked"
@@ -634,8 +669,8 @@
       ]
     },
     {
-      "futas_id": 1788011354220,
-      "ido": "2026-08-29T13:49:14.220Z",
+      "futas_id": 1788011994498,
+      "ido": "2026-08-29T13:59:54.498Z",
       "termek_id": "palinka-zimek-meggy",
       "termek_nev": "Zimek meggy pálinka",
       "meret": "0,5 l",
@@ -660,6 +695,16 @@
           "hiba": null
         },
         {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
           "shop": "winehub",
           "shop_nev": "Winehub",
           "tipus": "konkurencia",
@@ -702,11 +747,6 @@
           "statusz": "pending"
         },
         {
-          "shop": "italpark",
-          "nev": "Italpark",
-          "statusz": "pending"
-        },
-        {
           "shop": "bortarsasag",
           "nev": "Bortársaság",
           "statusz": "blocked"
@@ -724,8 +764,8 @@
       ]
     },
     {
-      "futas_id": 1788011354220,
-      "ido": "2026-08-29T13:49:14.220Z",
+      "futas_id": 1788011994498,
+      "ido": "2026-08-29T13:59:54.498Z",
       "termek_id": "palinka-zimek-birs",
       "termek_nev": "Zimek birs pálinka",
       "meret": "0,5 l",
@@ -750,6 +790,16 @@
           "hiba": null
         },
         {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
           "shop": "winehub",
           "shop_nev": "Winehub",
           "tipus": "konkurencia",
@@ -792,11 +842,6 @@
           "statusz": "pending"
         },
         {
-          "shop": "italpark",
-          "nev": "Italpark",
-          "statusz": "pending"
-        },
-        {
           "shop": "bortarsasag",
           "nev": "Bortársaság",
           "statusz": "blocked"
@@ -814,8 +859,8 @@
       ]
     },
     {
-      "futas_id": 1788011354220,
-      "ido": "2026-08-29T13:49:14.220Z",
+      "futas_id": 1788011994498,
+      "ido": "2026-08-29T13:59:54.498Z",
       "termek_id": "vilmos-kortepalinka",
       "termek_nev": "Zwack Vilmos körtepálinka",
       "meret": "0,5 l",
@@ -840,6 +885,16 @@
           "hiba": "nincs_talalat"
         },
         {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
           "shop": "winehub",
           "shop_nev": "Winehub",
           "tipus": "konkurencia",
@@ -882,11 +937,6 @@
           "statusz": "pending"
         },
         {
-          "shop": "italpark",
-          "nev": "Italpark",
-          "statusz": "pending"
-        },
-        {
           "shop": "bortarsasag",
           "nev": "Bortársaság",
           "statusz": "blocked"
@@ -904,8 +954,8 @@
       ]
     },
     {
-      "futas_id": 1788011354220,
-      "ido": "2026-08-29T13:49:14.220Z",
+      "futas_id": 1788011994498,
+      "ido": "2026-08-29T13:59:54.498Z",
       "termek_id": "la-spinetta-sangiovese",
       "termek_nev": "La Spinetta Il Nero di Casanova Sangiovese",
       "meret": "0,75 l",
@@ -930,6 +980,16 @@
           "hiba": null
         },
         {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
+        },
+        {
           "shop": "winehub",
           "shop_nev": "Winehub",
           "tipus": "konkurencia",
@@ -972,11 +1032,6 @@
           "statusz": "pending"
         },
         {
-          "shop": "italpark",
-          "nev": "Italpark",
-          "statusz": "pending"
-        },
-        {
           "shop": "bortarsasag",
           "nev": "Bortársaság",
           "statusz": "blocked"
@@ -994,8 +1049,8 @@
       ]
     },
     {
-      "futas_id": 1788011354220,
-      "ido": "2026-08-29T13:49:14.220Z",
+      "futas_id": 1788011994498,
+      "ido": "2026-08-29T13:59:54.498Z",
       "termek_id": "jw-black-1l",
       "termek_nev": "Johnnie Walker Black Label whisky",
       "meret": "1 l",
@@ -1018,6 +1073,16 @@
           "url": "https://radovin.hu/termek/johnnie-walker-black-triple-cask-40-1l/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "kiszereles_elteter:JOHNNIE WALKER Black Label whisky (0,7l "
         },
         {
           "shop": "winehub",
@@ -1062,11 +1127,6 @@
           "statusz": "pending"
         },
         {
-          "shop": "italpark",
-          "nev": "Italpark",
-          "statusz": "pending"
-        },
-        {
           "shop": "bortarsasag",
           "nev": "Bortársaság",
           "statusz": "blocked"
@@ -1084,8 +1144,8 @@
       ]
     },
     {
-      "futas_id": 1788011354220,
-      "ido": "2026-08-29T13:49:14.220Z",
+      "futas_id": 1788011994498,
+      "ido": "2026-08-29T13:59:54.498Z",
       "termek_id": "monkey47-gin-05l",
       "termek_nev": "Monkey 47 Dry Gin",
       "meret": "0,5 l",
@@ -1108,6 +1168,16 @@
           "url": "https://radovin.hu/termek/monkey-47-dry-gin-47-05l/",
           "megjegyzes": null,
           "hiba": null
+        },
+        {
+          "shop": "italpark",
+          "shop_nev": "Italpark",
+          "tipus": "konkurencia",
+          "ar": null,
+          "nev": null,
+          "url": null,
+          "megjegyzes": null,
+          "hiba": "nincs_ilyen_kategoria_oldal"
         },
         {
           "shop": "winehub",
@@ -1149,11 +1219,6 @@
         {
           "shop": "borhalo",
           "nev": "Borháló",
-          "statusz": "pending"
-        },
-        {
-          "shop": "italpark",
-          "nev": "Italpark",
           "statusz": "pending"
         },
         {
