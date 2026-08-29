@@ -13,7 +13,7 @@ const path = require('path');
 
 const PORT = process.env.PORT || 4300;
 const DIR = __dirname;
-const WEB = path.join(DIR, 'web');
+const WEB = DIR;
 const DATA = path.join(DIR, 'data');
 const TERMEKEK = path.join(DIR, 'config/termekek.json');
 
@@ -67,7 +67,7 @@ const server = http.createServer(async (req, res) => {
 
   // --- Statikus fájlok (web/ + data/) ---
   let fpath;
-  if (url === '/') fpath = path.join(WEB, 'index.html');
+  if (url === '/') fpath = path.join(DIR, 'index.html');
   else if (url.startsWith('/data/')) fpath = path.join(DATA, url.slice('/data/'.length));
   else fpath = path.join(WEB, url);
 
