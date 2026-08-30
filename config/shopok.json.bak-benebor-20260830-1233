@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "verzio": "1.0.0",
+    "frissitve": "2026-08-29",
+    "megjegyzes": "Per-shop adapterek. Statusz: active=lekerve a futtataskor, blocked=bot-val/JS-renderelt (külön fejfeles böngészőt vagy engedélyt igényel)."
+  },
+  "ciklus_ora": 8,
+  "timeout_sec": 25,
+  "user_agent": "RadovinArfigyelo/1.0 (+https://github.com/RobertClaw202604; belso arfigyelo, nem arufeltores)",
+  "shopok": [
+    {
+      "id": "radovin",
+      "nev": "Radovin Borkereskedés",
+      "tipus": "sajat",
+      "statusz": "active",
+      "base_url": "https://radovin.hu",
+      "kereso_url": "https://radovin.hu/?s={q}",
+      "adapter": "woocommerce",
+      "kesleltetes_ms": 600
+    },
+    {
+      "id": "veritas",
+      "nev": "Veritas Borkereskedés",
+      "tipus": "konkurencia",
+      "statusz": "active",
+      "base_url": "https://www.borkereskedes.hu",
+      "adapter": "shoprenter",
+      "kesleltetes_ms": 0,
+      "kategoria_slugek": [
+        "borok/magyar-borok",
+        "borok/kulfoldi-borok",
+        "borok/kulonleges-borok",
+        "alkohol-ital/whisky-whiskey",
+        "pezsgo",
+        "gyongyozoborok-habzoborok",
+        "palinka-grappa",
+        "gin",
+        "likor"
+      ],
+      "kategoria_max_lap": 10,
+      "megjegyzes": "ShopRenter, statikus HTML (?page=N). STRICT matcher-v2-n fut (soha hamis ár). Aktív 2026-08-30: 4 kurált, ellenorizt pontos pár (Bujdosó Kapitány Irsai Olivér 2015 Ft, Bujdosó Csomó Sauvignon Blanc 1990 Ft, Vesztergombi Szekszárdi Rosé 1890 Ft, Zelna Bárka Birtok Vörös Cuvée Bio 4450 Ft) — a checklista tobbi tetelere nincs Veritas-tetel (őszintén no-match)."
+    },
+    {
+      "id": "borhalo",
+      "nev": "Borháló",
+      "tipus": "konkurencia",
+      "statusz": "active",
+      "base_url": "https://borhalo.hu",
+      "adapter": "borhalo",
+      "kesleltetes_ms": 0,
+      "kategoria_slugek": [
+        "borok-2",
+        "pezsgok-6",
+        "parlatok-8"
+      ],
+      "kategoria_max_lap": 12,
+      "megjegyzes": "Egyedi webshop-motor. A terméknév+ár a GA4 dataLayer JSON-ben van a nyers HTML-ben (item_name + price), `termekeink/{kat}?limit=100&page=N` lapozással, headless NÉLKÜL. Fontos: base_url www NÉLKÜL (www-ről a pezsgők/párlatok 301). A borok (~971), pezsgők (~290), párlatok (~21) kategóriákat lapozza a szigorú matcherhez. A Johnnie/Monkey whisky/gin NINCS a kínálatban; a Kreinbacher a pezsgőkben van."
+    },
+    {
+      "id": "italpark",
+      "nev": "Italpark",
+      "tipus": "konkurencia",
+      "statusz": "active",
+      "base_url": "https://www.italpark.hu",
+      "kereso_url": "https://www.italpark.hu/kereses?search={q}",
+      "kategoria_url": "https://www.italpark.hu/{marka}-whisky",
+      "adapter": "headless",
+      "kesleltetes_ms": 800,
+      "timeout_sec": 30,
+      "termek_kartya_selector": ".product-card",
+      "ar_selector": ".product-price--special, .product-price--regular",
+      "megjegyzes": "ShopRenter + robotvédelem: a sima kereső headless-ben is üres, ezért márka-kategóriaoldalról megy ({marka}-whisky minta). A headless adapter MÉRET-tudatos: ha a találat kiszerelése eltér a katalógus-tételétől (pl. 1l vs 0,7l), az érvénytelen (kiszereles_elteter), nem hamis összehasonlítás. A jelenlegi katalógusból csak a Johnnie Walkernek van kategóriaoldala, de a Black csak 0,7l-ben kapható a Radovin 1l-es helyett -> nincs valódi tétel; a rendszer becsületesen nincs adat-ot ad. Azonos kiszerelésű, italkapacitású tétel betételekor automatikusan éles."
+    },
+    {
+      "id": "bortarsasag",
+      "nev": "Bortársaság",
+      "tipus": "konkurencia",
+      "statusz": "blocked",
+      "base_url": "https://www.bortarsasag.hu",
+      "kereso_url": "https://www.bortarsasag.hu/hu/kereso?q={q}",
+      "adapter": "headless-kell",
+      "kesleltetes_ms": 1200,
+      "megjegyzes": "Bot-védett (0 bájt sima GET-re). Headless böngésző + megfelelő engedély kell."
+    },
+    {
+      "id": "benebor",
+      "nev": "Benebor",
+      "tipus": "konkurencia",
+      "statusz": "pending",
+      "base_url": "https://beneborshop.hu",
+      "kereso_url": "https://beneborshop.hu/?s={q}",
+      "adapter": "html-simon",
+      "kesleltetes_ms": 900
+    },
+    {
+      "id": "borbaro",
+      "nev": "Borbáró",
+      "tipus": "konkurencia",
+      "statusz": "pending",
+      "base_url": "https://www.borbaro.hu",
+      "kereso_url": "https://www.borbaro.hu/?s={q}",
+      "adapter": "html-simon",
+      "kesleltetes_ms": 900
+    },
+    {
+      "id": "winehub",
+      "nev": "Winehub",
+      "tipus": "konkurencia",
+      "statusz": "active",
+      "base_url": "https://winehub.hu",
+      "adapter": "woocommerce-api",
+      "kesleltetes_ms": 0,
+      "megjegyzes": "WooCommerce. Teljes katalógus /wp-json/wc/store/products (pontos, headless nélkül). A régi /?s= JSON-LD kereső törékeny lett, ezért katalóguslistás adapterrel megy."
+    },
+    {
+      "id": "borvilag",
+      "nev": "Borvilág",
+      "tipus": "konkurencia",
+      "statusz": "active",
+      "base_url": "https://www.borvilag.hu",
+      "adapter": "shopify",
+      "kesleltetes_ms": 0,
+      "megjegyzes": "Shopify. Nyilvános /products.json API, pontos árakkal, headless NÉLKÜL. A teljes katalógus húzva, szigorú matcherrel szelektál."
+    },
+    {
+      "id": "borpiac",
+      "nev": "Borpiac",
+      "tipus": "konkurencia",
+      "statusz": "active",
+      "base_url": "https://www.borpiac.hu",
+      "adapter": "woocommerce-api",
+      "kesleltetes_ms": 0,
+      "megjegyzes": "WooCommerce. Nyilvános /wp-json/wc/store/products API, pontos árakkal, headless NÉLKÜL. Teljes katalógus + szigorú matcher."
+    },
+    {
+      "id": "borkell",
+      "nev": "Borkell",
+      "tipus": "konkurencia",
+      "statusz": "active",
+      "base_url": "https://www.borkell.hu",
+      "adapter": "opencart",
+      "kesleltetes_ms": 0,
+      "kategoria_slugek": [
+        "/boraszatok/magyar/folly-arboretum",
+        "/boraszatok/magyar/kovacs-nimrod",
+        "/boraszatok/magyar/zelna-boraszat",
+        "/boraszatok/magyar/kali-balazs"
+      ],
+      "kategoria_max_lap": 15,
+      "megjegyzes": "OpenCart (ishi tema), statikus HTML (?page=N). STRICT matcher-v2-n fut (soha hamis ar). A katalogus boraszat-oldalakra szervezve; a kategoria_slugek a 58-as listank 4 jelen-levo markajat fedik (Folly, Kovacs Nimrod, Zelna, Kali Balazs). Aktív 2026-08-30: 4 kurált pontos pár (Folly Budai zöld 2025 4990 Ft, Kovacs Nimrod Grand Bleu 2017 17990 Ft, Zelna Barka voros cuvee 2023 4290 Ft, Zelna Balaton Olaszrizling 2025 2990 Ft). Zelna Fured + Kali Kovek Rezeda nincs Borkellnel (osztehon no-match)."
+    },
+    {
+      "id": "borvalogatas",
+      "nev": "Borválogatás",
+      "tipus": "konkurencia",
+      "statusz": "active",
+      "base_url": "https://borvalogatas.hu",
+      "adapter": "shoprenter",
+      "kesleltetes_ms": 0,
+      "kategoria_slugek": [
+        "borvidekek-168",
+        "boraszatok/magyar-boraszatok-216",
+        "boraszatok/kulfoldi-boraszatok",
+        "pezsgok-gyongyozo-borok-164"
+      ],
+      "kategoria_max_lap": 25,
+      "megjegyzes": "ShopRenter, statikus HTML (?page=N), product-card struktura (a Veritas-el azonos). Aktív 2026-08-30. KURALAS: a teljes katalogus (~130-218 tétel, borvidekek + magyar/kulfoldi boraszatok + pezsgok) átnezve – a Radovin 58-termékes listajának EGYETLEN markaja sem szerepel a boltban (Balla, Prantner, Sziegl, Claudio Quarta, Bedin, Bianca, Monte, Domaene, Riva dei Frati, Kősziklás stb. – mind más marka). Osztéhon 58x no-match, 0 hamis ár (nincs kurált referencia, strict matcher-v2). If valamelyik lista-termék a jövőben felkerül, approved reference nelkul no_exact_match marad (biztonsagos). Kategoria_slugek: borvidekek-168, boraszatok/magyar-boraszatok-216, boraszatok/kulfoldi-boraszatok, pezsgok-gyongyozo-borok-164; kategoria_max_lap 25."
+    }
+  ]
+}

@@ -1,0 +1,2329 @@
+{
+  "meta": {
+    "verzio": "2.0.0",
+    "frissitve": "2026-08-30",
+    "datum_forma": "ISO-8601 (UTC)",
+    "penznem": "HUF",
+    "modell_verzio": "2.0.0",
+    "forras": "kurált 100-as lista (katalogus-keresztezes.mjs kimenet)",
+    "megjegyzes": "100, több-boltban kapható tétel. Az eredeti termekek.json érintetlen; a swap backup-pal történik."
+  },
+  "termekek": [
+    {
+      "id": "kreinbacher-brut-nature-12-0-75l",
+      "nev": "Kreinbacher Brut Nature 12% 0,75l",
+      "marka": "Kreinbacher",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Kreinbacher Brut Nature",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "sparkling",
+        "gyarto": "Kreinbacher",
+        "marka_aliasok": [
+          "Kreinbacher"
+        ],
+        "tetel": "Kreinbacher Brut Nature 12% 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "non_vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Kreinbacher Brut Nature",
+            "Kreinbacher Brut Nature 12% 0,75l",
+            "Kreinbacher Brut Nature 12% 0,75l"
+          ],
+          "ellenorzott_nev": "Kreinbacher Brut Nature",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "kreinbacher-prestige-brut-12-5-0-75l",
+      "nev": "Kreinbacher Prestige Brut 12,5% 0,75l",
+      "marka": "Kreinbacher",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Kreinbacher Prestige Brut",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "sparkling",
+        "gyarto": "Kreinbacher",
+        "marka_aliasok": [
+          "Kreinbacher"
+        ],
+        "tetel": "Kreinbacher Prestige Brut 12,5% 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "non_vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Kreinbacher Prestige Brut",
+            "Kreinbacher Prestige Brut 12,5% 0,75l",
+            "Kreinbacher Prestige Brut 12,5% 0,75l"
+          ],
+          "ellenorzott_nev": "Kreinbacher Prestige Brut",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "moet-chandon-brut-imperial-12-0-75l",
+      "nev": "Moët & Chandon Brut Imperial 12% 0,75l",
+      "marka": "Moët",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Moët & Chandon Brut Imperial",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "sparkling",
+        "gyarto": "Moët",
+        "marka_aliasok": [
+          "Moët"
+        ],
+        "tetel": "Moët & Chandon Brut Imperial 12% 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "non_vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Moët & Chandon Brut Imperial",
+            "Moët & Chandon Brut Imperial 12% 0,75l",
+            "Moët & Chandon Brut Imperial 12% 0,75l"
+          ],
+          "ellenorzott_nev": "Moët & Chandon Brut Imperial",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "moet-chandon-rose-imperial-0-75l",
+      "nev": "Moët & Chandon Rosé Impérial 0,75l",
+      "marka": "Moët",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Moët & Chandon Rosé Impérial",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Moët",
+        "marka_aliasok": [
+          "Moët"
+        ],
+        "tetel": "Moët & Chandon Rosé Impérial 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "unknown",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Moët & Chandon Rosé Impérial",
+            "Moët & Chandon Rosé Impérial 0,75l",
+            "Moët & Chandon Rosé Impérial 0,75l"
+          ],
+          "ellenorzott_nev": "Moët & Chandon Rosé Impérial",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "bujdoso-kapitany-irsai-oliver-2024-11-0-75l",
+      "nev": "Bujdosó Kapitány Irsai Olivér 2024 11% 0,75l",
+      "marka": "Bujdosó",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2024,
+      "radovin_kereso": "Bujdosó Kapitány Irsai Olivér",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Bujdosó",
+        "marka_aliasok": [
+          "Bujdosó"
+        ],
+        "tetel": "Bujdosó Kapitány Irsai Olivér 2024 11% 0,75l",
+        "evjarat": 2024,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Bujdosó Kapitány Irsai Olivér",
+            "Bujdosó Kapitány Irsai Olivér 2024 11% 0,75l",
+            "Bujdosó Kapitány Irsai Olivér 2024 11% 0,75l"
+          ],
+          "ellenorzott_nev": "Bujdosó Kapitány Irsai Olivér",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "veritas": {
+          "elfogadott_tetel_aliasok": [
+            "Kapitány",
+            "Irsai Olivér"
+          ],
+          "url": "https://www.borkereskedes.hu/bujdoso-balatonboglari-kapitany-irsai-oliver",
+          "ellenorzott_nev": "Bujdosó Kapitány Irsai Olivér",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
+        }
+      }
+    },
+    {
+      "id": "bujdoso-csomo-sauvignon-blanc-2024-2025-12-0-75l",
+      "nev": "Bujdosó Csomó Sauvignon Blanc 2024/2025 12% 0,75l",
+      "marka": "Bujdosó",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2024,
+      "radovin_kereso": "Bujdosó Csomó Sauvignon Blanc /",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Bujdosó",
+        "marka_aliasok": [
+          "Bujdosó"
+        ],
+        "tetel": "Bujdosó Csomó Sauvignon Blanc 2024/2025 12% 0,75l",
+        "evjarat": 2024,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Bujdosó Csomó Sauvignon Blanc /",
+            "Bujdosó Csomó Sauvignon Blanc 2024/2025 12% 0,75l",
+            "Bujdosó Csomó Sauvignon Blanc 2024/2025 12% 0,75l"
+          ],
+          "ellenorzott_nev": "Bujdosó Csomó Sauvignon Blanc /",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "veritas": {
+          "elfogadott_tetel_aliasok": [
+            "Csomó"
+          ],
+          "url": "https://www.borkereskedes.hu/bujdoso-balatonboglari-csomo-sauvignon-blanc",
+          "ellenorzott_nev": "Bujdosó Csomó Sauvignon Blanc",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
+        }
+      }
+    },
+    {
+      "id": "steigler-kameleon-feher-cuvee-2025-13-0-75l",
+      "nev": "Steigler Kaméleon Fehér Cuvée 2025 13% 0,75l",
+      "marka": "Steigler",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2025,
+      "radovin_kereso": "Steigler Kaméleon Fehér Cuvée",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Steigler",
+        "marka_aliasok": [
+          "Steigler"
+        ],
+        "tetel": "Steigler Kaméleon Fehér Cuvée 2025 13% 0,75l",
+        "evjarat": 2025,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Steigler Kaméleon Fehér Cuvée",
+            "Steigler Kaméleon Fehér Cuvée 2025 13% 0,75l",
+            "Steigler Kaméleon Fehér Cuvée 2025 13% 0,75l"
+          ],
+          "ellenorzott_nev": "Steigler Kaméleon Fehér Cuvée",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "bujdoso-hegybor-olaszrizling-2024-11-0-75l",
+      "nev": "Bujdosó Hegybor Olaszrizling 2024 11% 0,75l",
+      "marka": "Bujdosó",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2024,
+      "radovin_kereso": "Bujdosó Hegybor Olaszrizling",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Bujdosó",
+        "marka_aliasok": [
+          "Bujdosó"
+        ],
+        "tetel": "Bujdosó Hegybor Olaszrizling 2024 11% 0,75l",
+        "evjarat": 2024,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Bujdosó Hegybor Olaszrizling",
+            "Bujdosó Hegybor Olaszrizling 2024 11% 0,75l",
+            "Bujdosó Hegybor Olaszrizling 2024 11% 0,75l"
+          ],
+          "ellenorzott_nev": "Bujdosó Hegybor Olaszrizling",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "folly-budai-zold-2025-badacsony-0-75l",
+      "nev": "Folly Budai Zöld 2025 Badacsony 0,75l",
+      "marka": "Folly",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2025,
+      "radovin_kereso": "Folly Budai Zöld Badacsony",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Folly",
+        "marka_aliasok": [
+          "Folly"
+        ],
+        "tetel": "Folly Budai Zöld 2025 Badacsony 0,75l",
+        "evjarat": 2025,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Folly Budai Zöld Badacsony",
+            "Folly Budai Zöld 2025 Badacsony 0,75l",
+            "Folly Budai Zöld 2025 Badacsony 0,75l"
+          ],
+          "ellenorzott_nev": "Folly Budai Zöld Badacsony",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "borkell": {
+          "elfogadott_tetel_aliasok": [
+            "Budai zöld"
+          ],
+          "url": "https://borkell.hu/boraszatok/magyar/folly-arboretum/folly-budai-zold",
+          "ellenorzott_nev": "Folly – Budai zöld 2025",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
+        }
+      }
+    },
+    {
+      "id": "steigler-furmint-premium-2023-13-0-75l",
+      "nev": "Steigler Furmint Prémium 2023 13% 0,75l",
+      "marka": "Steigler",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2023,
+      "radovin_kereso": "Steigler Furmint Prémium",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Steigler",
+        "marka_aliasok": [
+          "Steigler"
+        ],
+        "tetel": "Steigler Furmint Prémium 2023 13% 0,75l",
+        "evjarat": 2023,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Steigler Furmint Prémium",
+            "Steigler Furmint Prémium 2023 13% 0,75l",
+            "Steigler Furmint Prémium 2023 13% 0,75l"
+          ],
+          "ellenorzott_nev": "Steigler Furmint Prémium",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "steigler-kekfrankos-premium-2022-13-0-75l",
+      "nev": "Steigler Kékfrankos Prémium 2022 13% 0,75l",
+      "marka": "Steigler",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2022,
+      "radovin_kereso": "Steigler Kékfrankos Prémium",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Steigler",
+        "marka_aliasok": [
+          "Steigler"
+        ],
+        "tetel": "Steigler Kékfrankos Prémium 2022 13% 0,75l",
+        "evjarat": 2022,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Steigler Kékfrankos Prémium",
+            "Steigler Kékfrankos Prémium 2022 13% 0,75l",
+            "Steigler Kékfrankos Prémium 2022 13% 0,75l"
+          ],
+          "ellenorzott_nev": "Steigler Kékfrankos Prémium",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "sauska-rose-brut-12-0-75l",
+      "nev": "Sauska Rosé Brut 12% 0,75l",
+      "marka": "Sauska",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Sauska Rosé Brut",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "sparkling",
+        "gyarto": "Sauska",
+        "marka_aliasok": [
+          "Sauska"
+        ],
+        "tetel": "Sauska Rosé Brut 12% 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "non_vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Sauska Rosé Brut",
+            "Sauska Rosé Brut 12% 0,75l",
+            "Sauska Rosé Brut 12% 0,75l"
+          ],
+          "ellenorzott_nev": "Sauska Rosé Brut",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "kreinbacher-brut-classic-12-0-75l",
+      "nev": "Kreinbacher Brut Classic 12% 0,75l",
+      "marka": "Kreinbacher",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Kreinbacher Brut Classic",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "sparkling",
+        "gyarto": "Kreinbacher",
+        "marka_aliasok": [
+          "Kreinbacher"
+        ],
+        "tetel": "Kreinbacher Brut Classic 12% 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "non_vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Kreinbacher Brut Classic",
+            "Kreinbacher Brut Classic 12% 0,75l",
+            "Kreinbacher Brut Classic 12% 0,75l"
+          ],
+          "ellenorzott_nev": "Kreinbacher Brut Classic",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "kreinbacher-rose-brut-12-0-75l",
+      "nev": "Kreinbacher Rosé Brut 12% 0,75l",
+      "marka": "Kreinbacher",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Kreinbacher Rosé Brut",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "sparkling",
+        "gyarto": "Kreinbacher",
+        "marka_aliasok": [
+          "Kreinbacher"
+        ],
+        "tetel": "Kreinbacher Rosé Brut 12% 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "non_vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Kreinbacher Rosé Brut",
+            "Kreinbacher Rosé Brut 12% 0,75l",
+            "Kreinbacher Rosé Brut 12% 0,75l"
+          ],
+          "ellenorzott_nev": "Kreinbacher Rosé Brut",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "le-colture-superiore-cartizze-docg-11-0-75l",
+      "nev": "Le Colture Superiore Cartizze DOCG 11% 0,75l",
+      "marka": "Le",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Le Colture Superiore Cartizze DOCG",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Le",
+        "marka_aliasok": [
+          "Le"
+        ],
+        "tetel": "Le Colture Superiore Cartizze DOCG 11% 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "unknown",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Le Colture Superiore Cartizze DOCG",
+            "Le Colture Superiore Cartizze DOCG 11% 0,75l",
+            "Le Colture Superiore Cartizze DOCG 11% 0,75l"
+          ],
+          "ellenorzott_nev": "Le Colture Superiore Cartizze DOCG",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "gere-attila-kopar-2021-14-0-75l",
+      "nev": "Gere Attila Kopar 2021 14% 0,75l",
+      "marka": "Gere",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2021,
+      "radovin_kereso": "Gere Attila Kopar",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Gere",
+        "marka_aliasok": [
+          "Gere"
+        ],
+        "tetel": "Gere Attila Kopar 2021 14% 0,75l",
+        "evjarat": 2021,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Gere Attila Kopar",
+            "Gere Attila Kopar 2021 14% 0,75l",
+            "Gere Attila Kopar 2021 14% 0,75l"
+          ],
+          "ellenorzott_nev": "Gere Attila Kopar",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "still-gin-42-0-7l",
+      "nev": "Still Gin 42% 0,7l",
+      "marka": "Still",
+      "tipus": "tömény",
+      "meret": "0,7 l",
+      "evjarat": null,
+      "radovin_kereso": "Still Gin",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "spirit",
+        "gyarto": "Still",
+        "marka_aliasok": [
+          "Still"
+        ],
+        "tetel": "Still Gin 42% 0,7l",
+        "evjarat": null,
+        "evjarat_statusz": "unknown",
+        "kiszereles_ml": 700,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Still Gin",
+            "Still Gin 42% 0,7l",
+            "Still Gin 42% 0,7l"
+          ],
+          "ellenorzott_nev": "Still Gin",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "sauska-rose-brut-magnum-12-1-5l",
+      "nev": "Sauska Rosé Brut MAGNUM 12% 1,5l",
+      "marka": "Sauska",
+      "tipus": "pezsgő",
+      "meret": "1,5 l",
+      "evjarat": null,
+      "radovin_kereso": "Sauska Rosé Brut MAGNUM",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "sparkling",
+        "gyarto": "Sauska",
+        "marka_aliasok": [
+          "Sauska"
+        ],
+        "tetel": "Sauska Rosé Brut MAGNUM 12% 1,5l",
+        "evjarat": null,
+        "evjarat_statusz": "non_vintage",
+        "kiszereles_ml": 1500,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Sauska Rosé Brut MAGNUM",
+            "Sauska Rosé Brut MAGNUM 12% 1,5l",
+            "Sauska Rosé Brut MAGNUM 12% 1,5l"
+          ],
+          "ellenorzott_nev": "Sauska Rosé Brut MAGNUM",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "grand-tokaj-aszu-6-puttonyos-szarvas-2014-9-0-375l",
+      "nev": "Grand Tokaj Aszú 6 puttonyos \"Szarvas\" 2014 9% 0,375l",
+      "marka": "Grand Tokaj",
+      "tipus": "bor",
+      "meret": "0,375 l",
+      "evjarat": 2014,
+      "radovin_kereso": "Grand Tokaj Aszú 6 puttonyos",
+      "aktiv": false,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Grand Tokaj",
+        "marka_aliasok": [
+          "Grand Tokaj"
+        ],
+        "tetel": "Grand Tokaj Aszú 6 puttonyos \"Szarvas\" 2014 9% 0,375l",
+        "evjarat": 2014,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 375,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": 6,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Grand Tokaj Aszú 6 puttonyos",
+            "Grand Tokaj Aszú 6 puttonyos \\\"Szarvas\\\" 2014",
+            "Grand Tokaj Aszú 6 puttonyos \"Szarvas\" 2014 9% 0,375l"
+          ],
+          "ellenorzott_nev": "Grand Tokaj Aszú 6 puttonyos \"Szarvas\" 2014",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "INAKTÍV (2026-08-30): az élő azonosítás no_exact_match-et ad (a \"Szarvas\" + idézőjel-entitás a Radovin-oldalon nem egyezik a kereso-val). Karantént okoz -> kivéve a listából. Külön debugolandó; a rekord megmarad infó-megőrzésből."
+        }
+      },
+      "szuneteltetes_oka": "no_exact_match az elo azonositasban (2026-08-30)"
+    },
+    {
+      "id": "kreinbacher-brut-classic-magnum-2019-1-5l",
+      "nev": "Kreinbacher Brut Classic Magnum 2019 1,5l",
+      "marka": "Kreinbacher",
+      "tipus": "pezsgő",
+      "meret": "1,5 l",
+      "evjarat": 2019,
+      "radovin_kereso": "Kreinbacher Brut Classic Magnum",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "sparkling",
+        "gyarto": "Kreinbacher",
+        "marka_aliasok": [
+          "Kreinbacher"
+        ],
+        "tetel": "Kreinbacher Brut Classic Magnum 2019 1,5l",
+        "evjarat": 2019,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 1500,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Kreinbacher Brut Classic Magnum",
+            "Kreinbacher Brut Classic Magnum 2019 1,5l",
+            "Kreinbacher Brut Classic Magnum 2019 1,5l"
+          ],
+          "ellenorzott_nev": "Kreinbacher Brut Classic Magnum",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "chateau-latour-martillac-blanc-2021-13-0-75l",
+      "nev": "Chateau Latour-Martillac Blanc 2021 13% 0,75l",
+      "marka": "Chateau",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2021,
+      "radovin_kereso": "Chateau Latour-Martillac Blanc",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Chateau",
+        "marka_aliasok": [
+          "Chateau"
+        ],
+        "tetel": "Chateau Latour-Martillac Blanc 2021 13% 0,75l",
+        "evjarat": 2021,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Chateau Latour-Martillac Blanc",
+            "Chateau Latour-Martillac Blanc 2021 13% 0,75l",
+            "Chateau Latour-Martillac Blanc 2021 13% 0,75l"
+          ],
+          "ellenorzott_nev": "Chateau Latour-Martillac Blanc",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "louis-roederer-collection-244-12-0-75l",
+      "nev": "Louis Roederer Collection 244 12% 0,75l",
+      "marka": "Louis",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Louis Roederer Collection 244",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Louis",
+        "marka_aliasok": [
+          "Louis"
+        ],
+        "tetel": "Louis Roederer Collection 244 12% 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "unknown",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Louis Roederer Collection 244",
+            "Louis Roederer Collection 244 12% 0,75l",
+            "Louis Roederer Collection 244 12% 0,75l"
+          ],
+          "ellenorzott_nev": "Louis Roederer Collection 244",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "roederer-collection-244-dd-12-0-75l",
+      "nev": "Roederer Collection 244 DD 12% 0,75l",
+      "marka": "Roederer",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Roederer Collection 244 DD",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Roederer",
+        "marka_aliasok": [
+          "Roederer"
+        ],
+        "tetel": "Roederer Collection 244 DD 12% 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "unknown",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Roederer Collection 244 DD",
+            "Roederer Collection 244 DD 12% 0,75l",
+            "Roederer Collection 244 DD 12% 0,75l"
+          ],
+          "ellenorzott_nev": "Roederer Collection 244 DD",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "charles-heidsieck-brut-reserve-12-0-75l",
+      "nev": "Charles Heidsieck Brut Réserve 12% 0,75l",
+      "marka": "Charles",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Charles Heidsieck Brut Réserve",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "sparkling",
+        "gyarto": "Charles",
+        "marka_aliasok": [
+          "Charles"
+        ],
+        "tetel": "Charles Heidsieck Brut Réserve 12% 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "non_vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Charles Heidsieck Brut Réserve",
+            "Charles Heidsieck Brut Réserve 12% 0,75l",
+            "Charles Heidsieck Brut Réserve 12% 0,75l"
+          ],
+          "ellenorzott_nev": "Charles Heidsieck Brut Réserve",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "bollinger-special-cuvee-dd-12-5-0-75l",
+      "nev": "Bollinger Special Cuvée DD 12,5% 0,75l",
+      "marka": "Bollinger",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Bollinger Special Cuvée DD",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Bollinger",
+        "marka_aliasok": [
+          "Bollinger"
+        ],
+        "tetel": "Bollinger Special Cuvée DD 12,5% 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "unknown",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Bollinger Special Cuvée DD",
+            "Bollinger Special Cuvée DD 12,5% 0,75l",
+            "Bollinger Special Cuvée DD 12,5% 0,75l"
+          ],
+          "ellenorzott_nev": "Bollinger Special Cuvée DD",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "louis-roederer-collection-245-12-5-0-75l",
+      "nev": "Louis Roederer Collection 245 12,5% 0,75l",
+      "marka": "Louis",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Louis Roederer Collection 245",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Louis",
+        "marka_aliasok": [
+          "Louis"
+        ],
+        "tetel": "Louis Roederer Collection 245 12,5% 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "unknown",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Louis Roederer Collection 245",
+            "Louis Roederer Collection 245 12,5% 0,75l",
+            "Louis Roederer Collection 245 12,5% 0,75l"
+          ],
+          "ellenorzott_nev": "Louis Roederer Collection 245",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "demeter-pince-xy-sauvignon-blanc-2025-0-75l-drs",
+      "nev": "Demeter Pince XY Sauvignon Blanc 2025 0,75l DRS",
+      "marka": "Demeter",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2025,
+      "radovin_kereso": "Demeter Pince XY Sauvignon Blanc DRS",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Demeter",
+        "marka_aliasok": [
+          "Demeter"
+        ],
+        "tetel": "Demeter Pince XY Sauvignon Blanc 2025 0,75l DRS",
+        "evjarat": 2025,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Demeter Pince XY Sauvignon Blanc DRS",
+            "Demeter Pince XY Sauvignon Blanc 2025 0,75l DRS",
+            "Demeter Pince XY Sauvignon Blanc 2025 0,75l DRS"
+          ],
+          "ellenorzott_nev": "Demeter Pince XY Sauvignon Blanc DRS",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "eszterbauer-114-eves-kadarka-2025-szekszardi-12-5-0-75l",
+      "nev": "Eszterbauer 114 éves Kadarka 2025 Szekszárdi 12,5% 0,75l",
+      "marka": "Eszterbauer",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2025,
+      "radovin_kereso": "Eszterbauer 114 éves Kadarka Szekszárdi",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Eszterbauer",
+        "marka_aliasok": [
+          "Eszterbauer"
+        ],
+        "tetel": "Eszterbauer 114 éves Kadarka 2025 Szekszárdi 12,5% 0,75l",
+        "evjarat": 2025,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Eszterbauer 114 éves Kadarka Szekszárdi",
+            "Eszterbauer 114 éves Kadarka 2025 Szekszárdi 12,5% 0,75l",
+            "Eszterbauer 114 éves Kadarka 2025 Szekszárdi 12,5% 0,75l"
+          ],
+          "ellenorzott_nev": "Eszterbauer 114 éves Kadarka Szekszárdi",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "t3-dolcsi-sargamuskotaly-2024-12-5-0-75l",
+      "nev": "T3 Dolcsi Sárgamuskotály 2024 12,5% 0,75l",
+      "marka": "T3",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2024,
+      "radovin_kereso": "T3 Dolcsi Sárgamuskotály",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "T3",
+        "marka_aliasok": [
+          "T3"
+        ],
+        "tetel": "T3 Dolcsi Sárgamuskotály 2024 12,5% 0,75l",
+        "evjarat": 2024,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "T3 Dolcsi Sárgamuskotály",
+            "T3 Dolcsi Sárgamuskotály 2024 12,5% 0,75l",
+            "T3 Dolcsi Sárgamuskotály 2024 12,5% 0,75l"
+          ],
+          "ellenorzott_nev": "T3 Dolcsi Sárgamuskotály",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "kali-kovek-rezeda-olaszrizling-2024-13-5-0-75l",
+      "nev": "Káli Kövek Rezeda Olaszrizling 2024 13,5% 0,75l",
+      "marka": "Káli",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2024,
+      "radovin_kereso": "Káli Kövek Rezeda Olaszrizling",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Káli",
+        "marka_aliasok": [
+          "Káli"
+        ],
+        "tetel": "Káli Kövek Rezeda Olaszrizling 2024 13,5% 0,75l",
+        "evjarat": 2024,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Káli Kövek Rezeda Olaszrizling",
+            "Káli Kövek Rezeda Olaszrizling 2024 13,5% 0,75l",
+            "Káli Kövek Rezeda Olaszrizling 2024 13,5% 0,75l"
+          ],
+          "ellenorzott_nev": "Káli Kövek Rezeda Olaszrizling",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "zelna-boraszat-barka-2023-14-0-75l",
+      "nev": "Zelna Borászat Bárka 2023 14% 0,75l",
+      "marka": "Zelna",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2023,
+      "radovin_kereso": "Zelna Borászat Bárka",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Zelna",
+        "marka_aliasok": [
+          "Zelna"
+        ],
+        "tetel": "Zelna Borászat Bárka 2023 14% 0,75l",
+        "evjarat": 2023,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Zelna Borászat Bárka",
+            "Zelna Borászat Bárka 2023 14% 0,75l",
+            "Zelna Borászat Bárka 2023 14% 0,75l"
+          ],
+          "ellenorzott_nev": "Zelna Borászat Bárka",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "veritas": {
+          "elfogadott_tetel_aliasok": [
+            "Bárka"
+          ],
+          "url": "https://www.borkereskedes.hu/zelna-barka-birtok-voros",
+          "ellenorzott_nev": "Zelna Bárka Birtok Vörös Cuvée Bio",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
+        },
+        "borkell": {
+          "elfogadott_tetel_aliasok": [
+            "Bárka"
+          ],
+          "url": "https://borkell.hu/boraszatok/magyar/zelna-boraszat/barka-voros-cuvee",
+          "ellenorzott_nev": "Zelna – Bárka vörös cuvée 2023",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
+        }
+      }
+    },
+    {
+      "id": "bock-ermitage-2023-14-5-0-75l",
+      "nev": "Bock Ermitage 2023 14,5% 0,75l",
+      "marka": "Bock",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2023,
+      "radovin_kereso": "Bock Ermitage",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Bock",
+        "marka_aliasok": [
+          "Bock"
+        ],
+        "tetel": "Bock Ermitage 2023 14,5% 0,75l",
+        "evjarat": 2023,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Bock Ermitage",
+            "Bock Ermitage 2023 14,5% 0,75l",
+            "Bock Ermitage 2023 14,5% 0,75l"
+          ],
+          "ellenorzott_nev": "Bock Ermitage",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "bott-pince-kulcsar-tokaji-harslevelu-2023-13-0-75l",
+      "nev": "Bott Pince Kulcsár Tokaji Hárslevelű 2023 13% 0,75l",
+      "marka": "Bott",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2023,
+      "radovin_kereso": "Bott Pince Kulcsár Tokaji Hárslevelű",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Bott",
+        "marka_aliasok": [
+          "Bott"
+        ],
+        "tetel": "Bott Pince Kulcsár Tokaji Hárslevelű 2023 13% 0,75l",
+        "evjarat": 2023,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Bott Pince Kulcsár Tokaji Hárslevelű",
+            "Bott Pince Kulcsár Tokaji Hárslevelű 2023 13% 0,75l",
+            "Bott Pince Kulcsár Tokaji Hárslevelű 2023 13% 0,75l"
+          ],
+          "ellenorzott_nev": "Bott Pince Kulcsár Tokaji Hárslevelű",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "bukolyi-furmint-nagy-eged-grand-superior-2024-14-0-75l",
+      "nev": "Bukolyi Furmint Nagy Eged Grand Superior 2024 14% 0,75l",
+      "marka": "Bukolyi",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2024,
+      "radovin_kereso": "Bukolyi Furmint Nagy Eged Grand Superior",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Bukolyi",
+        "marka_aliasok": [
+          "Bukolyi"
+        ],
+        "tetel": "Bukolyi Furmint Nagy Eged Grand Superior 2024 14% 0,75l",
+        "evjarat": 2024,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Bukolyi Furmint Nagy Eged Grand Superior",
+            "Bukolyi Furmint Nagy Eged Grand Superior 2024 14% 0,75l",
+            "Bukolyi Furmint Nagy Eged Grand Superior 2024 14% 0,75l"
+          ],
+          "ellenorzott_nev": "Bukolyi Furmint Nagy Eged Grand Superior",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "bukolyi-harslevelu-nagy-eged-grand-superior-2024-0-75l",
+      "nev": "Bukolyi Hárslevelű Nagy Eged Grand Superior 2024 0,75l",
+      "marka": "Bukolyi",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2024,
+      "radovin_kereso": "Bukolyi Hárslevelű Nagy Eged Grand Superior",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Bukolyi",
+        "marka_aliasok": [
+          "Bukolyi"
+        ],
+        "tetel": "Bukolyi Hárslevelű Nagy Eged Grand Superior 2024 0,75l",
+        "evjarat": 2024,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Bukolyi Hárslevelű Nagy Eged Grand Superior",
+            "Bukolyi Hárslevelű Nagy Eged Grand Superior 2024 0,75l",
+            "Bukolyi Hárslevelű Nagy Eged Grand Superior 2024 0,75l"
+          ],
+          "ellenorzott_nev": "Bukolyi Hárslevelű Nagy Eged Grand Superior",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "bujdoso-brut-serie-no50-12-0-75l",
+      "nev": "Bujdosó Brut Série no50 12% 0,75l",
+      "marka": "Bujdosó",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Bujdosó Brut Série no50",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "sparkling",
+        "gyarto": "Bujdosó",
+        "marka_aliasok": [
+          "Bujdosó"
+        ],
+        "tetel": "Bujdosó Brut Série no50 12% 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "non_vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Bujdosó Brut Série no50",
+            "Bujdosó Brut Série no50 12% 0,75l",
+            "Bujdosó Brut Série no50 12% 0,75l"
+          ],
+          "ellenorzott_nev": "Bujdosó Brut Série no50",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "szarka-pince-tokaj-off-dry-felszaraz-2023-13-0-75l",
+      "nev": "Szarka Pince Tokaj Off Dry Félszáraz 2023 13% 0,75l",
+      "marka": "Szarka",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2023,
+      "radovin_kereso": "Szarka Pince Tokaj Off Dry Félszáraz",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Szarka",
+        "marka_aliasok": [
+          "Szarka"
+        ],
+        "tetel": "Szarka Pince Tokaj Off Dry Félszáraz 2023 13% 0,75l",
+        "evjarat": 2023,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Szarka Pince Tokaj Off Dry Félszáraz",
+            "Szarka Pince Tokaj Off Dry Félszáraz 2023 13% 0,75l",
+            "Szarka Pince Tokaj Off Dry Félszáraz 2023 13% 0,75l"
+          ],
+          "ellenorzott_nev": "Szarka Pince Tokaj Off Dry Félszáraz",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "vesztergombi-st-laszlo-bikaver-2021-14-0-75l",
+      "nev": "Vesztergombi St. László Bikavér 2021 14,% 0,75l",
+      "marka": "Vesztergombi",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2021,
+      "radovin_kereso": "Vesztergombi St. László Bikavér",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Vesztergombi",
+        "marka_aliasok": [
+          "Vesztergombi"
+        ],
+        "tetel": "Vesztergombi St. László Bikavér 2021 14,% 0,75l",
+        "evjarat": 2021,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Vesztergombi St. László Bikavér",
+            "Vesztergombi St. László Bikavér 2021 14,% 0,75l",
+            "Vesztergombi St. László Bikavér 2021 14,% 0,75l"
+          ],
+          "ellenorzott_nev": "Vesztergombi St. László Bikavér",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "steigler-pet-nat-kekfrankos-rose-2025-fn-13-0-75l",
+      "nev": "Steigler Pet-Nat Kékfrankos Rosé 2025 FN 13% 0,75l",
+      "marka": "Steigler",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": 2025,
+      "radovin_kereso": "Steigler Pet-Nat Kékfrankos Rosé FN",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "sparkling",
+        "gyarto": "Steigler",
+        "marka_aliasok": [
+          "Steigler"
+        ],
+        "tetel": "Steigler Pet-Nat Kékfrankos Rosé 2025 FN 13% 0,75l",
+        "evjarat": 2025,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Steigler Pet-Nat Kékfrankos Rosé FN",
+            "Steigler Pet-Nat Kékfrankos Rosé 2025 FN 13% 0,75l",
+            "Steigler Pet-Nat Kékfrankos Rosé 2025 FN 13% 0,75l"
+          ],
+          "ellenorzott_nev": "Steigler Pet-Nat Kékfrankos Rosé FN",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "steigler-pet-nat-zold-veltelini-2025-fn-0-75-l-drs",
+      "nev": "Steigler Pet-Nat Zöld Veltelíni 2025 FN 0,75 l DRS",
+      "marka": "Steigler",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": 2025,
+      "radovin_kereso": "Steigler Pet-Nat Zöld Veltelíni FN DRS",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "sparkling",
+        "gyarto": "Steigler",
+        "marka_aliasok": [
+          "Steigler"
+        ],
+        "tetel": "Steigler Pet-Nat Zöld Veltelíni 2025 FN 0,75 l DRS",
+        "evjarat": 2025,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Steigler Pet-Nat Zöld Veltelíni FN DRS",
+            "Steigler Pet-Nat Zöld Veltelíni 2025 FN 0,75 l DRS",
+            "Steigler Pet-Nat Zöld Veltelíni 2025 FN 0,75 l DRS"
+          ],
+          "ellenorzott_nev": "Steigler Pet-Nat Zöld Veltelíni FN DRS",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "kovacs-nimrod-grand-bleu-2017-13-5-0-75l",
+      "nev": "Kovács Nimród Grand Bleu 2017 13,5% 0,75l",
+      "marka": "Kovács",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2017,
+      "radovin_kereso": "Kovács Nimród Grand Bleu",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Kovács",
+        "marka_aliasok": [
+          "Kovács"
+        ],
+        "tetel": "Kovács Nimród Grand Bleu 2017 13,5% 0,75l",
+        "evjarat": 2017,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Kovács Nimród Grand Bleu",
+            "Kovács Nimród Grand Bleu 2017 13,5% 0,75l",
+            "Kovács Nimród Grand Bleu 2017 13,5% 0,75l"
+          ],
+          "ellenorzott_nev": "Kovács Nimród Grand Bleu",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "borkell": {
+          "elfogadott_tetel_aliasok": [
+            "Grand Bleu"
+          ],
+          "url": "https://borkell.hu/boraszatok/magyar/kovacs-nimrod/kovacs-nimrod-grand-bleu",
+          "ellenorzott_nev": "Kovács Nimród - Grand Bleu 2017",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
+        }
+      }
+    },
+    {
+      "id": "ruinart-r-de-ruinart-12-5-0-75l",
+      "nev": "Ruinart R de Ruinart 12,5% 0,75l",
+      "marka": "Ruinart",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": null,
+      "radovin_kereso": "Ruinart R de Ruinart",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Ruinart",
+        "marka_aliasok": [
+          "Ruinart"
+        ],
+        "tetel": "Ruinart R de Ruinart 12,5% 0,75l",
+        "evjarat": null,
+        "evjarat_statusz": "unknown",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Ruinart R de Ruinart",
+            "Ruinart R de Ruinart 12,5% 0,75l",
+            "Ruinart R de Ruinart 12,5% 0,75l"
+          ],
+          "ellenorzott_nev": "Ruinart R de Ruinart",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "tothborbirtok-brut-reserve-2021-12-5-0-75l",
+      "nev": "TÓTHBORBIRTOK Brut Reserve 2021 12,5% 0,75l",
+      "marka": "TÓTHBORBIRTOK",
+      "tipus": "pezsgő",
+      "meret": "0,75 l",
+      "evjarat": 2021,
+      "radovin_kereso": "TÓTHBORBIRTOK Brut Reserve",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "sparkling",
+        "gyarto": "TÓTHBORBIRTOK",
+        "marka_aliasok": [
+          "TÓTHBORBIRTOK"
+        ],
+        "tetel": "TÓTHBORBIRTOK Brut Reserve 2021 12,5% 0,75l",
+        "evjarat": 2021,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "TÓTHBORBIRTOK Brut Reserve",
+            "TÓTHBORBIRTOK Brut Reserve 2021 12,5% 0,75l",
+            "TÓTHBORBIRTOK Brut Reserve 2021 12,5% 0,75l"
+          ],
+          "ellenorzott_nev": "TÓTHBORBIRTOK Brut Reserve",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "zelna-boraszat-balaton-olaszrizling-2025-13-0-75l",
+      "nev": "Zelna Borászat Balaton Olaszrizling 2025 13% 0,75l",
+      "marka": "Zelna",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2025,
+      "radovin_kereso": "Zelna Borászat Balaton Olaszrizling",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Zelna",
+        "marka_aliasok": [
+          "Zelna"
+        ],
+        "tetel": "Zelna Borászat Balaton Olaszrizling 2025 13% 0,75l",
+        "evjarat": 2025,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Zelna Borászat Balaton Olaszrizling",
+            "Zelna Borászat Balaton Olaszrizling 2025 13% 0,75l",
+            "Zelna Borászat Balaton Olaszrizling 2025 13% 0,75l"
+          ],
+          "ellenorzott_nev": "Zelna Borászat Balaton Olaszrizling",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "borkell": {
+          "elfogadott_tetel_aliasok": [
+            "Olaszrizling BIO"
+          ],
+          "url": "https://borkell.hu/boraszatok/magyar/zelna-boraszat/zelna-balaton-olaszrizling",
+          "ellenorzott_nev": "Zelna – Olaszrizling BIO 2025",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
+        }
+      }
+    },
+    {
+      "id": "tothborbirtok-juvenis-voros-cuvee-2022-13-0-75l",
+      "nev": "TÓTHBORBIRTOK Juvenis Vörös Cuvée 2022 13% 0,75l",
+      "marka": "TÓTHBORBIRTOK",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2022,
+      "radovin_kereso": "TÓTHBORBIRTOK Juvenis Vörös Cuvée",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "TÓTHBORBIRTOK",
+        "marka_aliasok": [
+          "TÓTHBORBIRTOK"
+        ],
+        "tetel": "TÓTHBORBIRTOK Juvenis Vörös Cuvée 2022 13% 0,75l",
+        "evjarat": 2022,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "TÓTHBORBIRTOK Juvenis Vörös Cuvée",
+            "TÓTHBORBIRTOK Juvenis Vörös Cuvée 2022 13% 0,75l",
+            "TÓTHBORBIRTOK Juvenis Vörös Cuvée 2022 13% 0,75l"
+          ],
+          "ellenorzott_nev": "TÓTHBORBIRTOK Juvenis Vörös Cuvée",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "bujdoso-jolle-sauvignon-blanc-2024-12-5-0-75l",
+      "nev": "Bujdosó Jolle Sauvignon Blanc 2024 12,5% 0,75l",
+      "marka": "Bujdosó",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2024,
+      "radovin_kereso": "Bujdosó Jolle Sauvignon Blanc",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Bujdosó",
+        "marka_aliasok": [
+          "Bujdosó"
+        ],
+        "tetel": "Bujdosó Jolle Sauvignon Blanc 2024 12,5% 0,75l",
+        "evjarat": 2024,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Bujdosó Jolle Sauvignon Blanc",
+            "Bujdosó Jolle Sauvignon Blanc 2024 12,5% 0,75l",
+            "Bujdosó Jolle Sauvignon Blanc 2024 12,5% 0,75l"
+          ],
+          "ellenorzott_nev": "Bujdosó Jolle Sauvignon Blanc",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "steigler-siller-zweigelt-2023-12-0-75l",
+      "nev": "Steigler Siller Zweigelt 2023 12% 0,75l",
+      "marka": "Steigler",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2023,
+      "radovin_kereso": "Steigler Siller Zweigelt",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Steigler",
+        "marka_aliasok": [
+          "Steigler"
+        ],
+        "tetel": "Steigler Siller Zweigelt 2023 12% 0,75l",
+        "evjarat": 2023,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Steigler Siller Zweigelt",
+            "Steigler Siller Zweigelt 2023 12% 0,75l",
+            "Steigler Siller Zweigelt 2023 12% 0,75l"
+          ],
+          "ellenorzott_nev": "Steigler Siller Zweigelt",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "bukolyi-marcell-kekfrankos-reserve-nagy-eged-grand-superior-",
+      "nev": "Bukolyi Marcell Kékfrankos Reserve Nagy-Eged Grand Superior 2021 14% 0,75l",
+      "marka": "Bukolyi",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2021,
+      "radovin_kereso": "Bukolyi Marcell Kékfrankos Reserve Nagy-Eged Grand Superior",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Bukolyi",
+        "marka_aliasok": [
+          "Bukolyi"
+        ],
+        "tetel": "Bukolyi Marcell Kékfrankos Reserve Nagy-Eged Grand Superior 2021 14% 0,75l",
+        "evjarat": 2021,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Bukolyi Marcell Kékfrankos Reserve Nagy-Eged Grand Superior",
+            "Bukolyi Marcell Kékfrankos Reserve Nagy-Eged Grand Superior 2021 14% 0,75l",
+            "Bukolyi Marcell Kékfrankos Reserve Nagy-Eged Grand Superior 2021 14% 0,75l"
+          ],
+          "ellenorzott_nev": "Bukolyi Marcell Kékfrankos Reserve Nagy-Eged Grand Superior",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "benedek-kekfrankos-2024-12-5-0-75l",
+      "nev": "Benedek Kékfrankos 2024 12,5% 0,75l",
+      "marka": "Benedek",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2024,
+      "radovin_kereso": "Benedek Kékfrankos",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Benedek",
+        "marka_aliasok": [
+          "Benedek"
+        ],
+        "tetel": "Benedek Kékfrankos 2024 12,5% 0,75l",
+        "evjarat": 2024,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Benedek Kékfrankos",
+            "Benedek Kékfrankos 2024 12,5% 0,75l",
+            "Benedek Kékfrankos 2024 12,5% 0,75l"
+          ],
+          "ellenorzott_nev": "Benedek Kékfrankos",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "zelna-boraszat-fured-olaszrizling-2025-13-0-75l",
+      "nev": "Zelna Borászat Füred Olaszrizling 2025 13% 0,75l",
+      "marka": "Zelna",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2025,
+      "radovin_kereso": "Zelna Borászat Füred Olaszrizling",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Zelna",
+        "marka_aliasok": [
+          "Zelna"
+        ],
+        "tetel": "Zelna Borászat Füred Olaszrizling 2025 13% 0,75l",
+        "evjarat": 2025,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Zelna Borászat Füred Olaszrizling",
+            "Zelna Borászat Füred Olaszrizling 2025 13% 0,75l",
+            "Zelna Borászat Füred Olaszrizling 2025 13% 0,75l"
+          ],
+          "ellenorzott_nev": "Zelna Borászat Füred Olaszrizling",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "vesztergombi-rose-2025-12-0-75l",
+      "nev": "Vesztergombi Rosé 2025 12% 0,75l",
+      "marka": "Vesztergombi",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2025,
+      "radovin_kereso": "Vesztergombi Rosé",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Vesztergombi",
+        "marka_aliasok": [
+          "Vesztergombi"
+        ],
+        "tetel": "Vesztergombi Rosé 2025 12% 0,75l",
+        "evjarat": 2025,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Vesztergombi Rosé",
+            "Vesztergombi Rosé 2025 12% 0,75l",
+            "Vesztergombi Rosé 2025 12% 0,75l"
+          ],
+          "ellenorzott_nev": "Vesztergombi Rosé",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "veritas": {
+          "elfogadott_tetel_aliasok": [
+            "Rosé"
+          ],
+          "url": "https://www.borkereskedes.hu/vesztergombi-szekszardi-rose-cuvee",
+          "ellenorzott_nev": "Vesztergombi Szekszárdi Rosé",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
+        }
+      }
+    },
+    {
+      "id": "vesztergombi-bodzas-cabernet-sauvignon-2019-14-5-0-75l",
+      "nev": "Vesztergombi Bodzás Cabernet Sauvignon 2019 14,5% 0,75l",
+      "marka": "Vesztergombi",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2019,
+      "radovin_kereso": "Vesztergombi Bodzás Cabernet Sauvignon",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Vesztergombi",
+        "marka_aliasok": [
+          "Vesztergombi"
+        ],
+        "tetel": "Vesztergombi Bodzás Cabernet Sauvignon 2019 14,5% 0,75l",
+        "evjarat": 2019,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Vesztergombi Bodzás Cabernet Sauvignon",
+            "Vesztergombi Bodzás Cabernet Sauvignon 2019 14,5% 0,75l",
+            "Vesztergombi Bodzás Cabernet Sauvignon 2019 14,5% 0,75l"
+          ],
+          "ellenorzott_nev": "Vesztergombi Bodzás Cabernet Sauvignon",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "bodri-rozi-rose-2025-11-5-0-75l",
+      "nev": "Bodri Rozi Rosé 2025 11,5% 0,75l",
+      "marka": "Bodri",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2025,
+      "radovin_kereso": "Bodri Rozi Rosé",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Bodri",
+        "marka_aliasok": [
+          "Bodri"
+        ],
+        "tetel": "Bodri Rozi Rosé 2025 11,5% 0,75l",
+        "evjarat": 2025,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Bodri Rozi Rosé",
+            "Bodri Rozi Rosé 2025 11,5% 0,75l",
+            "Bodri Rozi Rosé 2025 11,5% 0,75l"
+          ],
+          "ellenorzott_nev": "Bodri Rozi Rosé",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "eszterbauer-tivald-cabernet-sauvignon-2021-14-0-75l",
+      "nev": "Eszterbauer Tivald Cabernet Sauvignon 2021 14% 0,75l",
+      "marka": "Eszterbauer",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2021,
+      "radovin_kereso": "Eszterbauer Tivald Cabernet Sauvignon",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Eszterbauer",
+        "marka_aliasok": [
+          "Eszterbauer"
+        ],
+        "tetel": "Eszterbauer Tivald Cabernet Sauvignon 2021 14% 0,75l",
+        "evjarat": 2021,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Eszterbauer Tivald Cabernet Sauvignon",
+            "Eszterbauer Tivald Cabernet Sauvignon 2021 14% 0,75l",
+            "Eszterbauer Tivald Cabernet Sauvignon 2021 14% 0,75l"
+          ],
+          "ellenorzott_nev": "Eszterbauer Tivald Cabernet Sauvignon",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "benedek-cserszegi-fuszeres-2024-12-0-75l",
+      "nev": "Benedek Cserszegi Fűszeres 2024 12% 0,75l",
+      "marka": "Benedek",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2024,
+      "radovin_kereso": "Benedek Cserszegi Fűszeres",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Benedek",
+        "marka_aliasok": [
+          "Benedek"
+        ],
+        "tetel": "Benedek Cserszegi Fűszeres 2024 12% 0,75l",
+        "evjarat": 2024,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Benedek Cserszegi Fűszeres",
+            "Benedek Cserszegi Fűszeres 2024 12% 0,75l",
+            "Benedek Cserszegi Fűszeres 2024 12% 0,75l"
+          ],
+          "ellenorzott_nev": "Benedek Cserszegi Fűszeres",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "vesztergombi-vintage-2019-14-0-75l",
+      "nev": "Vesztergombi Vintage 2019 14% 0,75l",
+      "marka": "Vesztergombi",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2019,
+      "radovin_kereso": "Vesztergombi Vintage",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Vesztergombi",
+        "marka_aliasok": [
+          "Vesztergombi"
+        ],
+        "tetel": "Vesztergombi Vintage 2019 14% 0,75l",
+        "evjarat": 2019,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Vesztergombi Vintage",
+            "Vesztergombi Vintage 2019 14% 0,75l",
+            "Vesztergombi Vintage 2019 14% 0,75l"
+          ],
+          "ellenorzott_nev": "Vesztergombi Vintage",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "ruinart-r-de-ruinart-magnum-12-1-5l",
+      "nev": "Ruinart R de Ruinart Magnum 12% 1,5l",
+      "marka": "Ruinart",
+      "tipus": "bor",
+      "meret": "1,5 l",
+      "evjarat": null,
+      "radovin_kereso": "Ruinart R de Ruinart Magnum",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Ruinart",
+        "marka_aliasok": [
+          "Ruinart"
+        ],
+        "tetel": "Ruinart R de Ruinart Magnum 12% 1,5l",
+        "evjarat": null,
+        "evjarat_statusz": "unknown",
+        "kiszereles_ml": 1500,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Ruinart R de Ruinart Magnum",
+            "Ruinart R de Ruinart Magnum 12% 1,5l",
+            "Ruinart R de Ruinart Magnum 12% 1,5l"
+          ],
+          "ellenorzott_nev": "Ruinart R de Ruinart Magnum",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "gizella-edes-szamorodni-2022-11-0-5l",
+      "nev": "Gizella Édes Szamorodni 2022 11% 0,5l",
+      "marka": "Gizella",
+      "tipus": "bor",
+      "meret": "0,5 l",
+      "evjarat": 2022,
+      "radovin_kereso": "Gizella Édes Szamorodni",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Gizella",
+        "marka_aliasok": [
+          "Gizella"
+        ],
+        "tetel": "Gizella Édes Szamorodni 2022 11% 0,5l",
+        "evjarat": 2022,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 500,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Gizella Édes Szamorodni",
+            "Gizella Édes Szamorodni 2022 11% 0,5l",
+            "Gizella Édes Szamorodni 2022 11% 0,5l"
+          ],
+          "ellenorzott_nev": "Gizella Édes Szamorodni",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    },
+    {
+      "id": "benedek-sauvignon-blanc-2025-13-5-0-75l",
+      "nev": "Benedek Sauvignon Blanc 2025 13,5% 0,75l",
+      "marka": "Benedek",
+      "tipus": "bor",
+      "meret": "0,75 l",
+      "evjarat": 2025,
+      "radovin_kereso": "Benedek Sauvignon Blanc",
+      "aktiv": true,
+      "azonositas": {
+        "termekkategoria": "wine",
+        "gyarto": "Benedek",
+        "marka_aliasok": [
+          "Benedek"
+        ],
+        "tetel": "Benedek Sauvignon Blanc 2025 13,5% 0,75l",
+        "evjarat": 2025,
+        "evjarat_statusz": "vintage",
+        "kiszereles_ml": 750,
+        "darab": 1,
+        "csomagolas": "plain_bottle",
+        "puttony": null,
+        "penznem": "HUF"
+      },
+      "shop_azonositas": {
+        "radovin": {
+          "elfogadott_tetel_aliasok": [
+            "Benedek Sauvignon Blanc",
+            "Benedek Sauvignon Blanc 2025 13,5% 0,75l",
+            "Benedek Sauvignon Blanc 2025 13,5% 0,75l"
+          ],
+          "ellenorzott_nev": "Benedek Sauvignon Blanc",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "auto_migracio_legacy",
+          "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        }
+      }
+    }
+  ]
+}
