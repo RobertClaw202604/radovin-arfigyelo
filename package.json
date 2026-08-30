@@ -15,7 +15,8 @@
     "rebuild": "node scripts/rebuild-public.js",
     "rebuild:verify": "node scripts/rebuild-public.js --verify",
     "backup": "node scripts/backup-runs.js",
-    "check": "npm run validate && npm run scan-secrets && node -e \"require('./lib/runtime/config.js').betoltEgesz(); console.log('config OK')\" && npm test && npm run dry-run && npm run rebuild:verify"
+    "alert:test": "node scripts/send-alert.js",
+    "check": "npm run validate && npm run scan-secrets && node -e \"require('./lib/runtime/config.js').betoltEgesz(); require('./lib/runtime/config.js').betoltAlerts(); console.log('config OK')\" && npm test && npm run dry-run && npm run rebuild:verify"
   },
   "engines": {
     "node": ">=24 <25"
