@@ -81,11 +81,13 @@ async function crawlEgesz(betoltottCfg, katalogusosCachel, nyersShopCfg) {
         termekArak.push({
           shop: shop.id, shop_nev: shop.nev, tipus: forras, ar: r.talalat.ar,
           nev: r.talalat.nev, url: r.talalat.url, megjegyzes: r.talalat.megjegyzes || null, hiba: r.hiba || null,
+          status: r.status || 'matched', candidates: r.candidates || [],
         });
       } else if (r) {
         termekArak.push({
           shop: shop.id, shop_nev: shop.nev, tipus: forras, ar: null, nev: null,
           url: null, megjegyzes: null, hiba: r.hiba || 'nincs_talalat',
+          status: r.status || 'source_unavailable', candidates: r.candidates || [],
         });
       }
     }
@@ -144,6 +146,12 @@ function publikalo(run, regiek, health) {
 
   await withProductionLock(DIR, async () => {
     log('run_start', { at: new Date(futasKezdet).toISOString() });
+
+    // Kimeneti könyvtárak biztosítása (data, runtime, public-data), hogy az atomi
+    // publikálás SOHA ne fusson hiányzó célmappába (ENOENT).
+    await fs.promises.mkdir(DATA_DIR, { recursive: true });
+    await fs.promises.mkdir(RUNTIME_DIR, { recursive: true });
+    await fs.promises.mkdir(PUBLIC_DIR, { recursive: true });
 
     // Konfig-validáció (fail-fast) – P0.
     const elozetes = configModul.betoltEgesz();
