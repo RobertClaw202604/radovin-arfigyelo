@@ -46,6 +46,11 @@ const termekek = validateFile(
   path.join(root, 'config/termekek.json'),
   path.join(root, 'config/schemas/termekek.schema.json')
 );
+// Commit 8: a riasztási küszöbök is séma-validáltak (guide §13 – küszöbök konfigban).
+const alerts = validateFile(
+  path.join(root, 'config/alerts.json'),
+  path.join(root, 'config/schemas/alerts.schema.json')
+);
 
 // --- Cross-file: shop_azonositas kulcsok a shopok.json-ban (guide §17) ---
 const shopIds = new Set((shopok.shopok || []).map((s) => s.id));
@@ -62,4 +67,4 @@ if (hibas.length) {
   throw new Error(`cross-file validáció hibás:\n${hibas.join('\n')}`);
 }
 
-console.log('Configuration is valid. (shopok + termekek séma + cross-file)');
+console.log('Configuration is valid. (shopok + termekek + alerts séma + cross-file)');

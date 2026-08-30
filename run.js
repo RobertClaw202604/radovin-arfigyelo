@@ -26,6 +26,10 @@ const { saveRun } = require('./lib/runtime/run-store.js');
 const { qualityGate } = require('./lib/pipeline/quality-gate.js');
 const { buildHealth } = require('./lib/pipeline/health.js');
 const { log } = require('./lib/runtime/logger.js');
+const { betoltAlerts } = require('./lib/runtime/config.js');
+const { loadState, saveState, trackShopFailures, checkSchedule, toTelegramText } = require('./lib/pipeline/alerts.js');
+const { notifyTelegram } = require('./lib/runtime/notify.js');
+const { withRetry } = require('./lib/runtime/retry.js');
 
 const DIR = __dirname;
 const DATA_DIR = path.join(DIR, 'data');
@@ -178,6 +182,29 @@ function publikalo(run, regiek, health) {
 
     // Konfig-validáció (fail-fast) – P0.
     const elozetes = configModul.betoltEgesz();
+    // Commit 8: riasztási küszöbök a validált config/alerts.json-ból (guide §13 – nem konstansokból).
+    const alertCfg = configModul.betoltAlerts();
+    const alertThresholds = {
+      coverage_regression_ratio: alertCfg.coverage_regression_ratio,
+      large_price_change_min: alertCfg.large_price_change_min,
+      large_price_change_max: alertCfg.large_price_change_max,
+      extreme_price_change_min: alertCfg.extreme_price_change_min,
+      extreme_price_change_max: alertCfg.extreme_price_change_max,
+      adapter_consecutive_failures: alertCfg.adapter_consecutive_failures,
+      schedule_interval_min: alertCfg.schedule_interval_min,
+      schedule_grace_min: alertCfg.schedule_grace_min,
+    };
+    // Commit 8: riasztás-állapot (per-shop kudarcszámláló, utolsó teljes futás) + küldő.
+    const alertState = loadState(DIR);
+    const sendAlert = async (sev, subject, lines) => {
+      if (!subject) return { sent: false, reason: 'no_subject' };
+      try {
+        return await notifyTelegram(toTelegramText({ severity: sev, subject, lines }));
+      } catch (err) {
+        log('alert_send_error', { event: 'alert_send', error: err && err.message });
+        return { sent: false, reason: 'exception' };
+      }
+    };
     // A nyers (validálatlan) shopok.json, ahogy az eredeti run.js adta a scrapernek.
     const nyersShopCfg = JSON.parse(fs.readFileSync(path.join(DIR, 'config/shopok.json'), 'utf8'));
     const katalogusosCachel = new Map();
@@ -197,7 +224,7 @@ function publikalo(run, regiek, health) {
     const duration = Date.now() - futasKezdet;
 
     // Minőségi kapu az előző futás alapján.
-    const gate = qualityGate({ eredmenyek: run.eredmenyek, products_expected: run.termekekszam, started_at: run.futasIdeje }, regiEredmenyek);
+    const gate = qualityGate({ eredmenyek: run.eredmenyek, products_expected: run.termekekszam, started_at: run.futasIdeje }, regiEredmenyek, { thresholds: alertThresholds });
     if (!gate.ok) {
       // Karantén: az utolsó jó snapshot ÉRINTETLEN marad.
       await fs.promises.mkdir(QUARANTINE_DIR, { recursive: true });
@@ -211,6 +238,8 @@ function publikalo(run, regiek, health) {
       for (const e of gate.errors) { log('gate_error', { code: e.code, detail: e }); }
       console.error(`KARANTÉN: a futás #${run.futasId} nem teljesítette a minőségi kaput (${gate.errors.length} hiba). Az utolsó jó snapshot érintetlen marad.`);
       console.error(gate.errors.map((e) => e.code).join(', '));
+      // Commit 8: riasztás a karanténról (a snapshot-állapot MÁR érintetlen marad; ez csak riasztás).
+      await sendAlert('error', 'PIACI KARANTÉN – a futás nem teljesítette a kaput', gate.errors.map((e) => [e.code, e.termek_id || e.pair || e.shop || '']));
       throw new Error(`quality gate failed (${gate.errors.length} errors)`);
     }
 
@@ -222,6 +251,21 @@ function publikalo(run, regiek, health) {
 
     await publikalo(run, regiek, health);
     for (const w of gate.warnings) { log('gate_warning', { code: w.code, detail: w }); }
+
+    // Commit 8: riasztás-állapot frissítése + akcióképes riasztások (adapter-leállás, extrém árváltozás).
+    const shopTrack = trackShopFailures(alertState, run.eredmenyek, alertThresholds);
+    alertState.shop_fail_counts = shopTrack.next;
+    alertState.last_attempt_at = new Date().toISOString();
+    alertState.last_complete_run_at = new Date().toISOString();
+    await saveState(DIR, alertState);
+    for (const r of shopTrack.alerts) {
+      await sendAlert('warning', `Adapter-leállás gyanú: ${r.shop} (${r.count} futás)`, [['következő', 'manuális ellenőrzés']]);
+    }
+    for (const w of gate.warnings) {
+      if (w.code === 'large_price_change') {
+        await sendAlert('warning', `Nagy árváltozás: ${w.termek_id} (${w.shop})`, [[`ár: ${w.honnan} → ${w.hova}`, `ratio ${Number(w.ratio).toFixed(2)}`]]);
+      }
+    }
 
     log('run_complete', { futas_id: run.futasId, duration_ms: duration, termekekszam: run.termekekszam, warnings: gate.warnings.length });
     console.log(`\nKész: ${run.termekekszam} termék, futás #${run.futasId} (${run.futasIdeje}), ${duration} ms, ${gate.warnings.length} figyelmeztetés`);

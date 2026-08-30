@@ -1,0 +1,15 @@
+{
+  "coverage_regression_ratio": 0.75,
+  "large_price_change_min": 2.0,
+  "large_price_change_max": 0.5,
+  "extreme_price_change_min": 5.0,
+  "extreme_price_change_max": 0.2,
+  "adapter_consecutive_failures": 2,
+  "schedule_interval_min": 240,
+  "schedule_grace_min": 60,
+  "telegram": {
+    "enabled": true,
+    "token_env": "RADOVIN_TELEGRAM_BOT_TOKEN",
+    "chat_id_env": "RADOVIN_TELEGRAM_CHAT_ID"
+  }
+}

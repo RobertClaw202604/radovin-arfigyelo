@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arworks.hu/radovin/alerts.schema.json",
+  "title": "Radovin alert-treshold konfiguráció (guide §13, §20, Commit 8)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "coverage_regression_ratio",
+    "large_price_change_min",
+    "large_price_change_max",
+    "extreme_price_change_min",
+    "extreme_price_change_max",
+    "adapter_consecutive_failures",
+    "schedule_interval_min",
+    "schedule_grace_min"
+  ],
+  "properties": {
+    "coverage_regression_ratio": {
+      "type": "number",
+      "minimum": 0.5,
+      "maximum": 0.99,
+      "description": "Konkurencia-matched ár a korábbi hányada alá zuhan = regresszió. Ajánlott 0.75."
+    },
+    "large_price_change_min": { "type": "number", "minimum": 1.01 },
+    "large_price_change_max": { "type": "number", "maximum": 0.99 },
+    "extreme_price_change_min": { "type": "number", "minimum": 2 },
+    "extreme_price_change_max": { "type": "number", "maximum": 0.5 },
+    "adapter_consecutive_failures": { "type": "integer", "minimum": 2, "description": "Hány egymást követő futás után jelezzük, hogy egy korábban egészséges adapter meghalt (ajánlott 2 a guide §20 szerint)." },
+    "schedule_interval_min": { "type": "integer", "minimum": 1, "description": "Várható futás-intervallum percben (a grace kiszámításához)." },
+    "schedule_grace_min": { "type": "integer", "minimum": 0, "description": "Mennyi türelmi idő a várható futáshoz képest, mielőtt 'no complete run' riasztást küldünk." },
+    "telegram": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "A Telegram channel. A token/chat-id SOHO NINCS itt – csak env-ből (RADOVIN_TELEGRAM_BOT_TOKEN, RADOVIN_TELEGRAM_CHAT_ID).",
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "chat_id_env": { "type": "string" },
+        "token_env": { "type": "string" }
+      }
+    }
+  }
+}
