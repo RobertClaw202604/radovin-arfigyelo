@@ -45,6 +45,9 @@ async function crawlEgesz(betoltottCfg, katalogusosCachel, nyersShopCfg) {
   const termekek = elozetes.termekek;
   const futasIdeje = new Date().toISOString();
   const futasId = Date.now();
+  // Commit 6: futás-szintű katalógus-gyorsítótár (shop.id -> teljes katalógus),
+  // hogy a katlistas adapter MINDEN termék helyett csak egyszer töltsön le shoponként.
+  const katlistasKatalogCache = new Map();
 
   const activeShops = shopok.filter((s) => s.statusz === 'active');
   const pendingShops = shopok.filter((s) => s.statusz === 'pending' || s.statusz === 'blocked');
@@ -162,9 +165,6 @@ function publikalo(run, regiek, health) {
     // A nyers (validálatlan) shopok.json, ahogy az eredeti run.js adta a scrapernek.
     const nyersShopCfg = JSON.parse(fs.readFileSync(path.join(DIR, 'config/shopok.json'), 'utf8'));
     const katalogusosCachel = new Map();
-    // Commit 6: shop-first katalógus-gyorsítótár (shop.id -> teljes katalógus),
-    // hogy a katlistas adapter MINDEN termék helyett csak egyszer töltsön le shoponként.
-    const katlistasKatalogCache = new Map();
 
     // Előző futás betöltése a kapuhoz (ha van).
     let regiek = null;
