@@ -43,7 +43,7 @@ async function main() {
   const legutobbi = runs[0]; // legújabb (a loadAllRuns rendezte)
 
   if (VERIFY) {
-    console.log(`REBUILD-VERIFY OK: ${runs.length} kanonikus run; legújabb #${legutobbi.futasId} (${legutobbi.ido}), ${(legutobbi.eredmenyek || []).length} termék.`);
+    console.log(`REBUILD-VERIFY OK: ${runs.length} kanonikus run; legújabb #${legutobbi.futasId} (${legutobbi.futasIdeje || legutobbi.ido}), ${(legutobbi.eredmenyek || []).length} termék.`);
     return;
   }
 
@@ -63,7 +63,7 @@ async function main() {
     konkurens_allapot: (e.konkurens_allapot || []).map((s) => ({ nev: s.nev })),
     arak: kompaktArak(e),
   }));
-  const lato = { futas_id: legutobbi.futasId, ido: legutobbi.ido, termekekszam: eredmenyekKom.length, eredmenyek: eredmenyekKom };
+  const lato = { futas_id: legutobbi.futasId, ido: legutobbi.futasIdeje || legutobbi.ido, termekekszam: eredmenyekKom.length, eredmenyek: eredmenyekKom };
 
   // 2) data/elozmeny.json – termék → futás-idők index (mindegyik runból).
   const elozmeny = {};
