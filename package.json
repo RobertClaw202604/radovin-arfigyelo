@@ -8,8 +8,9 @@
     "start": "node run.js",
     "run": "node run.js",
     "test": "node --test",
+    "validate": "node scripts/validate-config.js",
     "scan-secrets": "node scripts/scan-secrets.js",
-    "check": "node scripts/scan-secrets.js && node -e \"require('./lib/runtime/config.js').betoltEgesz(); console.log('config OK')\""
+    "check": "npm run validate && npm run scan-secrets && node -e \"require('./lib/runtime/config.js').betoltEgesz(); console.log('config OK')\" && npm test"
   },
   "engines": {
     "node": ">=24"
@@ -31,6 +32,8 @@
   "homepage": "https://github.com/RobertClaw202604/radovin-arfigyelo#readme",
   "dependencies": {
     "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "proper-lockfile": "^4.1.2",
     "puppeteer-core": "^25.9.0"
   }
 }

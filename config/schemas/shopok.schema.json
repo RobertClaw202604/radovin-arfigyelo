@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/RobertClaw202604/radovin-arfigyelo/config/schemas/shopok.schema.json",
+  "title": "Radovin árfigyelő – shopok konfiguráció",
+  "type": "object",
+  "required": ["shopok"],
+  "properties": {
+    "meta": { "type": "object" },
+    "ciklus_ora": { "type": "integer", "minimum": 1 },
+    "timeout_sec": { "type": "integer", "minimum": 1 },
+    "user_agent": { "type": "string" },
+    "shopok": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": ["id", "nev", "tipus", "statusz", "adapter"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "nev": { "type": "string", "minLength": 1 },
+          "tipus": { "enum": ["sajat", "konkurencia"] },
+          "statusz": { "enum": ["active", "pending", "blocked"] },
+          "base_url": { "type": "string" },
+          "kereso_url": { "type": "string" },
+          "adapter": {
+            "type": "string",
+            "enum": [
+              "woocommerce",
+              "woocommerce-api",
+              "katlistas",
+              "shopify",
+              "borhalo",
+              "headless",
+              "html-simon",
+              "headless-kell"
+            ]
+          },
+          "kesleltetes_ms": { "type": "integer", "minimum": 0 },
+          "timeout_sec": { "type": "integer", "minimum": 1 },
+          "megjegyzes": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

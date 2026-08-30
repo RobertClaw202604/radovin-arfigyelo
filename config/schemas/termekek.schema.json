@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/RobertClaw202604/radovin-arfigyelo/config/schemas/termekek.schema.json",
+  "title": "Radovin árfigyelő – termékek konfiguráció",
+  "type": "object",
+  "required": ["termekek"],
+  "properties": {
+    "termekek": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "nev", "marka", "tipus", "meret"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "nev": { "type": "string", "minLength": 1 },
+          "marka": { "type": "string", "minLength": 1 },
+          "tipus": { "type": "string", "minLength": 1 },
+          "meret": { "type": "string", "minLength": 1 },
+          "evjarat": { "type": ["integer", "string", "null"] },
+          "radovin_kereso": { "type": "string" },
+          "radovin_slug": { "type": ["string", "null"] },
+          "fajta": { "type": ["string", "null"] },
+          "aktiv": { "type": "boolean" },
+          "szuneteltetes_oka": { "type": ["string", "null"] },
+          "konkurencia_kereso": { "type": ["string", "object", "null"] },
+          "megjegyzes": { "type": "string" },
+          "azonositas": {
+            "type": "object",
+            "required": [
+              "termekkategoria",
+              "marka_aliasok",
+              "tetel",
+              "kiszereles_ml",
+              "darab",
+              "csomagolas",
+              "penznem"
+            ],
+            "properties": {
+              "termekkategoria": { "enum": ["wine", "sparkling", "spirit"] },
+              "gyarto": { "type": ["string", "null"] },
+              "marka_aliasok": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": { "type": "string", "minLength": 2 }
+              },
+              "tetel": { "type": "string", "minLength": 1 },
+              "evjarat": {
+                "anyOf": [
+                  { "type": "integer", "minimum": 1900, "maximum": 2100 },
+                  { "type": "null" }
+                ]
+              },
+              "evjarat_statusz": { "enum": ["vintage", "non_vintage", "unknown"] },
+              "kiszereles_ml": { "type": "integer", "minimum": 20, "maximum": 20000 },
+              "darab": { "type": "integer", "minimum": 1, "maximum": 100 },
+              "csomagolas": { "enum": ["plain_bottle", "gift_box", "set"] },
+              "puttony": { "type": ["integer", "null"], "minimum": 3, "maximum": 6 },
+              "penznem": { "const": "HUF" }
+            },
+            "additionalProperties": false,
+            "allOf": [
+              { "$comment": "Evjarat_statusz konzisztencia (guide §17): vintage → egész évjárat; non_vintage → evjarat null.", "if": { "properties": { "evjarat_statusz": { "const": "vintage" } } }, "then": { "required": ["evjarat"], "properties": { "evjarat": { "type": "integer" } } } },
+              { "if": { "properties": { "evjarat_statusz": { "const": "non_vintage" } } }, "then": { "properties": { "evjarat": { "const": null } } } }
+            ]
+          },
+          "shop_azonositas": { "type": "object" }
+        },
+        "additionalProperties": true,
+        "allOf": [
+          {
+            "$comment": "AZ AKTÍV ág: aktív = nem kifejezetten false. Ez a borítóág definiálja a Radovin-azonosítási kötelezettséget. (aktiv hiányában is aktív a régi konvenció szerint.)",
+            "if": {
+              "not": { "allOf": [ { "required": ["aktiv"] }, { "properties": { "aktiv": { "const": false } } } ] }
+            },
+            "then": {
+              "required": ["azonositas"],
+              "anyOf": [
+                { "required": ["radovin_slug"] },
+                { "required": ["radovin_kereso"] }
+              ],
+              "properties": {
+                "shop_azonositas": {
+                  "type": "object",
+                  "required": ["radovin"]
+                }
+              }
+            }
+          },
+          {
+            "$comment": "AZ INAKTÍV ág: kizárólag kifejezetten aktiv:false esetén kell szüneteltetési ok. (A hiányzó aktiv mező nem minősül inaktívnak – lásd az aktív ág.)",
+            "if": { "required": ["aktiv"], "properties": { "aktiv": { "const": false } } },
+            "then": {
+              "required": ["szuneteltetes_oka"],
+              "properties": {
+                "szuneteltetes_oka": { "type": "string", "minLength": 1 }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": true
+}
