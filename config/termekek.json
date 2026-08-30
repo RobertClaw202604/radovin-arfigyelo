@@ -44,6 +44,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "borvilag": {
+          "elfogadott_tetel_aliasok": [
+            "Brut Nature"
+          ],
+          "url": "https://www.borvilag.hu/products/kreinbacher-birtok-brut-nature",
+          "ellenorzott_nev": "Kreinbacher Birtok - Brut Nature",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -82,6 +91,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "borvilag": {
+          "elfogadott_tetel_aliasok": [
+            "Prestige Brut"
+          ],
+          "url": "https://www.borvilag.hu/products/kreinbacher-birtok-prestige-brut",
+          "ellenorzott_nev": "Kreinbacher Birtok - Prestige Brut",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -120,6 +138,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "borvilag": {
+          "elfogadott_tetel_aliasok": [
+            "Imperial Brut"
+          ],
+          "url": "https://www.borvilag.hu/products/moet-chandon-imperial-brut",
+          "ellenorzott_nev": "Moet & Chandon - Imperial Brut",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -140,7 +167,7 @@
         ],
         "tetel": "Moët & Chandon Rosé Impérial 0,75l",
         "evjarat": null,
-        "evjarat_statusz": "unknown",
+        "evjarat_statusz": "non_vintage",
         "kiszereles_ml": 750,
         "darab": 1,
         "csomagolas": "plain_bottle",
@@ -158,6 +185,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "borvilag": {
+          "elfogadott_tetel_aliasok": [
+            "Imperial Rosé"
+          ],
+          "url": "https://www.borvilag.hu/products/moet-chandon-imperial-rose",
+          "ellenorzott_nev": "Moet & Chandon - Imperial Rosé",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -566,6 +602,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "borvilag": {
+          "elfogadott_tetel_aliasok": [
+            "Rosé Brut"
+          ],
+          "url": "https://www.borvilag.hu/products/kreinbacher-birtok-rose-brut",
+          "ellenorzott_nev": "Kreinbacher Birtok - Rosé Brut",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -967,7 +1012,7 @@
         ],
         "tetel": "Bollinger Special Cuvée DD 12,5% 0,75l",
         "evjarat": null,
-        "evjarat_statusz": "unknown",
+        "evjarat_statusz": "non_vintage",
         "kiszereles_ml": 750,
         "darab": 1,
         "csomagolas": "plain_bottle",
@@ -985,6 +1030,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "borvilag": {
+          "elfogadott_tetel_aliasok": [
+            "Special Cuvée"
+          ],
+          "url": "https://www.borvilag.hu/products/bollinger-special-cuvee-brut",
+          "ellenorzott_nev": "Bollinger - Special Cuvée Brut",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -1627,6 +1681,15 @@
           ],
           "url": "https://borkell.hu/boraszatok/magyar/kovacs-nimrod/kovacs-nimrod-grand-bleu",
           "ellenorzott_nev": "Kovács Nimród - Grand Bleu 2017",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
+        },
+        "borpiac": {
+          "elfogadott_tetel_aliasok": [
+            "Grand Bleu"
+          ],
+          "url": "https://borpiac.hu/termek/kovacs-nimrod-grand-bleu-2017/",
+          "ellenorzott_nev": "Kovács Nimród Grand Bleu 2017",
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "manual"
         }
