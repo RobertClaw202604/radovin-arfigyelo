@@ -148,6 +148,23 @@
       ],
       "kategoria_max_lap": 15,
       "megjegyzes": "OpenCart (ishi tema), statikus HTML (?page=N). STRICT matcher-v2-n fut (soha hamis ar). A katalogus boraszat-oldalakra szervezve; a kategoria_slugek a 58-as listank 4 jelen-levo markajat fedik (Folly, Kovacs Nimrod, Zelna, Kali Balazs). Aktív 2026-08-30: 4 kurált pontos pár (Folly Budai zöld 2025 4990 Ft, Kovacs Nimrod Grand Bleu 2017 17990 Ft, Zelna Barka voros cuvee 2023 4290 Ft, Zelna Balaton Olaszrizling 2025 2990 Ft). Zelna Fured + Kali Kovek Rezeda nincs Borkellnel (osztehon no-match)."
+    },
+    {
+      "id": "borvalogatas",
+      "nev": "Borválogatás",
+      "tipus": "konkurencia",
+      "statusz": "active",
+      "base_url": "https://borvalogatas.hu",
+      "adapter": "shoprenter",
+      "kesleltetes_ms": 0,
+      "kategoria_slugek": [
+        "borvidekek-168",
+        "boraszatok/magyar-boraszatok-216",
+        "boraszatok/kulfoldi-boraszatok",
+        "pezsgok-gyongyozo-borok-164"
+      ],
+      "kategoria_max_lap": 25,
+      "megjegyzes": "ShopRenter, statikus HTML (?page=N), product-card struktura (a Veritas-el azonos). Aktív 2026-08-30. KURALAS: a teljes katalogus (~130-218 tétel, borvidekek + magyar/kulfoldi boraszatok + pezsgok) átnezve – a Radovin 58-termékes listajának EGYETLEN markaja sem szerepel a boltban (Balla, Prantner, Sziegl, Claudio Quarta, Bedin, Bianca, Monte, Domaene, Riva dei Frati, Kősziklás stb. – mind más marka). Osztéhon 58x no-match, 0 hamis ár (nincs kurált referencia, strict matcher-v2). If valamelyik lista-termék a jövőben felkerül, approved reference nelkul no_exact_match marad (biztonsagos). Kategoria_slugek: borvidekek-168, boraszatok/magyar-boraszatok-216, boraszatok/kulfoldi-boraszatok, pezsgok-gyongyozo-borok-164; kategoria_max_lap 25."
     }
   ]
 }

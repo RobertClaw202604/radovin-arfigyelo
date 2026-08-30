@@ -197,3 +197,37 @@ test('shoprenter: üres/rossz HTML esetén üres listát ad, nem hibát dob', ()
   assert.deepStrictEqual(sorok('', SHOP), []);
   assert.deepStrictEqual(sorok('<html><body>nincs kártya</body></html>', SHOP), []);
 });
+
+test('shoprenter: kategoriaTele végiglapozza a KIS (12/lap) boltokat is (regresszió: fix 40-es küszöb)', async () => {
+  // Régebben a lapszállási logika „ha <40 termék egy lapon, megállok” volt, ami a
+  // kisebb (pl. 12/lap) ShopRenter-boltoknál az 1. oldal után megállította a gépet.
+  // Most az éppeni oldalméretet figyeljük: amíg egy lap tele van (12), lapozunk tovább.
+  const { kategoriaTele } = require('../lib/shoprenter.js');
+  const karty = (i) => `
+<div class="card product-card h-100">
+  <a href="https://kisbolt.hu/termek-${i}"><img title="Prantner Olasz Rizling ${2017 + (i % 3)}" alt="x"></a>
+  <div class="card-body product-card-body"><span class="product-price">2 260 Ft</span></div>
+</div>`;
+  // 3 oldal, 12 termék/oldal (a 4. oldal üres)
+  const lapszam = 3;
+  const perLap = 12;
+  const hivasok = [];
+  const eredeti = global.fetch;
+  global.fetch = async (url) => {
+    hivasok.push(String(url));
+    const page = parseInt(String(url).split('page=')[1] || '1', 10);
+    if (!page || page > lapszam) {
+      return { ok: true, text: async () => '<html><body>üres</body></html>' };
+    }
+    let html = '';
+    for (let i = 0; i < perLap; i++) html += karty((page - 1) * perLap + i);
+    return { ok: true, text: async () => html };
+  };
+  try {
+    const kat = await kategoriaTele({ id: 'kisbolt', base_url: 'https://kisbolt.hu', kategoria_slugek: ['borok'], kategoria_max_lap: 5 }, { ua: 'Mozilla/5.0', timeout_sec: 10 });
+    // 3 tele lap * 12 + az üres 4. lap nem ad terméket → 36 egyedi
+    assert.strictEqual(kat.length, lapszam * perLap, 'a 12/lap-os bolt minden tele lapját le kell húznia, kapott: ' + kat.length);
+  } finally {
+    global.fetch = eredeti;
+  }
+});
