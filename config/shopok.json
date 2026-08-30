@@ -6,7 +6,7 @@
   },
   "ciklus_ora": 8,
   "timeout_sec": 25,
-  "user_agent": "RadovinArfigyelo/1.0 (+https://github.com/RobertClaw202604; belső árfigyelő, nem árufeltörés)",
+  "user_agent": "RadovinArfigyelo/1.0 (+https://github.com/RobertClaw202604; belső arfigyelo, nem arufeltores)",
   "shopok": [
     {
       "id": "radovin",
@@ -24,10 +24,21 @@
       "tipus": "konkurencia",
       "statusz": "pending",
       "base_url": "https://www.borkereskedes.hu",
-      "kereso_url": "https://www.borkereskedes.hu/kereses?kereses_text={q}",
-      "adapter": "headless",
-      "kesleltetes_ms": 1500,
-      "megjegyzes": "ShopRenter + JS-rendelt ár (price-act). A kereső headless-ben sem ad találatot; az árak JS-töltöttek. Külön fejlesztési task (böngésző-automatizálás)."
+      "adapter": "shoprenter",
+      "kesleltetes_ms": 0,
+      "kategoria_slugek": [
+        "borok/magyar-borok",
+        "borok/kulfoldi-borok",
+        "borok/kulonleges-borok",
+        "alkohol-ital/whisky-whiskey",
+        "pezsgo",
+        "gyongyozoborok-habzoborok",
+        "palinka-grappa",
+        "gin",
+        "likor"
+      ],
+      "kategoria_max_lap": 10,
+      "megjegyzes": "ShopRenter, de a kategórialisták statikus HTML-ben adják a nev+ár+URL-t (?page=N) — az EXTRACTION kész és tesztelt (lib/shoprenter.js). ÉLESÍTÉS BLOKKOLVA: a 58-termékes lista fajta-mezője üres, így a legacy szigor() matcher hamis árakat ad (pl. Bujdosó Irsai Olivér → Cirkáló ára, Le Colture → Terrecarsiche ára). Mielőtt active-ra vált: (1) töltsd fel a fajta/azonositas.tetel adatot mind a 58 tételnél, VAGY (2) vezesd át a matchelest a strict matcher-v2-re. Addig pending marad, nehogy hamis ár kerüljön a futásba."
     },
     {
       "id": "borhalo",
@@ -37,7 +48,11 @@
       "base_url": "https://borhalo.hu",
       "adapter": "borhalo",
       "kesleltetes_ms": 0,
-      "kategoria_slugek": ["borok-2", "pezsgok-6", "parlatok-8"],
+      "kategoria_slugek": [
+        "borok-2",
+        "pezsgok-6",
+        "parlatok-8"
+      ],
       "kategoria_max_lap": 12,
       "megjegyzes": "Egyedi webshop-motor. A terméknév+ár a GA4 dataLayer JSON-ben van a nyers HTML-ben (item_name + price), `termekeink/{kat}?limit=100&page=N` lapozással, headless NÉLKÜL. Fontos: base_url www NÉLKÜL (www-ről a pezsgők/párlatok 301). A borok (~971), pezsgők (~290), párlatok (~21) kategóriákat lapozza a szigorú matcherhez. A Johnnie/Monkey whisky/gin NINCS a kínálatban; a Kreinbacher a pezsgőkben van."
     },

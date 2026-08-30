@@ -73,7 +73,7 @@ async function crawlEgesz(betoltottCfg, katalogusosCachel, nyersShopCfg) {
     for (const { shop, r } of shopEredmenyek) {
       const forras = shop.tipus === 'sajat' ? 'radovin' : 'konkurencia';
       if (r && Array.isArray(r.talalatok)) {
-        const katalogusos = ['borhalo', 'katlistas', 'shopify', 'woocommerce-api'].includes(shop.adapter);
+        const katalogusos = ['borhalo', 'shoprenter', 'katlistas', 'shopify', 'woocommerce-api'].includes(shop.adapter);
         const marVolt = katalogusosCachel.get(shop.id) === true;
         for (const t of r.talalatok) {
           if (!(t && t.url && t.ar != null)) continue;
