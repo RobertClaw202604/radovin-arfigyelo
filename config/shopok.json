@@ -131,6 +131,23 @@
       "adapter": "woocommerce-api",
       "kesleltetes_ms": 0,
       "megjegyzes": "WooCommerce. Nyilvános /wp-json/wc/store/products API, pontos árakkal, headless NÉLKÜL. Teljes katalógus + szigorú matcher."
+    },
+    {
+      "id": "borkell",
+      "nev": "Borkell",
+      "tipus": "konkurencia",
+      "statusz": "active",
+      "base_url": "https://www.borkell.hu",
+      "adapter": "opencart",
+      "kesleltetes_ms": 0,
+      "kategoria_slugek": [
+        "/boraszatok/magyar/folly-arboretum",
+        "/boraszatok/magyar/kovacs-nimrod",
+        "/boraszatok/magyar/zelna-boraszat",
+        "/boraszatok/magyar/kali-balazs"
+      ],
+      "kategoria_max_lap": 15,
+      "megjegyzes": "OpenCart (ishi tema), statikus HTML (?page=N). STRICT matcher-v2-n fut (soha hamis ar). A katalogus boraszat-oldalakra szervezve; a kategoria_slugek a 58-as listank 4 jelen-levo markajat fedik (Folly, Kovacs Nimrod, Zelna, Kali Balazs). Aktív 2026-08-30: 4 kurált pontos pár (Folly Budai zöld 2025 4990 Ft, Kovacs Nimrod Grand Bleu 2017 17990 Ft, Zelna Barka voros cuvee 2023 4290 Ft, Zelna Balaton Olaszrizling 2025 2990 Ft). Zelna Fured + Kali Kovek Rezeda nincs Borkellnel (osztehon no-match)."
     }
   ]
 }

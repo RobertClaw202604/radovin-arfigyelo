@@ -367,6 +367,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "borkell": {
+          "elfogadott_tetel_aliasok": [
+            "Budai zöld"
+          ],
+          "url": "https://borkell.hu/boraszatok/magyar/folly-arboretum/folly-budai-zold",
+          "ellenorzott_nev": "Folly – Budai zöld 2025",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -1213,6 +1222,15 @@
           "ellenorzott_nev": "Zelna Bárka Birtok Vörös Cuvée Bio",
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "manual"
+        },
+        "borkell": {
+          "elfogadott_tetel_aliasok": [
+            "Bárka"
+          ],
+          "url": "https://borkell.hu/boraszatok/magyar/zelna-boraszat/barka-voros-cuvee",
+          "ellenorzott_nev": "Zelna – Bárka vörös cuvée 2023",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -1593,6 +1611,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "borkell": {
+          "elfogadott_tetel_aliasok": [
+            "Grand Bleu"
+          ],
+          "url": "https://borkell.hu/boraszatok/magyar/kovacs-nimrod/kovacs-nimrod-grand-bleu",
+          "ellenorzott_nev": "Kovács Nimród - Grand Bleu 2017",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -1707,6 +1734,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "borkell": {
+          "elfogadott_tetel_aliasok": [
+            "Olaszrizling BIO"
+          ],
+          "url": "https://borkell.hu/boraszatok/magyar/zelna-boraszat/zelna-balaton-olaszrizling",
+          "ellenorzott_nev": "Zelna – Olaszrizling BIO 2025",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
