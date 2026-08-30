@@ -69,7 +69,7 @@
       "timeout_sec": 30,
       "termek_kartya_selector": ".product-card",
       "ar_selector": ".product-price--special, .product-price--regular",
-      "megjegyzes": "ShopRenter + robotvédelem: a sima kereső headless-ben is üres, ezért márka-kategóriaoldalról megy ({marka}-whisky minta). A headless adapter MÉRET-tudatos: ha a találat kiszerelése eltér a katalógus-tételétől (pl. 1l vs 0,7l), az érvénytelen (kiszereles_elteter), nem hamis összehasonlítás. A jelenlegi katalógusból csak a Johnnie Walkernek van kategóriaoldala, de a Black csak 0,7l-ben kapható a Radovin 1l-es helyett -> nincs valódi tétel; a rendszer becsületesen nincs adat-ot ad. Azonos kiszerelésű, italkapacitású tétel betételekor automatikusan éles."
+      "megjegyzes": "ShopRenter + robotvédelem (headless/böngészős). A lista bor/pezsgő, az italpark whisky/tömény-specialista -> a 58 listás tételre nincs kategóriaoldal ({marka}-whisky), így őszintén nincs találat. A headless a matcher-v2-n ('nincs_pontos_talalat') át ad csak árat: approved reference NÉLKÜL sosem (0 hamis). Ha a jövőben whisky/tömény kerül a listára, jóváhagyott referenciával élesen matched lesz."
     },
     {
       "id": "bortarsasag",
@@ -104,7 +104,8 @@
       "base_url": "https://www.borbaro.hu",
       "kereso_url": "https://www.borbaro.hu/?s={q}",
       "adapter": "html-simon",
-      "kesleltetes_ms": 900
+      "kesleltetes_ms": 900,
+      "megjegyzes": "Ismeretlen platform (WordPress ?s=). ADAPTER: html-simon, de matcher-v2-re kötve -> a JSON-LD/szövegkörnyezet találatai CSÖK típusos candidate-ként mennek át a selectExactCandidate-on, approved reference NÉLKÜL sosem ad árat (0 hamis, nem talál ki márka-rokon árat). Státusz: pending (nem figyel élesen); ha kurálnánk rá referenciákat, azok matched-re jonnének."
     },
     {
       "id": "winehub",
