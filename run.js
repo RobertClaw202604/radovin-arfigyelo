@@ -22,6 +22,7 @@ const { withProductionLock } = require('./lib/runtime/lock.js');
 const { writeJsonAtomic } = require('./lib/runtime/atomic.js');
 const { mapLimit } = require('./lib/runtime/concurrency.js');
 const { closeBrowser } = require('./lib/runtime/browser-pool.js');
+const { saveRun } = require('./lib/runtime/run-store.js');
 const { qualityGate } = require('./lib/pipeline/quality-gate.js');
 const { buildHealth } = require('./lib/pipeline/health.js');
 const { log } = require('./lib/runtime/logger.js');
@@ -32,11 +33,10 @@ const RUNTIME_DIR = path.join(DIR, 'runtime');
 const QUARANTINE_DIR = path.join(RUNTIME_DIR, 'quarantine');
 const PUBLIC_DIR = path.join(DIR, 'public-data');
 
-const JSONL = path.join(DATA_DIR, 'arak.jsonl');
+const JSONL = path.join(DATA_DIR, 'arak.jsonl'); // (legacy export – a run többé nem írja; a rebuild-generálja)
 const LATO = path.join(DATA_DIR, 'legutobbi.json');
 const ELOZMENY = path.join(DATA_DIR, 'elozmeny.json');
 const HEALTH = path.join(PUBLIC_DIR, 'health.json');
-const PUBLIC_LATEST = path.join(PUBLIC_DIR, 'latest.json');
 
 async function crawlEgesz(betoltottCfg, katalogusosCachel, nyersShopCfg) {
   // Belső crawl: mindent a memóriában gyűjt; a kiírás kizárólag a publikálóban történik.
@@ -100,7 +100,9 @@ async function crawlEgesz(betoltottCfg, katalogusosCachel, nyersShopCfg) {
     }
 
     const p = pozicio(termekArak);
-    const gyujtesSzam = termekgyujto.mentes(gyujtendo) || 0;
+    // Commit 7: a crawl NEM ír diszkre – a találatokat csak MEMÓRIÁBAN gyűjtjük;
+    // a tényleges kiírás (flushStaged) a minőségi kapu teljesülése UTÁN történik.
+    const gyujtesSzam = termekgyujto.gyujtEmerge(gyujtendo) || 0;
     const konkurensAllapot = pendingShops.map((s) => ({ shop: s.id, nev: s.nev, statusz: s.statusz }));
 
     eredmenyek.push({
@@ -113,19 +115,32 @@ async function crawlEgesz(betoltottCfg, katalogusosCachel, nyersShopCfg) {
     log('item_done', { termek_id: termek.id, rank: p.rank_jelolo, radovin: p.radovin_ar, min: p.min, max: p.max, darab: p.darab });
   }
 
-  return { futasId, futasIdeje, eredmenyek, activeShops, pendingShops, termekekszam: eredmenyek.length };
+  return {
+    futasId, futasIdeje, eredmenyek, activeShops, pendingShops,
+    termekekszam: eredmenyek.length,
+    // Commit 7: a crawl során stagelt URL-kulcsú megfigyelések is a kanonikus futásba kerülnek,
+    // hogy a rebuild-public.js hiánytalanul újraépíthesse a termekek.json/.jsonl URL-idősorát.
+    gyujtes_obszeracio: termekgyujto.getStaged(),
+  };
 }
 
 // --- Publikálás: csak a minőségi kapu teljesülése után, atomi írással ---
+// Commit 7: a publikáló a KANONIKUS futást runtime/runs/ alá menti (a Pages repón kívül),
+// a stagelt termékgyűjtést flush-olja, és a publikus kimeneteket KOMPAKT formátumban adja.
 function publikalo(run, regiek, health) {
   const futasId = run.futasId;
   const futasIdeje = run.futasIdeje;
   const eredmenyek = run.eredmenyek;
 
-  // 1) JSONL export (kompatibilitás: az append-only naplónak megf elelő alak).
-  const jsonl = eredmenyek.map((s) => JSON.stringify(s)).join('\n');
+  // 0) Kanonikus, immutable futás-fájl (runtime/runs/<id>.json) – egyetlen hiteles forrás,
+  //    amiből a publikus indexek (legutobbi, elozmeny, termekek, arak) újjáépíthetők.
+  //    runtime/ gitignore-olt → nem növeli a repót. A run NEM írja a termekek/arak exportokat;
+  //    azokat a scripts/rebuild-public.js generálja a kanonikus futásokból (guide §21).
+  const kanonikusMentes = saveRun(DIR, run).then(() => true);
+  // A crawl közben stagelt gyűjtés EDDO-ig a kanonikus futásban él; itt csak ürítjük a memóriát.
+  termekgyujto.discardStaged();
 
-  // 2) legutóbbi összesítés a webes nézethez.
+  // 2) legutóbbi összesítés a webes nézethez (kompakt, publikus).
   const lato = { futas_id: futasId, ido: futasIdeje, termekekszam: eredmenyek.length, eredmenyek };
 
   // 3) előzmény-index (termék → futás idejei).
@@ -139,13 +154,14 @@ function publikalo(run, regiek, health) {
   }
 
   // A kiírások atomiak: a célfájl csak teljes hálózati+publikálási munka után cserélődik.
+  // NOTE: a korábbi 82MB-s public-data/latest.json (PUBLIC_LATEST) KIESETT – a UI a
+  // data/legutobbi.json-t olvassa, a duplikátum csak felduzzasztotta a repót.
   return Promise.all([
-    writeJsonAtomic(JSONL, jsonl + (jsonl ? '\n' : '')),
+    kanonikusMentes,
     writeJsonAtomic(LATO, lato),
     writeJsonAtomic(ELOZMENY, elozmeny),
     writeJsonAtomic(HEALTH, health),
-    writeJsonAtomic(PUBLIC_LATEST, lato),
-  ]);
+  ]).then(() => ({ kanonikus: true }));
 }
 
 (async () => {

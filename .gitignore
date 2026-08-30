@@ -2,3 +2,18 @@ node_modules/
 .env
 *.log
 .DS_Store
+
+# Commit 7 (guide §21): a kanonikus futástörténet és a quarantén a repón KÍVÜL él;
+# ezek soha nem kerülnek a Pages/git repóba, mert append-only növekedést okoznának.
+# (Gyökérankorolt: csak a TOP-SZINTŰ runtime/, NEM a lib/runtime/ könyvtárat zárja ki.)
+/runtime/
+
+# Publikus kimenet – kompakt, rebuild-generált; nem a fejlesztői repó része.
+public-data/
+
+# Regenerálható runtime-exportok (a rebuild-public.js újraépíti a kanonikus futásokból):
+data/arak.jsonl
+data/termekek.json
+data/termekek.jsonl
+data/legutobbi.json
+data/elozmeny.json

@@ -12,7 +12,10 @@
     "validate": "node scripts/validate-config.js",
     "scan-secrets": "node scripts/scan-secrets.js",
     "dry-run": "node scripts/dry-run.js",
-    "check": "npm run validate && npm run scan-secrets && node -e \"require('./lib/runtime/config.js').betoltEgesz(); console.log('config OK')\" && npm test && npm run dry-run"
+    "rebuild": "node scripts/rebuild-public.js",
+    "rebuild:verify": "node scripts/rebuild-public.js --verify",
+    "backup": "node scripts/backup-runs.js",
+    "check": "npm run validate && npm run scan-secrets && node -e \"require('./lib/runtime/config.js').betoltEgesz(); console.log('config OK')\" && npm test && npm run dry-run && npm run rebuild:verify"
   },
   "engines": {
     "node": ">=24 <25"
