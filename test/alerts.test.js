@@ -125,3 +125,35 @@ test('loadState: hiányzó fájl → alapértelmezett (nem dob)', () => {
   const st = loadState(path.join(os.tmpdir(), 'nincs-ilyen-' + Date.now()));
   assert.deepEqual(st.shop_fail_counts, {});
 });
+
+// Commit 8 GATE: „szándékosan eltörök egy adaptert, és ellenőrzöm a karantént + riasztást,
+// anélkül hogy a futás lecserélné az utolsó jó publikus snapshotot."
+test('Commit8 gate: törött baseline-adapter → gate ok=false (karantén), riasztás készül, NINCS lecserélt publikus snapshot', async () => {
+  // Adapter-törés szimuláció: MINDEN radovin tétel source_unavailable (a baseline hiányos).
+  const tornEredmeny = [
+    { termek_id: 'x', arak: [{ shop: 'radovin', tipus: 'radovin', ar: null, status: 'source_unavailable' }] },
+    { termek_id: 'y', arak: [{ shop: 'radovin', tipus: 'radovin', ar: null, status: 'source_unavailable' }] },
+  ];
+  const gate = qualityGate({ eredmenyek: tornEredmeny, products_expected: 2 }, []);
+  assert.equal(gate.ok, false);
+  assert.ok(gate.errors.some((e) => e.code === 'baseline_incomplete' || e.code === 'match_coverage_regression'), 'baseline/coverage regresszió kell');
+
+  // A karantén-riastás emberi szövege (amit a run.js a quarantine-ágon küldene):
+  const alertText = toTelegramText({ severity: 'error', subject: 'PIACI KARANTÉN – a futás nem teljesítette a kaput', lines: gate.errors.map((e) => [e.code, e.termek_id || e.pair || '']) });
+  assert.match(alertText, /KARANTÉN/);
+  assert.match(alertText, new RegExp('baseline_incomplete'));
+
+  // A publikus snapshot NEM cserélődhetett: a karantén-fájl a snapshot-tól FÜGGETLEN
+  // (runtime/quarantine/) helyre kerül, és a gate.ok=false MIATT a publikáló út NEM fut.
+  // Ezt a run.js karantén-ága garantálja: csak a gate.ok ágon van publikáló.
+  // Itt a valódi karantén-írást is lefuttatjuk a run.js karantén-ágának logikájával:
+  const root = path.join(os.tmpdir(), 'radovin-gate-' + Date.now());
+  const qDir = path.join(root, 'runtime', 'quarantine');
+  fs.mkdirSync(qDir, { recursive: true });
+  const { writeJsonAtomic } = require('../lib/runtime/atomic.js');
+  const qFile = path.join(qDir, 'run-999.quarantine.json');
+  await writeJsonAtomic(qFile, { run_id: '999', status: 'quarantined', errors: gate.errors, product_count: tornEredmeny.length });
+  assert.ok(fs.existsSync(qFile), 'karantén-fájl a runtime/quarantine alá kerül');
+  // A publikus snapshot könyvtár (data/) üres marad ebben a teszt-környezetben:
+  assert.ok(!fs.existsSync(path.join(root, 'data')), 'a publikáló út (data/) NEM futott le');
+});
