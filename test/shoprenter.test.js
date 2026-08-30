@@ -134,6 +134,65 @@ test('shoprenter: strict matcher-v2 elutasítja a Double Black-et (Black Label u
   assert.equal(res.selected, null);
 });
 
+test('shoprenter: ÉVJÁRAT-ELHAGYÁS jováhagyott referenciával → matched (Bujdoso Kapitany)', () => {
+  // A Veritas a kártyanéven NEM írja ki az évjáratot, de a bor azonos és emberileg
+  // jóváhagyott pontos referencia (URL) létezik szere. Ez a „megvan az a bor, elfogadjuk”
+  // eset: a hiányzó (nem ellentmondó) évjárat ne blokkolja a jóváhagyott pontos párt.
+  const termek = {
+    id: 'bujdoso-kapitany-irsai-oliver-2024-11-0-75l',
+    azonositas: {
+      termekkategoria: 'wine', gyarto: 'Bujdoso', marka_aliasok: ['Bujdosó'],
+      tetel: 'Bujdosó Kapitány Irsai Olivér 2024 11% 0,75l', evjarat: 2024, evjarat_statusz: 'vintage',
+      kiszereles_ml: 750, darab: 1, csomagolas: 'plain_bottle', puttony: null, penznem: 'HUF',
+    },
+    shop_azonositas: {
+      veritas: {
+        elfogadott_tetel_aliasok: ['Kapitány', 'Irsai Olivér'],
+        url: 'https://www.borkereskedes.hu/bujdoso-balatonboglari-kapitany-irsai-oliver',
+        ellenorizve: '2026-08-30', ellenorzes_modja: 'manual',
+      },
+    },
+  };
+  const jeloltek = [candidate({
+    shopId: 'veritas', shopProductId: '/bujdoso-balatonboglari-kapitany-irsai-oliver',
+    name: 'Bujdosó Kapitány Irsai Olivér', // NINCS évjárat a névben
+    url: 'https://www.borkereskedes.hu/bujdoso-balatonboglari-kapitany-irsai-oliver',
+    price: 2015, currency: 'HUF', extractor: 'shoprenter', availability: 'in_stock',
+  })];
+  const res = selectExactCandidate(jeloltek, termek, 'veritas');
+  assert.equal(res.status, 'matched', 'jováhagyott pontos referencia + hiányzó évjárat → matched, kapott: ' + res.status);
+  assert.equal(res.selected.price, 2015);
+});
+
+test('shoprenter: ELLENTMONDÓ évjárat (más év a névben) jováhagyott ref-el is → soha nem matched', () => {
+  // Ha a bolt kártyanéve MÁS évjáratot mond (2019) mint amit várunk (2024), az valódi
+  // ellentmondás – még jováhagyott referencia mellett sem szabad árat adni (más az évjárat).
+  const termek = {
+    id: 'kreinbacher-brut-classic-12-0-75l',
+    azonositas: {
+      termekkategoria: 'wine', gyarto: 'Kreinbacher', marka_aliasok: ['Kreinbacher'],
+      tetel: 'Kreinbacher Brut Classic 2016 12% 0,75l', evjarat: 2016, evjarat_statusz: 'vintage',
+      kiszereles_ml: 750, darab: 1, csomagolas: 'plain_bottle', puttony: null, penznem: 'HUF',
+    },
+    shop_azonositas: {
+      veritas: {
+        elfogadott_tetel_aliasok: ['Brut Classic'],
+        url: 'https://www.borkereskedes.hu/kreinbacher-brut-classic',
+        ellenorizve: '2026-08-30', ellenorzes_modja: 'manual',
+      },
+    },
+  };
+  const jeloltek = [candidate({
+    shopId: 'veritas', shopProductId: '/kreinbacher-brut-classic',
+    name: 'Kreinbacher Brut Classic 2019', // MÁS évjárat a névben
+    url: 'https://www.borkereskedes.hu/kreinbacher-brut-classic',
+    price: 8990, currency: 'HUF', extractor: 'shoprenter', availability: 'in_stock',
+  })];
+  const res = selectExactCandidate(jeloltek, termek, 'veritas');
+  assert.notEqual(res.status, 'matched', 'a 2019-es a 2016-os helyett soha nem matched');
+  assert.equal(res.selected, null);
+});
+
 test('shoprenter: üres/rossz HTML esetén üres listát ad, nem hibát dob', () => {
   assert.deepStrictEqual(sorok('', SHOP), []);
   assert.deepStrictEqual(sorok('<html><body>nincs kártya</body></html>', SHOP), []);

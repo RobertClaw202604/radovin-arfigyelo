@@ -196,6 +196,16 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "veritas": {
+          "elfogadott_tetel_aliasok": [
+            "Kapitány",
+            "Irsai Olivér"
+          ],
+          "url": "https://www.borkereskedes.hu/bujdoso-balatonboglari-kapitany-irsai-oliver",
+          "ellenorzott_nev": "Bujdosó Kapitány Irsai Olivér",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -234,6 +244,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "veritas": {
+          "elfogadott_tetel_aliasok": [
+            "Csomó"
+          ],
+          "url": "https://www.borkereskedes.hu/bujdoso-balatonboglari-csomo-sauvignon-blanc",
+          "ellenorzott_nev": "Bujdosó Csomó Sauvignon Blanc",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -1185,6 +1204,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "veritas": {
+          "elfogadott_tetel_aliasok": [
+            "Bárka"
+          ],
+          "url": "https://www.borkereskedes.hu/zelna-barka-birtok-voros",
+          "ellenorzott_nev": "Zelna Bárka Birtok Vörös Cuvée Bio",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -1945,6 +1973,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "veritas": {
+          "elfogadott_tetel_aliasok": [
+            "Rosé"
+          ],
+          "url": "https://www.borkereskedes.hu/vesztergombi-szekszardi-rose-cuvee",
+          "ellenorzott_nev": "Vesztergombi Szekszárdi Rosé",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },

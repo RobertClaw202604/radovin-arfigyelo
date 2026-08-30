@@ -22,7 +22,7 @@
       "id": "veritas",
       "nev": "Veritas Borkereskedés",
       "tipus": "konkurencia",
-      "statusz": "pending",
+      "statusz": "active",
       "base_url": "https://www.borkereskedes.hu",
       "adapter": "shoprenter",
       "kesleltetes_ms": 0,
@@ -38,7 +38,7 @@
         "likor"
       ],
       "kategoria_max_lap": 10,
-      "megjegyzes": "ShopRenter, de a kategórialisták statikus HTML-ben adják a nev+ár+URL-t (?page=N) — az EXTRACTION kész és tesztelt (lib/shoprenter.js). ÉLESÍTÉS BLOKKOLVA: a 58-termékes lista fajta-mezője üres, így a legacy szigor() matcher hamis árakat ad (pl. Bujdosó Irsai Olivér → Cirkáló ára, Le Colture → Terrecarsiche ára). Mielőtt active-ra vált: (1) töltsd fel a fajta/azonositas.tetel adatot mind a 58 tételnél, VAGY (2) vezesd át a matchelest a strict matcher-v2-re. Addig pending marad, nehogy hamis ár kerüljön a futásba."
+      "megjegyzes": "ShopRenter, statikus HTML (?page=N). STRICT matcher-v2-n fut (soha hamis ár). Aktív 2026-08-30: 4 kurált, ellenorizt pontos pár (Bujdosó Kapitány Irsai Olivér 2015 Ft, Bujdosó Csomó Sauvignon Blanc 1990 Ft, Vesztergombi Szekszárdi Rosé 1890 Ft, Zelna Bárka Birtok Vörös Cuvée Bio 4450 Ft) — a checklista tobbi tetelere nincs Veritas-tetel (őszintén no-match)."
     },
     {
       "id": "borhalo",
