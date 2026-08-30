@@ -20,6 +20,8 @@ const termekgyujto = require('./lib/termekgyujto.js');
 const configModul = require('./lib/runtime/config.js');
 const { withProductionLock } = require('./lib/runtime/lock.js');
 const { writeJsonAtomic } = require('./lib/runtime/atomic.js');
+const { mapLimit } = require('./lib/runtime/concurrency.js');
+const { closeBrowser } = require('./lib/runtime/browser-pool.js');
 const { qualityGate } = require('./lib/pipeline/quality-gate.js');
 const { buildHealth } = require('./lib/pipeline/health.js');
 const { log } = require('./lib/runtime/logger.js');
@@ -55,11 +57,13 @@ async function crawlEgesz(betoltottCfg, katalogusosCachel, nyersShopCfg) {
     }
     const termekArak = [];
     const gyujtendo = [];
-    for (const shop of activeShops) {
-      // Az eredeti hívási szerződés megőrzése: a scraper a RAW shopok.json-t kapja
-      // (user_agent, timeout_sec, ciklus_ora stb. mezőkkel), nem a validált dekódolt objektumot.
-      const r = await scraper.run(termek, shop, nyersShopCfg);
-
+    // Commit 6: shop-loop korlátos párhuzamossággal (2 egyidejű shop) + katalógus-gyorsítótár.
+    // A worker az eredeti hívási szerződést őrzi: scraper.run(termek, shop, nyersShopCfg, katlistasCache).
+    const shopEredmenyek = await mapLimit(activeShops, 2, async (shop) => {
+      const r = await scraper.run(termek, shop, nyersShopCfg, katlistasKatalogCache);
+      return { shop, r };
+    });
+    for (const { shop, r } of shopEredmenyek) {
       const forras = shop.tipus === 'sajat' ? 'radovin' : 'konkurencia';
       if (r && Array.isArray(r.talalatok)) {
         const katalogusos = ['borhalo', 'katlistas', 'shopify', 'woocommerce-api'].includes(shop.adapter);
@@ -158,6 +162,9 @@ function publikalo(run, regiek, health) {
     // A nyers (validálatlan) shopok.json, ahogy az eredeti run.js adta a scrapernek.
     const nyersShopCfg = JSON.parse(fs.readFileSync(path.join(DIR, 'config/shopok.json'), 'utf8'));
     const katalogusosCachel = new Map();
+    // Commit 6: shop-first katalógus-gyorsítótár (shop.id -> teljes katalógus),
+    // hogy a katlistas adapter MINDEN termék helyett csak egyszer töltsön le shoponként.
+    const katlistasKatalogCache = new Map();
 
     // Előző futás betöltése a kapuhoz (ha van).
     let regiek = null;
@@ -203,7 +210,7 @@ function publikalo(run, regiek, health) {
     log('run_complete', { futas_id: run.futasId, duration_ms: duration, termekekszam: run.termekekszam, warnings: gate.warnings.length });
     console.log(`\nKész: ${run.termekekszam} termék, futás #${run.futasId} (${run.futasIdeje}), ${duration} ms, ${gate.warnings.length} figyelmeztetés`);
   });
-})().catch((e) => {
-  console.error('HIBA:', e && e.message);
-  process.exit(1);
-});
+})().then(
+  () => closeBrowser().then(() => process.exit(0)),
+  (e) => closeBrowser().then(() => { console.error('HIBA:', e && e.message); process.exit(1); })
+);
