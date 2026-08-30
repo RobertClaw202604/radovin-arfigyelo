@@ -1,32 +1,26 @@
 {
-  "futas_id": 1788074699273,
-  "ido": "2026-08-30T07:24:59.273Z",
+  "futas_id": 1788092105749,
+  "ido": "2026-08-30T12:15:05.749Z",
   "termekekszam": 58,
   "eredmenyek": [
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "kreinbacher-brut-nature-12-0-75l",
       "termek_nev": "Kreinbacher Brut Nature 12% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 3,
+        "darab": 2,
         "min": 8290,
-        "max": 8990,
-        "median": 8490,
+        "max": 8490,
+        "median": 8390,
         "radovin_ar": 8290,
         "rank": 1,
-        "rank_jelolo": "1/3"
+        "rank_jelolo": "1/2"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -41,18 +35,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 8990,
-          "nev": "Kreinbacher Pezsgő Brut Nature (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -74,33 +75,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "kreinbacher-prestige-brut-12-5-0-75l",
       "termek_nev": "Kreinbacher Prestige Brut 12,5% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 3,
+        "darab": 2,
         "min": 7890,
-        "max": 11720,
-        "median": 9690,
+        "max": 9690,
+        "median": 8790,
         "radovin_ar": 9690,
         "rank": 2,
-        "rank_jelolo": "2/3"
+        "rank_jelolo": "2/2"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -115,18 +124,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 11720,
-          "nev": "Kreinbacher Pezsgő Prestige Brut (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -148,33 +164,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "moet-chandon-brut-imperial-12-0-75l",
       "termek_nev": "Moët & Chandon Brut Imperial 12% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 3,
+        "darab": 2,
         "min": 19990,
-        "max": 22990,
-        "median": 20990,
+        "max": 20990,
+        "median": 20490,
         "radovin_ar": 20990,
         "rank": 2,
-        "rank_jelolo": "2/3"
+        "rank_jelolo": "2/2"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -189,18 +213,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 22990,
-          "nev": "Moët & Chandon Brut Imperial (V) Champagne",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -222,33 +253,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "moet-chandon-rose-imperial-0-75l",
       "termek_nev": "Moët & Chandon Rosé Impérial 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 3,
-        "min": 22990,
+        "darab": 2,
+        "min": 26650,
         "max": 29990,
-        "median": 26650,
+        "median": 28320,
         "radovin_ar": 29990,
-        "rank": 3,
-        "rank_jelolo": "3/3"
+        "rank": 2,
+        "rank_jelolo": "2/2"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -263,18 +302,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 22990,
-          "nev": "Moët & Chandon Brut Imperial (V) Champagne",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -296,33 +342,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "bujdoso-kapitany-irsai-oliver-2024-11-0-75l",
       "termek_nev": "Bujdosó Kapitány Irsai Olivér 2024 11% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
         "darab": 2,
-        "min": 2090,
+        "min": 2015,
         "max": 2190,
-        "median": 2140,
+        "median": 2102.5,
         "radovin_ar": 2190,
         "rank": 2,
         "rank_jelolo": "2/2"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -337,18 +391,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 2090,
-          "nev": "Bujdosó Balatonbor (Olaszrizling) 2024 (V)",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": 2015,
+          "nev": "Bujdosó Kapitány Irsai Olivér",
           "hiba": null
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -370,33 +431,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "bujdoso-csomo-sauvignon-blanc-2024-2025-12-0-75l",
       "termek_nev": "Bujdosó Csomó Sauvignon Blanc 2024/2025 12% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
         "darab": 2,
-        "min": 2090,
+        "min": 1990,
         "max": 2190,
-        "median": 2140,
+        "median": 2090,
         "radovin_ar": 2190,
         "rank": 2,
         "rank_jelolo": "2/2"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -411,18 +480,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 2090,
-          "nev": "Bujdosó Balatonbor (Olaszrizling) 2024 (V)",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": 1990,
+          "nev": "Bujdosó Csomó Sauvignon Blanc",
           "hiba": null
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -444,12 +520,26 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "steigler-kameleon-feher-cuvee-2025-13-0-75l",
       "termek_nev": "Steigler Kaméleon Fehér Cuvée 2025 13% 0,75l",
       "meret": "0,75 l",
@@ -464,13 +554,7 @@
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -485,6 +569,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -492,11 +583,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -518,33 +609,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "bujdoso-hegybor-olaszrizling-2024-11-0-75l",
       "termek_nev": "Bujdosó Hegybor Olaszrizling 2024 11% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
-        "min": 2090,
+        "darab": 1,
+        "min": 3790,
         "max": 3790,
-        "median": 2940,
+        "median": 3790,
         "radovin_ar": 3790,
-        "rank": 2,
-        "rank_jelolo": "2/2"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -559,18 +658,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 2090,
-          "nev": "Bujdosó Balatonbor (Olaszrizling) 2024 (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -592,33 +698,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "folly-budai-zold-2025-badacsony-0-75l",
       "termek_nev": "Folly Budai Zöld 2025 Badacsony 0,75l",
       "meret": "0,75 l",
       "pozicio": {
         "darab": 2,
         "min": 4990,
-        "max": 5280,
-        "median": 5135,
+        "max": 4990,
+        "median": 4990,
         "radovin_ar": 4990,
         "rank": 1,
         "rank_jelolo": "1/2"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -633,18 +747,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 5280,
-          "nev": "Folly Arborétum Budai Zöld 2025",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -666,33 +787,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": 4990,
+          "nev": "Folly – Budai zöld 2025",
+          "hiba": null
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "steigler-furmint-premium-2023-13-0-75l",
       "termek_nev": "Steigler Furmint Prémium 2023 13% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
+        "darab": 1,
         "min": 6290,
-        "max": 6900,
-        "median": 6595,
+        "max": 6290,
+        "median": 6290,
         "radovin_ar": 6290,
         "rank": 1,
-        "rank_jelolo": "1/2"
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -707,18 +836,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 6900,
-          "nev": "Steigler Zöldveltelini Brut Natur Pezsgő 2023",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -740,12 +876,26 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "steigler-kekfrankos-premium-2022-13-0-75l",
       "termek_nev": "Steigler Kékfrankos Prémium 2022 13% 0,75l",
       "meret": "0,75 l",
@@ -760,13 +910,7 @@
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -781,6 +925,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -788,11 +939,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -814,33 +965,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "sauska-rose-brut-12-0-75l",
       "termek_nev": "Sauska Rosé Brut 12% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 3,
-        "min": 7490,
-        "max": 9500,
+        "darab": 1,
+        "min": 7990,
+        "max": 7990,
         "median": 7990,
         "radovin_ar": 7990,
-        "rank": 2,
-        "rank_jelolo": "2/3"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -855,18 +1014,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 9500,
-          "nev": "Sauska Brut Nature",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -878,9 +1044,9 @@
         {
           "shop": "borvilag",
           "shop_nev": "Borvilág",
-          "ar": 7490,
-          "nev": "Sauska - Brut Pezsgő",
-          "hiba": null
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borpiac",
@@ -888,33 +1054,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "kreinbacher-brut-classic-12-0-75l",
       "termek_nev": "Kreinbacher Brut Classic 12% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 3,
+        "darab": 1,
         "min": 8290,
-        "max": 8990,
-        "median": 8490,
+        "max": 8290,
+        "median": 8290,
         "radovin_ar": 8290,
         "rank": 1,
-        "rank_jelolo": "1/3"
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -929,18 +1103,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 8990,
-          "nev": "Kreinbacher Pezsgő Brut Classic (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -952,9 +1133,9 @@
         {
           "shop": "borvilag",
           "shop_nev": "Borvilág",
-          "ar": 8490,
-          "nev": "Kreinbacher Birtok -  Brut Nature",
-          "hiba": null
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borpiac",
@@ -962,33 +1143,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "kreinbacher-rose-brut-12-0-75l",
       "termek_nev": "Kreinbacher Rosé Brut 12% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 3,
-        "min": 8390,
-        "max": 8990,
-        "median": 8490,
+        "darab": 2,
+        "min": 7990,
+        "max": 8390,
+        "median": 8190,
         "radovin_ar": 8390,
-        "rank": 1,
-        "rank_jelolo": "1/3"
+        "rank": 2,
+        "rank_jelolo": "2/2"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -1003,18 +1192,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 8990,
-          "nev": "Kreinbacher Pezsgő Brut Classic (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -1026,8 +1222,8 @@
         {
           "shop": "borvilag",
           "shop_nev": "Borvilág",
-          "ar": 8490,
-          "nev": "Kreinbacher Birtok -  Brut Nature",
+          "ar": 7990,
+          "nev": "Kreinbacher Birtok - Rosé Brut",
           "hiba": null
         },
         {
@@ -1036,33 +1232,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "le-colture-superiore-cartizze-docg-11-0-75l",
       "termek_nev": "Le Colture Superiore Cartizze DOCG 11% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 4,
-        "min": 4400,
+        "darab": 1,
+        "min": 12990,
         "max": 12990,
-        "median": 7900,
+        "median": 12990,
         "radovin_ar": 12990,
-        "rank": 4,
-        "rank_jelolo": "4/4"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -1077,32 +1281,39 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 5250,
-          "nev": "DeBernard Prosecco Valdobbiadene DOCG Brut Millesimato",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
           "shop_nev": "Winehub",
-          "ar": 4400,
-          "nev": "Follador FOSELIOS Valdobbiadene Prosecco Superiore DOCG Brut Millesimato",
-          "hiba": null
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borvilag",
           "shop_nev": "Borvilág",
-          "ar": 10550,
-          "nev": "Merotto -  \"Fondatore Graziano Merotto\" Valdobbiadene Prosecco Superiore Brut Millesimato DOCG",
-          "hiba": null
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borpiac",
@@ -1110,33 +1321,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "gere-attila-kopar-2021-14-0-75l",
       "termek_nev": "Gere Attila Kopar 2021 14% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
+        "darab": 1,
         "min": 12990,
-        "max": 49550,
-        "median": 31270,
+        "max": 12990,
+        "median": 12990,
         "radovin_ar": 12990,
         "rank": 1,
-        "rank_jelolo": "1/2"
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -1151,18 +1370,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 49550,
-          "nev": "Gere ATTILA Cuvée 2021 (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -1184,33 +1410,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "still-gin-42-0-7l",
       "termek_nev": "Still Gin 42% 0,7l",
       "meret": "0,7 l",
       "pozicio": {
-        "darab": 3,
-        "min": 8850,
+        "darab": 1,
+        "min": 18890,
         "max": 18890,
-        "median": 14300,
+        "median": 18890,
         "radovin_ar": 18890,
-        "rank": 3,
-        "rank_jelolo": "3/3"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -1225,18 +1459,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 14300,
-          "nev": "Bestillo Alma Pálinka (0,7 l) 40%",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -1248,9 +1489,9 @@
         {
           "shop": "borvilag",
           "shop_nev": "Borvilág",
-          "ar": 8850,
-          "nev": "Jameson - Triple Distilled Irish Whisky",
-          "hiba": null
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borpiac",
@@ -1258,33 +1499,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "sauska-rose-brut-magnum-12-1-5l",
       "termek_nev": "Sauska Rosé Brut MAGNUM 12% 1,5l",
       "meret": "1,5 l",
       "pozicio": {
-        "darab": 3,
-        "min": 7490,
+        "darab": 1,
+        "min": 18990,
         "max": 18990,
-        "median": 18490,
+        "median": 18990,
         "radovin_ar": 18990,
-        "rank": 3,
-        "rank_jelolo": "3/3"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -1299,18 +1548,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 18490,
-          "nev": "Sauska Tokaj Pezsgő Brut Magnum",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -1322,9 +1578,9 @@
         {
           "shop": "borvilag",
           "shop_nev": "Borvilág",
-          "ar": 7490,
-          "nev": "Sauska - Brut Pezsgő",
-          "hiba": null
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borpiac",
@@ -1332,33 +1588,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "kreinbacher-brut-classic-magnum-2019-1-5l",
       "termek_nev": "Kreinbacher Brut Classic Magnum 2019 1,5l",
       "meret": "1,5 l",
       "pozicio": {
-        "darab": 3,
+        "darab": 1,
         "min": 24190,
-        "max": 28000,
-        "median": 27700,
+        "max": 24190,
+        "median": 24190,
         "radovin_ar": 24190,
         "rank": 1,
-        "rank_jelolo": "1/3"
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -1373,25 +1637,32 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 27700,
-          "nev": "Kreinbacher Pezsgő Prestige Brut 2019 Magnum",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
           "shop_nev": "Winehub",
-          "ar": 28000,
-          "nev": "Kreinbacher Prestige Brut MAGNUM 2019",
-          "hiba": null
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borvilag",
@@ -1406,33 +1677,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "chateau-latour-martillac-blanc-2021-13-0-75l",
       "termek_nev": "Chateau Latour-Martillac Blanc 2021 13% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 3,
-        "min": 7970,
-        "max": 47780,
+        "darab": 1,
+        "min": 31490,
+        "max": 31490,
         "median": 31490,
         "radovin_ar": 31490,
-        "rank": 2,
-        "rank_jelolo": "2/3"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -1447,25 +1726,32 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 7970,
-          "nev": "Chateau Beaubois Cuvée Confidence Blanc 2021",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
           "shop_nev": "Winehub",
-          "ar": 47780,
-          "nev": "Albert Bichot Nuits-Saints-Georges 1er Cru &#8222;Chateau Gris&#8221; 2021",
-          "hiba": null
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borvilag",
@@ -1480,33 +1766,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "louis-roederer-collection-244-12-0-75l",
       "termek_nev": "Louis Roederer Collection 244 12% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 3,
-        "min": 25000,
-        "max": 32999,
+        "darab": 1,
+        "min": 31490,
+        "max": 31490,
         "median": 31490,
         "radovin_ar": 31490,
-        "rank": 2,
-        "rank_jelolo": "2/3"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -1521,18 +1815,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 25000,
-          "nev": "Louis Roederer Collection 246 Brut NV Champagne (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -1544,9 +1845,9 @@
         {
           "shop": "borvilag",
           "shop_nev": "Borvilág",
-          "ar": 32999,
-          "nev": "Louis Roederer - Collection 244 Champagne",
-          "hiba": null
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borpiac",
@@ -1554,33 +1855,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "roederer-collection-244-dd-12-0-75l",
       "termek_nev": "Roederer Collection 244 DD 12% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 3,
-        "min": 25000,
+        "darab": 1,
+        "min": 169000,
         "max": 169000,
-        "median": 32999,
+        "median": 169000,
         "radovin_ar": 169000,
-        "rank": 3,
-        "rank_jelolo": "3/3"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -1595,18 +1904,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 25000,
-          "nev": "Louis Roederer Collection 246 Brut NV Champagne (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -1618,9 +1934,9 @@
         {
           "shop": "borvilag",
           "shop_nev": "Borvilág",
-          "ar": 32999,
-          "nev": "Louis Roederer - Collection 244 Champagne",
-          "hiba": null
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borpiac",
@@ -1628,33 +1944,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "charles-heidsieck-brut-reserve-12-0-75l",
       "termek_nev": "Charles Heidsieck Brut Réserve 12% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
-        "min": 30900,
+        "darab": 1,
+        "min": 31990,
         "max": 31990,
-        "median": 31445,
+        "median": 31990,
         "radovin_ar": 31990,
-        "rank": 2,
-        "rank_jelolo": "2/2"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -1669,18 +1993,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 30900,
-          "nev": "Charles Heidsieck Brut Reserve Champagne",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -1702,33 +2033,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "bollinger-special-cuvee-dd-12-5-0-75l",
       "termek_nev": "Bollinger Special Cuvée DD 12,5% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 3,
-        "min": 29900,
+        "darab": 2,
+        "min": 34990,
         "max": 37190,
-        "median": 34990,
+        "median": 36090,
         "radovin_ar": 34990,
-        "rank": 2,
-        "rank_jelolo": "2/3"
+        "rank": 1,
+        "rank_jelolo": "1/2"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -1743,18 +2082,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 29900,
-          "nev": "Bollinger Special Cuvée Brut Champagne (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -1776,33 +2122,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "louis-roederer-collection-245-12-5-0-75l",
       "termek_nev": "Louis Roederer Collection 245 12,5% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 3,
-        "min": 25000,
+        "darab": 1,
+        "min": 36590,
         "max": 36590,
-        "median": 30490,
+        "median": 36590,
         "radovin_ar": 36590,
-        "rank": 3,
-        "rank_jelolo": "3/3"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -1817,18 +2171,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 25000,
-          "nev": "Louis Roederer Collection 246 Brut NV Champagne (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -1840,9 +2201,9 @@
         {
           "shop": "borvilag",
           "shop_nev": "Borvilág",
-          "ar": 30490,
-          "nev": "Louis Roederer - Collection 246 Champagne",
-          "hiba": null
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "borpiac",
@@ -1850,12 +2211,26 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "demeter-pince-xy-sauvignon-blanc-2025-0-75l-drs",
       "termek_nev": "Demeter Pince XY Sauvignon Blanc 2025 0,75l DRS",
       "meret": "0,75 l",
@@ -1870,13 +2245,7 @@
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -1891,6 +2260,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -1898,11 +2274,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -1924,33 +2300,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "eszterbauer-114-eves-kadarka-2025-szekszardi-12-5-0-75l",
       "termek_nev": "Eszterbauer 114 éves Kadarka 2025 Szekszárdi 12,5% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
-        "min": 2660,
+        "darab": 1,
+        "min": 7900,
         "max": 7900,
-        "median": 5280,
+        "median": 7900,
         "radovin_ar": 7900,
-        "rank": 2,
-        "rank_jelolo": "2/2"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -1965,18 +2349,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 2660,
-          "nev": "Eszterbauer Fuxli 2025",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -1998,12 +2389,26 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "t3-dolcsi-sargamuskotaly-2024-12-5-0-75l",
       "termek_nev": "T3 Dolcsi Sárgamuskotály 2024 12,5% 0,75l",
       "meret": "0,75 l",
@@ -2018,13 +2423,7 @@
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -2039,6 +2438,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -2046,11 +2452,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -2072,33 +2478,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "kali-kovek-rezeda-olaszrizling-2024-13-5-0-75l",
       "termek_nev": "Káli Kövek Rezeda Olaszrizling 2024 13,5% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 3,
-        "min": 2990,
+        "darab": 1,
+        "min": 3890,
         "max": 3890,
-        "median": 3850,
+        "median": 3890,
         "radovin_ar": 3890,
-        "rank": 3,
-        "rank_jelolo": "3/3"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -2113,18 +2527,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 3850,
-          "nev": "Káli Kövek Rezeda Olaszrizling 2024",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -2143,36 +2564,44 @@
         {
           "shop": "borpiac",
           "shop_nev": "Borpiac",
-          "ar": 2990,
-          "nev": "Káli Olaszrizling 2024",
-          "hiba": null
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "zelna-boraszat-barka-2023-14-0-75l",
       "termek_nev": "Zelna Borászat Bárka 2023 14% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 1,
-        "min": 4490,
+        "darab": 2,
+        "min": 4290,
         "max": 4490,
-        "median": 4490,
+        "median": 4390,
         "radovin_ar": 4490,
-        "rank": 1,
-        "rank_jelolo": "1/1"
+        "rank": 2,
+        "rank_jelolo": "2/2"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -2187,6 +2616,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -2194,11 +2630,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -2220,33 +2656,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": 4290,
+          "nev": "Zelna – Bárka vörös cuvée 2023",
+          "hiba": null
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "bock-ermitage-2023-14-5-0-75l",
       "termek_nev": "Bock Ermitage 2023 14,5% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
-        "min": 3990,
+        "darab": 1,
+        "min": 4100,
         "max": 4100,
-        "median": 4045,
+        "median": 4100,
         "radovin_ar": 4100,
-        "rank": 2,
-        "rank_jelolo": "2/2"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -2261,18 +2705,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 3990,
-          "nev": "Bock Ermitage 2023",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -2294,33 +2745,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "bott-pince-kulcsar-tokaji-harslevelu-2023-13-0-75l",
       "termek_nev": "Bott Pince Kulcsár Tokaji Hárslevelű 2023 13% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
-        "min": 6200,
+        "darab": 1,
+        "min": 6990,
         "max": 6990,
-        "median": 6595,
+        "median": 6990,
         "radovin_ar": 6990,
-        "rank": 2,
-        "rank_jelolo": "2/2"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -2335,18 +2794,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 6200,
-          "nev": "Bott Pince A Három Grácia Édes 2023 (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -2368,33 +2834,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "bukolyi-furmint-nagy-eged-grand-superior-2024-14-0-75l",
       "termek_nev": "Bukolyi Furmint Nagy Eged Grand Superior 2024 14% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
+        "darab": 1,
         "min": 10990,
         "max": 10990,
         "median": 10990,
         "radovin_ar": 10990,
         "rank": 1,
-        "rank_jelolo": "1/2"
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -2409,18 +2883,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 10990,
-          "nev": "Bukolyi Marcell Nagy-Eged Furmint Grand Superior 2024 (BIO)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -2442,33 +2923,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "bukolyi-harslevelu-nagy-eged-grand-superior-2024-0-75l",
       "termek_nev": "Bukolyi Hárslevelű Nagy Eged Grand Superior 2024 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
+        "darab": 1,
         "min": 10990,
         "max": 10990,
         "median": 10990,
         "radovin_ar": 10990,
         "rank": 1,
-        "rank_jelolo": "1/2"
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -2483,18 +2972,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 10990,
-          "nev": "Bukolyi Marcell Hárslevelű Nagy-Eged Grand Superior 2024 (BIO)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -2516,12 +3012,26 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "bujdoso-brut-serie-no50-12-0-75l",
       "termek_nev": "Bujdosó Brut Série no50 12% 0,75l",
       "meret": "0,75 l",
@@ -2536,13 +3046,7 @@
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -2557,6 +3061,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -2564,11 +3075,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -2590,33 +3101,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "szarka-pince-tokaj-off-dry-felszaraz-2023-13-0-75l",
       "termek_nev": "Szarka Pince Tokaj Off Dry Félszáraz 2023 13% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
+        "darab": 1,
         "min": 4490,
-        "max": 7800,
-        "median": 6145,
+        "max": 4490,
+        "median": 4490,
         "radovin_ar": 4490,
         "rank": 1,
-        "rank_jelolo": "1/2"
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -2631,18 +3150,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 7800,
-          "nev": "Szarka Pince Tokaji Pezsgő 2023 Extra Brut",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -2664,33 +3190,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "vesztergombi-st-laszlo-bikaver-2021-14-0-75l",
       "termek_nev": "Vesztergombi St. László Bikavér 2021 14,% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 1,
-        "min": 7890,
+        "darab": 2,
+        "min": 6500,
         "max": 7890,
-        "median": 7890,
+        "median": 7195,
         "radovin_ar": 7890,
-        "rank": 1,
-        "rank_jelolo": "1/1"
+        "rank": 2,
+        "rank_jelolo": "2/2"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -2705,6 +3239,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -2712,11 +3253,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
-          "ar": null,
-          "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": 6500,
+          "nev": "Vesztergombi St László Bikavér prémium száraz szekszárdi vörösbor - Díjnyertes bor",
+          "hiba": null
         },
         {
           "shop": "winehub",
@@ -2738,12 +3279,26 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "steigler-pet-nat-kekfrankos-rose-2025-fn-13-0-75l",
       "termek_nev": "Steigler Pet-Nat Kékfrankos Rosé 2025 FN 13% 0,75l",
       "meret": "0,75 l",
@@ -2758,13 +3313,7 @@
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -2779,6 +3328,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -2786,11 +3342,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -2812,12 +3368,26 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "steigler-pet-nat-zold-veltelini-2025-fn-0-75-l-drs",
       "termek_nev": "Steigler Pet-Nat Zöld Veltelíni 2025 FN 0,75 l DRS",
       "meret": "0,75 l",
@@ -2832,13 +3402,7 @@
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -2853,6 +3417,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -2860,11 +3431,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -2886,33 +3457,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "kovacs-nimrod-grand-bleu-2017-13-5-0-75l",
       "termek_nev": "Kovács Nimród Grand Bleu 2017 13,5% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
+        "darab": 3,
         "min": 16990,
         "max": 17990,
-        "median": 17490,
+        "median": 17990,
         "radovin_ar": 16990,
         "rank": 1,
-        "rank_jelolo": "1/2"
+        "rank_jelolo": "1/3"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -2927,6 +3506,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -2934,11 +3520,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -2960,12 +3546,26 @@
           "ar": 17990,
           "nev": "Kovács Nimród Grand Bleu 2017",
           "hiba": null
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": 17990,
+          "nev": "Kovács Nimród - Grand Bleu 2017",
+          "hiba": null
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "ruinart-r-de-ruinart-12-5-0-75l",
       "termek_nev": "Ruinart R de Ruinart 12,5% 0,75l",
       "meret": "0,75 l",
@@ -2980,13 +3580,7 @@
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -3001,6 +3595,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -3008,11 +3609,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -3034,12 +3635,26 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "tothborbirtok-brut-reserve-2021-12-5-0-75l",
       "termek_nev": "TÓTHBORBIRTOK Brut Reserve 2021 12,5% 0,75l",
       "meret": "0,75 l",
@@ -3054,13 +3669,7 @@
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -3075,6 +3684,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -3082,11 +3698,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -3108,33 +3724,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "zelna-boraszat-balaton-olaszrizling-2025-13-0-75l",
       "termek_nev": "Zelna Borászat Balaton Olaszrizling 2025 13% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 1,
+        "darab": 2,
         "min": 2890,
-        "max": 2890,
-        "median": 2890,
+        "max": 2990,
+        "median": 2940,
         "radovin_ar": 2890,
         "rank": 1,
-        "rank_jelolo": "1/1"
+        "rank_jelolo": "1/2"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -3149,6 +3773,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -3156,11 +3787,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -3182,12 +3813,26 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": 2990,
+          "nev": "Zelna – Olaszrizling BIO 2025",
+          "hiba": null
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "tothborbirtok-juvenis-voros-cuvee-2022-13-0-75l",
       "termek_nev": "TÓTHBORBIRTOK Juvenis Vörös Cuvée 2022 13% 0,75l",
       "meret": "0,75 l",
@@ -3202,13 +3847,7 @@
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -3223,6 +3862,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -3230,11 +3876,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -3256,33 +3902,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "bujdoso-jolle-sauvignon-blanc-2024-12-5-0-75l",
       "termek_nev": "Bujdosó Jolle Sauvignon Blanc 2024 12,5% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
-        "min": 2090,
+        "darab": 1,
+        "min": 3790,
         "max": 3790,
-        "median": 2940,
+        "median": 3790,
         "radovin_ar": 3790,
-        "rank": 2,
-        "rank_jelolo": "2/2"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -3297,18 +3951,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 2090,
-          "nev": "Bujdosó Balatonbor (Olaszrizling) 2024 (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -3330,33 +3991,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "steigler-siller-zweigelt-2023-12-0-75l",
       "termek_nev": "Steigler Siller Zweigelt 2023 12% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
+        "darab": 1,
         "min": 3190,
-        "max": 6900,
-        "median": 5045,
+        "max": 3190,
+        "median": 3190,
         "radovin_ar": 3190,
         "rank": 1,
-        "rank_jelolo": "1/2"
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -3371,18 +4040,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 6900,
-          "nev": "Steigler Zöldveltelini Brut Natur Pezsgő 2023",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -3404,33 +4080,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "bukolyi-marcell-kekfrankos-reserve-nagy-eged-grand-superior-",
       "termek_nev": "Bukolyi Marcell Kékfrankos Reserve Nagy-Eged Grand Superior 2021 14% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
+        "darab": 1,
         "min": 10490,
-        "max": 14950,
-        "median": 12720,
+        "max": 10490,
+        "median": 10490,
         "radovin_ar": 10490,
         "rank": 1,
-        "rank_jelolo": "1/2"
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -3445,18 +4129,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 14950,
-          "nev": "Bukolyi Marcell Nagy-Eged Syrah Grand Superior 2021 (BIO)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -3478,33 +4169,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "benedek-kekfrankos-2024-12-5-0-75l",
       "termek_nev": "Benedek Kékfrankos 2024 12,5% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
-        "min": 2520,
+        "darab": 1,
+        "min": 2990,
         "max": 2990,
-        "median": 2755,
+        "median": 2990,
         "radovin_ar": 2990,
-        "rank": 2,
-        "rank_jelolo": "2/2"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -3519,18 +4218,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 2520,
-          "nev": "Benedek Kékfrankos 2024 (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -3552,12 +4258,26 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "zelna-boraszat-fured-olaszrizling-2025-13-0-75l",
       "termek_nev": "Zelna Borászat Füred Olaszrizling 2025 13% 0,75l",
       "meret": "0,75 l",
@@ -3572,13 +4292,7 @@
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -3593,6 +4307,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -3600,11 +4321,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -3626,33 +4347,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "vesztergombi-rose-2025-12-0-75l",
       "termek_nev": "Vesztergombi Rosé 2025 12% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 1,
-        "min": 1990,
-        "max": 1990,
+        "darab": 3,
+        "min": 1890,
+        "max": 2300,
         "median": 1990,
         "radovin_ar": 1990,
-        "rank": 1,
-        "rank_jelolo": "1/1"
+        "rank": 2,
+        "rank_jelolo": "2/3"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -3667,6 +4396,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": 1890,
+          "nev": "Vesztergombi Szekszárdi Rosé",
+          "hiba": null
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -3674,11 +4410,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
-          "ar": null,
-          "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": 2300,
+          "nev": "Vesztergombi Rose rosé",
+          "hiba": null
         },
         {
           "shop": "winehub",
@@ -3700,33 +4436,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "vesztergombi-bodzas-cabernet-sauvignon-2019-14-5-0-75l",
       "termek_nev": "Vesztergombi Bodzás Cabernet Sauvignon 2019 14,5% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 1,
-        "min": 13590,
+        "darab": 2,
+        "min": 9800,
         "max": 13590,
-        "median": 13590,
+        "median": 11695,
         "radovin_ar": 13590,
-        "rank": 1,
-        "rank_jelolo": "1/1"
+        "rank": 2,
+        "rank_jelolo": "2/2"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -3741,6 +4485,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -3748,11 +4499,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
-          "ar": null,
-          "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": 9800,
+          "nev": "Vesztergombi Bodzás dűlőszelektált Cabernet Sauvignon prémium száraz szekszárdi vörösbor",
+          "hiba": null
         },
         {
           "shop": "winehub",
@@ -3774,33 +4525,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "bodri-rozi-rose-2025-11-5-0-75l",
       "termek_nev": "Bodri Rozi Rosé 2025 11,5% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
+        "darab": 1,
         "min": 1890,
-        "max": 1990,
-        "median": 1940,
+        "max": 1890,
+        "median": 1890,
         "radovin_ar": 1890,
         "rank": 1,
-        "rank_jelolo": "1/2"
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -3815,18 +4574,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 1990,
-          "nev": "Bodri Rozi Rosé 2025",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -3848,33 +4614,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "eszterbauer-tivald-cabernet-sauvignon-2021-14-0-75l",
       "termek_nev": "Eszterbauer Tivald Cabernet Sauvignon 2021 14% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
+        "darab": 1,
         "min": 7890,
-        "max": 7920,
-        "median": 7905,
+        "max": 7890,
+        "median": 7890,
         "radovin_ar": 7890,
         "rank": 1,
-        "rank_jelolo": "1/2"
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -3889,18 +4663,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 7920,
-          "nev": "Eszterbauer Tivald Cabernet Sauvignon 2021 (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -3922,33 +4703,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "benedek-cserszegi-fuszeres-2024-12-0-75l",
       "termek_nev": "Benedek Cserszegi Fűszeres 2024 12% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
+        "darab": 1,
         "min": 2290,
-        "max": 2520,
-        "median": 2405,
+        "max": 2290,
+        "median": 2290,
         "radovin_ar": 2290,
         "rank": 1,
-        "rank_jelolo": "1/2"
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -3963,18 +4752,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 2520,
-          "nev": "Benedek Kékfrankos 2024 (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -3996,33 +4792,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "vesztergombi-vintage-2019-14-0-75l",
       "termek_nev": "Vesztergombi Vintage 2019 14% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 1,
-        "min": 13590,
+        "darab": 2,
+        "min": 9800,
         "max": 13590,
-        "median": 13590,
+        "median": 11695,
         "radovin_ar": 13590,
-        "rank": 1,
-        "rank_jelolo": "1/1"
+        "rank": 2,
+        "rank_jelolo": "2/2"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -4037,6 +4841,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -4044,11 +4855,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
-          "ar": null,
-          "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": 9800,
+          "nev": "Vesztergombi Vintage prémium száraz szekszárdi vörösbor",
+          "hiba": null
         },
         {
           "shop": "winehub",
@@ -4070,12 +4881,26 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "ruinart-r-de-ruinart-magnum-12-1-5l",
       "termek_nev": "Ruinart R de Ruinart Magnum 12% 1,5l",
       "meret": "1,5 l",
@@ -4090,13 +4915,7 @@
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -4111,6 +4930,13 @@
           "hiba": null
         },
         {
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
           "shop": "borhalo",
           "shop_nev": "Borháló",
           "ar": null,
@@ -4118,11 +4944,11 @@
           "hiba": "nincs_pontos_talalat"
         },
         {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "benebor",
+          "shop_nev": "Benebor",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -4144,33 +4970,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "gizella-edes-szamorodni-2022-11-0-5l",
       "termek_nev": "Gizella Édes Szamorodni 2022 11% 0,5l",
       "meret": "0,5 l",
       "pozicio": {
-        "darab": 2,
-        "min": 12050,
+        "darab": 1,
+        "min": 12990,
         "max": 12990,
-        "median": 12520,
+        "median": 12990,
         "radovin_ar": 12990,
-        "rank": 2,
-        "rank_jelolo": "2/2"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -4185,18 +5019,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 12050,
-          "nev": "Gizella Pince Édes Szamorodni 2022 (V)",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -4218,33 +5059,41 @@
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         }
       ]
     },
     {
-      "futas_id": 1788074699273,
-      "ido": "2026-08-30T07:24:59.273Z",
+      "futas_id": 1788092105749,
+      "ido": "2026-08-30T12:15:05.749Z",
       "termek_id": "benedek-sauvignon-blanc-2025-13-5-0-75l",
       "termek_nev": "Benedek Sauvignon Blanc 2025 13,5% 0,75l",
       "meret": "0,75 l",
       "pozicio": {
-        "darab": 2,
-        "min": 2520,
+        "darab": 1,
+        "min": 2890,
         "max": 2890,
-        "median": 2705,
+        "median": 2890,
         "radovin_ar": 2890,
-        "rank": 2,
-        "rank_jelolo": "2/2"
+        "rank": 1,
+        "rank_jelolo": "1/1"
       },
       "konkurens_allapot": [
         {
-          "nev": "Veritas Borkereskedés"
-        },
-        {
           "nev": "Bortársaság"
-        },
-        {
-          "nev": "Benebor"
         },
         {
           "nev": "Borbáró"
@@ -4259,18 +5108,25 @@
           "hiba": null
         },
         {
-          "shop": "borhalo",
-          "shop_nev": "Borháló",
-          "ar": 2520,
-          "nev": "Benedek Epreskert Sauvignon Blanc 2025",
-          "hiba": null
-        },
-        {
-          "shop": "italpark",
-          "shop_nev": "Italpark",
+          "shop": "veritas",
+          "shop_nev": "Veritas Borkereskedés",
           "ar": null,
           "nev": null,
-          "hiba": "nincs_ilyen_kategoria_oldal"
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borhalo",
+          "shop_nev": "Borháló",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "benebor",
+          "shop_nev": "Benebor",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
         },
         {
           "shop": "winehub",
@@ -4289,6 +5145,20 @@
         {
           "shop": "borpiac",
           "shop_nev": "Borpiac",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borkell",
+          "shop_nev": "Borkell",
+          "ar": null,
+          "nev": null,
+          "hiba": "nincs_pontos_talalat"
+        },
+        {
+          "shop": "borvalogatas",
+          "shop_nev": "Borválogatás",
           "ar": null,
           "nev": null,
           "hiba": "nincs_pontos_talalat"

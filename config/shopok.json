@@ -2,7 +2,8 @@
   "meta": {
     "verzio": "1.0.0",
     "frissitve": "2026-08-29",
-    "megjegyzes": "Per-shop adapterek. Statusz: active=lekerve a futtataskor, blocked=bot-val/JS-renderelt (külön fejfeles böngészőt vagy engedélyt igényel)."
+    "megjegyzes": "Per-shop adapterek. Statusz: active=lekerve a futtataskor, blocked=bot-val/JS-renderelt (külön fejfeles böngészőt vagy engedélyt igényel).",
+    "utolso_italpark_change": "2026-08-30 2026-08-30T12:13:44.247Z — italpark statusz szuneteltetve (headless beragadás miatt)"
   },
   "ciklus_ora": 8,
   "timeout_sec": 25,
@@ -60,7 +61,7 @@
       "id": "italpark",
       "nev": "Italpark",
       "tipus": "konkurencia",
-      "statusz": "active",
+      "statusz": "szuneteltetve",
       "base_url": "https://www.italpark.hu",
       "kereso_url": "https://www.italpark.hu/kereses?search={q}",
       "kategoria_url": "https://www.italpark.hu/{marka}-whisky",
@@ -69,7 +70,8 @@
       "timeout_sec": 30,
       "termek_kartya_selector": ".product-card",
       "ar_selector": ".product-price--special, .product-price--regular",
-      "megjegyzes": "ShopRenter + robotvédelem (headless/böngészős). A lista bor/pezsgő, az italpark whisky/tömény-specialista -> a 58 listás tételre nincs kategóriaoldal ({marka}-whisky), így őszintén nincs találat. A headless a matcher-v2-n ('nincs_pontos_talalat') át ad csak árat: approved reference NÉLKÜL sosem (0 hamis). Ha a jövőben whisky/tömény kerül a listára, jóváhagyott referenciával élesen matched lesz."
+      "megjegyzes": "ShopRenter + robotvédelem (headless/böngészős). A lista bor/pezsgő, az italpark whisky/tömény-specialista -> a 58 listás tételre nincs kategóriaoldal ({marka}-whisky), így őszintén nincs találat. A headless a matcher-v2-n ('nincs_pontos_talalat') át ad csak árat: approved reference NÉLKÜL sosem (0 hamis). Ha a jövőben whisky/tömény kerül a listára, jóváhagyott referenciával élesen matched lesz.",
+      "szuneteltetes_oka": "headless browser akad (Ruinart Magnum hullin) — ideiglenesen kihagyva a crawl-ból; amúgy is 0 találat a bor/pezsgő listára (whisky-specialista). Bejegyzés és adapter NEM törölve."
     },
     {
       "id": "bortarsasag",

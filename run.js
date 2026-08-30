@@ -145,7 +145,21 @@ function publikalo(run, regiek, health) {
   termekgyujto.discardStaged();
 
   // 2) legutóbbi összesítés a webes nézethez (kompakt, publikus).
-  const lato = { futas_id: futasId, ido: futasIdeje, termekekszam: eredmenyek.length, eredmenyek };
+  // A public indexből kiszûrjük a matcher-v2 `candidates` debug-vetületét (a UI nem használja,
+  // és a teljes shop-katalógust hordozná – egy példány 1,6MB). A kanonikus `run` (runtime/runs/)
+  // és a nyers adatok megtartják a candidates-t; csak a böngészo által letöltött fájlt karcsúsítjuk.
+  const publikusEredmenyek = eredmenyek.map((e) => {
+    const masolat = { ...e };
+    if (Array.isArray(masolat.arak)) {
+      masolat.arak = masolat.arak.map((a) => {
+        const am = { ...a };
+        delete am.candidates;
+        return am;
+      });
+    }
+    return masolat;
+  });
+  const lato = { futas_id: futasId, ido: futasIdeje, termekekszam: eredmenyek.length, eredmenyek: publikusEredmenyek };
 
   // 3) előzmény-index (termék → futás idejei).
   const elozmeny = (regiek && regiek.lato && Array.isArray(regiek.lato.eredmenyek)) ? {} : {};

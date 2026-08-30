@@ -20,7 +20,7 @@
           "id": { "type": "string", "minLength": 1 },
           "nev": { "type": "string", "minLength": 1 },
           "tipus": { "enum": ["sajat", "konkurencia"] },
-          "statusz": { "enum": ["active", "pending", "blocked"] },
+          "statusz": { "enum": ["active", "pending", "blocked", "szuneteltetve"] },
           "base_url": { "type": "string" },
           "kereso_url": { "type": "string" },
           "adapter": {
