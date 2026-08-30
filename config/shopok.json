@@ -86,11 +86,15 @@
       "id": "benebor",
       "nev": "Benebor",
       "tipus": "konkurencia",
-      "statusz": "pending",
+      "statusz": "active",
       "base_url": "https://beneborshop.hu",
-      "kereso_url": "https://beneborshop.hu/?s={q}",
-      "adapter": "html-simon",
-      "kesleltetes_ms": 900
+      "adapter": "unas",
+      "kesleltetes_ms": 900,
+      "kategoria_slugek": [
+        "Vesztergombi-Pinceszet"
+      ],
+      "kategoria_max_lap": 10,
+      "megjegyzes": "Unas platform, statikus HTML (/<kategoria>, /<kategoria>,N lapozas). Aktiv 2026-08-30. KURALAS: a lista-termekek kozul csak Vesztergombi van itt (boraszat-specialista bolt). 4 pontos par: St Laszlo Bikavér 2021 @6500, Rose 2025 @2300, Bodzas Cabernet Sauvignon 2019 @9800, Vintage 2019 @9800 &ndash; mind strict matcher-v2, approved reference. A többi 54 lista-termek osztézhe none a boltban (Bujdoso, Kreinbacher, Folly, Zelna, champagne-hazak, Gere, Le Colture stb. mind mas boraszat) -> no_exact_match, 0 hamis ar."
     },
     {
       "id": "borbaro",

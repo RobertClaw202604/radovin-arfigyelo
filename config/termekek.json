@@ -1497,6 +1497,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "benebor": {
+          "elfogadott_tetel_aliasok": [
+            "St László Bikavér"
+          ],
+          "url": "https://beneborshop.hu/Vesztergombi-St-Laszlo-Bikaver-Dijnyertes-bor",
+          "ellenorzott_nev": "Vesztergombi St László Bikavér",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -2018,6 +2027,15 @@
           "ellenorzott_nev": "Vesztergombi Szekszárdi Rosé",
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "manual"
+        },
+        "benebor": {
+          "elfogadott_tetel_aliasok": [
+            "Rose rosé"
+          ],
+          "url": "https://beneborshop.hu/Vesztergombi-Rose-rose",
+          "ellenorzott_nev": "Vesztergombi Rose rosé",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -2056,6 +2074,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "benebor": {
+          "elfogadott_tetel_aliasok": [
+            "Bodzás"
+          ],
+          "url": "https://beneborshop.hu/Vesztergombi-Bodzas-duloszelektalt-Cabernet-Sauvig",
+          "ellenorzott_nev": "Vesztergombi Bodzás dűlőszelektált Cabernet Sauvignon",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
@@ -2208,6 +2235,15 @@
           "ellenorizve": "2026-08-30",
           "ellenorzes_modja": "auto_migracio_legacy",
           "megjegyzes": "Generált név-alapú azonosítás (kurált 100-as lista). Az approved shop_product_id/URL NINCS beállítva; a matcher-v2 konzervatív (needs_review). Frissítendő élő Radovin-lekérdezés után."
+        },
+        "benebor": {
+          "elfogadott_tetel_aliasok": [
+            "Vintage"
+          ],
+          "url": "https://beneborshop.hu/Vesztergombi-Vintage-premium-szaraz-szekszardi-vor",
+          "ellenorzott_nev": "Vesztergombi Vintage",
+          "ellenorizve": "2026-08-30",
+          "ellenorzes_modja": "manual"
         }
       }
     },
