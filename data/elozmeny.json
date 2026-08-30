@@ -1,0 +1,642 @@
+{
+  "kreinbacher-brut": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/3",
+      "radovin_ar": 8290,
+      "median": 8490
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/3",
+      "radovin_ar": 8290,
+      "median": 8490
+    }
+  ],
+  "szaszi-csokaszolo-2025": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/1",
+      "radovin_ar": 8590,
+      "median": 8590
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/1",
+      "radovin_ar": 8590,
+      "median": 8590
+    }
+  ],
+  "jakab-pinot-nyari": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/1",
+      "radovin_ar": 4790,
+      "median": 4790
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/1",
+      "radovin_ar": 4790,
+      "median": 4790
+    }
+  ],
+  "kislaki-sauvignon-blanc": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/1",
+      "radovin_ar": 3790,
+      "median": 3790
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/1",
+      "radovin_ar": 3790,
+      "median": 3790
+    }
+  ],
+  "palinka-fenegyerek-vadcseresznye": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/1",
+      "radovin_ar": 23190,
+      "median": 23190
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/1",
+      "radovin_ar": 23190,
+      "median": 23190
+    }
+  ],
+  "palinka-zimek-szilva": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/1",
+      "radovin_ar": 13990,
+      "median": 13990
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/1",
+      "radovin_ar": 13990,
+      "median": 13990
+    }
+  ],
+  "palinka-zimek-meggy": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/1",
+      "radovin_ar": 12500,
+      "median": 12500
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/1",
+      "radovin_ar": 12500,
+      "median": 12500
+    }
+  ],
+  "palinka-zimek-birs": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/1",
+      "radovin_ar": 14990,
+      "median": 14990
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/1",
+      "radovin_ar": 14990,
+      "median": 14990
+    }
+  ],
+  "la-spinetta-sangiovese": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/1",
+      "radovin_ar": 7800,
+      "median": 7800
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/1",
+      "radovin_ar": 7800,
+      "median": 7800
+    }
+  ],
+  "jw-black-1l": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/2",
+      "radovin_ar": 28990,
+      "median": 31995
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/2",
+      "radovin_ar": 28990,
+      "median": 31995
+    }
+  ],
+  "monkey47-gin-05l": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 20990,
+      "median": 19420
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 20990,
+      "median": 19420
+    }
+  ],
+  "bock-chardonnay-2025": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/2",
+      "radovin_ar": 2190,
+      "median": 2190
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/2",
+      "radovin_ar": 2190,
+      "median": 2190
+    }
+  ],
+  "bock-ermitage-2023": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 4100,
+      "median": 4045
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 4100,
+      "median": 4045
+    }
+  ],
+  "gere-portugieser-2025": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/2",
+      "radovin_ar": 2490,
+      "median": 2560
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/2",
+      "radovin_ar": 2490,
+      "median": 2560
+    }
+  ],
+  "gere-kopar-2021": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 12990,
+      "median": 12745
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 12990,
+      "median": 12745
+    }
+  ],
+  "gere-solus-2023": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/2",
+      "radovin_ar": 19990,
+      "median": 19990
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/2",
+      "radovin_ar": 19990,
+      "median": 19990
+    }
+  ],
+  "sauska-brut-nature": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 9590,
+      "median": 9545
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 9590,
+      "median": 9545
+    }
+  ],
+  "sauska-extra-dry": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/2",
+      "radovin_ar": 5400,
+      "median": 5695
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/2",
+      "radovin_ar": 5400,
+      "median": 5695
+    }
+  ],
+  "sauska-rose-brut": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/3",
+      "radovin_ar": 7990,
+      "median": 7990
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/3",
+      "radovin_ar": 7990,
+      "median": 7990
+    }
+  ],
+  "appleton-8-reserve": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 24190,
+      "median": 21090
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 24190,
+      "median": 21090
+    }
+  ],
+  "mount-gay-xo": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 28990,
+      "median": 26240
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 28990,
+      "median": 26240
+    }
+  ],
+  "macallan-12-double-cask": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 39000,
+      "median": 35005
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 39000,
+      "median": 35005
+    }
+  ],
+  "bock-capella-2012": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/2",
+      "radovin_ar": 22990,
+      "median": 24465
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/2",
+      "radovin_ar": 22990,
+      "median": 24465
+    }
+  ],
+  "gizella-bomboly-furmint-2023": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 10990,
+      "median": 10745
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 10990,
+      "median": 10745
+    }
+  ],
+  "bott-csontos-furmint-2023": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/2",
+      "radovin_ar": 7990,
+      "median": 8190
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/2",
+      "radovin_ar": 7990,
+      "median": 8190
+    }
+  ],
+  "disznoko-aszu-6p-kapi-2017": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 52490,
+      "median": 50510
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 52490,
+      "median": 50510
+    }
+  ],
+  "pelle-brut-nature-2020": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 8890,
+      "median": 8675
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 8890,
+      "median": 8675
+    }
+  ],
+  "heumann-merlot-2017": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 8890,
+      "median": 8445
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 8890,
+      "median": 8445
+    }
+  ],
+  "heumann-terra-tartaro-2018": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/2",
+      "radovin_ar": 11490,
+      "median": 11690
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/2",
+      "radovin_ar": 11490,
+      "median": 11690
+    }
+  ],
+  "heumann-la-trinita-2019": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 12590,
+      "median": 12505
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 12590,
+      "median": 12505
+    }
+  ],
+  "2ha-tabunello-2022": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 12590,
+      "median": 11460
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 12590,
+      "median": 11460
+    }
+  ],
+  "eszterbauer-baro-steiner-2023": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 6290,
+      "median": 5890
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 6290,
+      "median": 5890
+    }
+  ],
+  "folly-budai-zold-2025": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/2",
+      "radovin_ar": 4990,
+      "median": 5135
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/2",
+      "radovin_ar": 4990,
+      "median": 5135
+    }
+  ],
+  "bodri-rozi-rose-2025": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/2",
+      "radovin_ar": 1890,
+      "median": 1940
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/2",
+      "radovin_ar": 1890,
+      "median": 1940
+    }
+  ],
+  "barta-egy-kis-edes-2022": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 6990,
+      "median": 6940
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 6990,
+      "median": 6940
+    }
+  ],
+  "charles-heidsieck-brut-reserve": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 31990,
+      "median": 31445
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 31990,
+      "median": 31445
+    }
+  ],
+  "jw-island-green-1l": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 33590,
+      "median": 33240
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 33590,
+      "median": 33240
+    }
+  ],
+  "monkey47-sloe-gin-05l": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "1/2",
+      "radovin_ar": 20990,
+      "median": 21740
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "1/2",
+      "radovin_ar": 20990,
+      "median": 21740
+    }
+  ],
+  "kali-kovek-rezeda-2024": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 3890,
+      "median": 3870
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 3890,
+      "median": 3870
+    }
+  ],
+  "2ha-shiraz-2021": [
+    {
+      "futas_id": 1788065927248,
+      "ido": "2026-08-30T04:58:47.248Z",
+      "rank": "2/2",
+      "radovin_ar": 9990,
+      "median": 9530
+    },
+    {
+      "futas_id": 1788066672151,
+      "ido": "2026-08-30T05:11:12.151Z",
+      "rank": "2/2",
+      "radovin_ar": 9990,
+      "median": 9530
+    }
+  ]
+}

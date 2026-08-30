@@ -47,8 +47,23 @@ async function main() {
     return;
   }
 
-  // 1) data/legutobbi.json – a legújabb run kompakt web-snapshotja (UI ezt olvassa).
-  const lato = { futas_id: legutobbi.futasId, ido: legutobbi.ido, termekekszam: (legutobbi.eredmenyek || []).length, eredmenyek: legutobbi.eredmenyek };
+  // 1) data/legutobbi.json – a legújabb run KOMPAKT web-snapshotja (UI ezt olvassa).
+  //    A UI az index.html jelen-nézetben csak: arak[].{shop,shop_nev,ar,nev,hiba} +
+  //    pozicio + konkurens_allapot[].nev mezőket használ. A nehéz `arak[].candidates`
+  //    (matcher jelölt-dump URL-lel/névvel/árral) és a `url`/`megjegyzes`/`status`
+  //    NEM kell a web-snapshotba – attól volt 79MB. A teljes candidate-dump a kanonikus
+  //    run-ban marad (adata nem vész el), csak a web-snapshot készül kompaktra.
+  const kompaktArak = (e) => (e && Array.isArray(e.arak) ? e.arak.map((a) => ({
+    shop: a.shop || null, shop_nev: a.shop_nev || null, ar: a.ar != null ? a.ar : null,
+    nev: a.nev || null, hiba: a.hiba || null,
+  })) : []);
+  const eredmenyekKom = (legutobbi.eredmenyek || []).map((e) => ({
+    futas_id: e.futas_id, ido: e.ido, termek_id: e.termek_id,
+    termek_nev: e.termek_nev, meret: e.meret || null, pozicio: e.pozicio || null,
+    konkurens_allapot: (e.konkurens_allapot || []).map((s) => ({ nev: s.nev })),
+    arak: kompaktArak(e),
+  }));
+  const lato = { futas_id: legutobbi.futasId, ido: legutobbi.ido, termekekszam: eredmenyekKom.length, eredmenyek: eredmenyekKom };
 
   // 2) data/elozmeny.json – termék → futás-idők index (mindegyik runból).
   const elozmeny = {};

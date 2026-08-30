@@ -11,9 +11,13 @@ node_modules/
 # Publikus kimenet – kompakt, rebuild-generált; nem a fejlesztői repó része.
 public-data/
 
-# Regenerálható runtime-exportok (a rebuild-public.js újraépíti a kanonikus futásokból):
+# Idősor-exportok (nagy; a rebuild-public.js újraépíti a kanonikus futásokból;
+# a GitHub Pages UI NEM olvassa őket, ezért nem kerülnek a repóba):
 data/arak.jsonl
-data/termekek.json
 data/termekek.jsonl
-data/legutobbi.json
-data/elozmeny.json
+
+# A kompakt publikus UI-snapshotok (legutobbi/elozmeny/termekek.json) a GitHub Pages
+# webes nézetét hajtják a master gyökeréből, ezért TRACKELT fájlok (bár a rebuild
+# regenerálja őket a kanonikus futásból). A 2026-08-30-i legutobbi.json kompaktságra
+# lett szabva (~70KB), hogy a Pages gyorsan töltse; a terjedelmes arak[].candidates
+# matcher-dump a kanonikus run-ban marad.
