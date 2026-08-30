@@ -6,7 +6,7 @@
   },
   "ciklus_ora": 8,
   "timeout_sec": 25,
-  "user_agent": "RadovinArfigyelo/1.0 (+https://github.com/RobertClaw202604; belső arfigyelo, nem arufeltores)",
+  "user_agent": "RadovinArfigyelo/1.0 (+https://github.com/RobertClaw202604; belso arfigyelo, nem arufeltores)",
   "shopok": [
     {
       "id": "radovin",

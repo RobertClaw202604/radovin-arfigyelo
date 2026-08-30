@@ -6,7 +6,8 @@
 const test = require('node:test');
 const assert = require('node:assert');
 const { sorok, kartyaSor, tisztitNev, shoprenter } = require('../lib/shoprenter.js');
-const { szigor } = require('../lib/matricas.js');
+const { selectExactCandidate } = require('../lib/domain/matcher-v2.js');
+const { candidate } = require('../lib/domain/candidate.js');
 
 const SHOP = { id: 'veritas', base_url: 'https://www.borkereskedes.hu' };
 
@@ -58,49 +59,79 @@ test('shoprenter: tisztitNev levágja a bolt-szuffixot és entitást dekódol', 
   assert.strictEqual(tisztitNev('Macallan 12 Double Cask 0,7l | Veritas Online Store', SHOP), 'Macallan 12 Double Cask 0,7l');
 });
 
-test('shoprenter: a szigor() fajta-gátja 12 years ↔ Double Cask miatt NEM ad hamis párt az 1. passzban', () => {
-  const katalogus = sorok(WHISKY_CARDS, SHOP);
+test('shoprenter: strict matcher-v2 PONTOS párt ad jóváhagyott referenciával (Macallan 12)', () => {
+  // A termék a Commit 3 azonositas+séma szerint (tétel = a Veritas pontos neve), és
+  // van jóváhagyott Veritas-referenciája (ellenorzott_nev = a Veritas termékneve).
   const termek = {
-    id: 'macallan-12-double-cask', nev: 'Macallan 12 Years Double Cask 0,7l',
-    marka: 'Macallan', meret: '0,7 l', fajta: '12 years Double Cask',
-  };
-  // A belső fajta-szó („12 years Double Cask”) NEM szerepel a Veritas nevében
-  // („Macallan 12 Double Cask 0,7l”), ezért az 1. passz becsületesen no_match-et ad –
-  // nem hamis árat. Ezt a kétmenetes per-shop alias oldja fel az alábbi tesztben.
-  const tal = szigor(katalogus, termek);
-  assert.strictEqual(tal, null, 'a fajta-gát őszintén elutasít: nem hamis pár (12 years vs Double Cask)');
-});
-
-test('shoprenter: per-shop elfogadott alias bekapcsolásával a Macallan 12 PONTOS párt ad (2. passz)', () => {
-  const termek = {
-    id: 'macallan-12-double-cask', nev: 'Macallan 12 Years Double Cask 0,7l',
-    marka: 'Macallan', meret: '0,7 l', fajta: '12 years Double Cask',
+    id: 'macallan-12-double-cask',
+    azonositas: {
+      termekkategoria: 'spirit', gyarto: 'Macallan', marka_aliasok: ['Macallan'],
+      tetel: 'Macallan 12 Years Double Cask 0,7l', evjarat: null, evjarat_statusz: 'non_vintage',
+      kiszereles_ml: 700, darab: 1, csomagolas: 'plain_bottle', puttony: null, penznem: 'HUF',
+    },
     shop_azonositas: {
       veritas: {
         elfogadott_tetel_aliasok: ['Double Cask'],
-        ellenorzott_nev: 'Macallan 12 Double Cask 0,7l | Veritas Online Store',
-        ellenorizve: '2026-08-30',
-        ellenorzes_modja: 'manual',
+        ellenorzott_nev: 'Macallan 12 Double Cask 0,7l',
+        ellenorizve: '2026-08-30', ellenorzes_modja: 'manual',
       },
     },
   };
-  // ÉLETBEN nem katalógust adunk át: a shoprenter() maga húzza le, de itt fixture-HTML-lel
-  // tesszük determinisztikussá a kategória-nyerő függvényét (a katalógus = WHISKY_CARDS).
-  // Hívd a szigor()-t közvetlenül két-passz szerint (u.a., ahogy a shoprenter() teszi).
   const katalogus = sorok(WHISKY_CARDS, SHOP);
-  const aliasok = termek.shop_azonositas.veritas.elfogadott_tetel_aliasok;
-  const tal = szigor(katalogus, termek, { tetel_aliasok: aliasok });
-  assert.ok(tal, 'a per-shop alias feloldja a fajta-gátat: van pontos Macallan találat');
-  assert.ok(tal.nev.includes('Macallan'), 'a találat a Macallan: ' + tal.nev);
-  assert.strictEqual(tal.ar, 39000);
+  const jeloltek = katalogus.map((row) => candidate({
+    shopId: 'veritas', shopProductId: row.url, name: row.nev, url: row.url,
+    price: row.ar, currency: 'HUF', extractor: 'shoprenter', availability: 'in_stock',
+  }));
+  const res = selectExactCandidate(jeloltek, termek, 'veritas');
+  assert.equal(res.status, 'matched', 'jóváhagyott referenciával MATCHED kell, kapott: ' + res.status);
+  assert.ok(res.selected, 'van kiválasztott tétel');
+  assert.equal(res.selected.price, 39000);
+  assert.ok(/Macallan/i.test(res.selected.name), 'a találat a Macallan: ' + res.selected.name);
 });
 
-test('shoprenter: ALIAS NÉLKÜL a Double Black-hez nem ad hamis párt (never-false-price)', () => {
-  const katalogus = sorok(WHISKY_CARDS, SHOP);
-  const termek = { id: 'jw-black', nev: 'Johnnie Walker Black Label 1l', marka: 'Johnnie Walker', meret: '1 l', fajta: 'Black Label Triple Cask' };
-  // Nincs shop_azonositas.veritas alias → a kétmenetes match is no_match marad.
-  const tal = szigor(katalogus, termek, { tetel_aliasok: [] });
-  assert.strictEqual(tal, null, 'nincs hamis párosítás a fixture-ben');
+test('shoprenter: strict matcher-v2 elutasítja a hamis párt (Bujdosó Cirkáló vs Irsai Olivér)', () => {
+  // Ez volt a legacy szigor() ismert hamis párja: a „Bujdosó Kapitány Irsai Olivér”
+  // tételhez a Cirkáló (másik bor, csak ugyanaz a pincészet+évjárat+volumen) árát adta.
+  // A matcher-v2 expression-gátja szóhatár-pontos: a Cirkáló-ben nincs „Irsai Olivér”,
+  // ezért NEM matched (soha nem hamis ár).
+  const termek = {
+    id: 'bujdoso-kapitany-irsai-oliver-2024-11-0-75l',
+    azonositas: {
+      termekkategoria: 'wine', gyarto: 'Bujdosó', marka_aliasok: ['Bujdosó'],
+      tetel: 'Bujdosó Kapitány Irsai Olivér 2024 11% 0,75l', evjarat: 2024, evjarat_statusz: 'vintage',
+      kiszereles_ml: 750, darab: 1, csomagolas: 'plain_bottle', puttony: null, penznem: 'HUF',
+    },
+    shop_azonositas: { veritas: { elfogadott_tetel_aliasok: ['Kapitány', 'Irsai Olivér'] } },
+  };
+  // Csak a Cirkáló van a katalógusban (a hamis unokatestvér).
+  const jeloltek = [candidate({
+    shopId: 'veritas', shopProductId: '/bujdoso-cirkalo-2024', name: 'Bujdosó Cirkáló 2024',
+    url: 'https://www.borkereskedes.hu/bujdoso-cirkalo', price: 2990, currency: 'HUF',
+    extractor: 'shoprenter', availability: 'in_stock',
+  })];
+  const res = selectExactCandidate(jeloltek, termek, 'veritas');
+  assert.notEqual(res.status, 'matched', 'a hamis Cirkáló pár NEM lehet matched');
+  assert.equal(res.selected, null);
+});
+
+test('shoprenter: strict matcher-v2 elutasítja a Double Black-et (Black Label unokatestvér)', () => {
+  const termek = {
+    id: 'jw-black-label-1l',
+    azonositas: {
+      termekkategoria: 'spirit', gyarto: 'Johnnie Walker', marka_aliasok: ['johnnie walker', 'jw'],
+      tetel: 'Black Label Triple Cask', evjarat: null, evjarat_statusz: 'non_vintage',
+      kiszereles_ml: 1000, darab: 1, csomagolas: 'plain_bottle', puttony: null, penznem: 'HUF',
+    },
+    shop_azonositas: { veritas: { elfogadott_tetel_aliasok: ['Black Label'] } },
+  };
+  const jeloltek = [candidate({
+    shopId: 'veritas', shopProductId: '/jw-double-black', name: 'Johnnie Walker Double Black 1000ml',
+    url: 'https://www.borkereskedes.hu/jw-double-black', price: 13990, currency: 'HUF',
+    extractor: 'shoprenter', availability: 'in_stock',
+  })];
+  const res = selectExactCandidate(jeloltek, termek, 'veritas');
+  assert.notEqual(res.status, 'matched', 'a Double Black NEM a Black Label – soha nem hamis ár');
+  assert.equal(res.selected, null);
 });
 
 test('shoprenter: üres/rossz HTML esetén üres listát ad, nem hibát dob', () => {
